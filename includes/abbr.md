@@ -1,3 +1,4 @@
+*[AD]: Active Directory : Annuaire de Microsoft qui gère comptes, groupes, machines et stratégies d'un domaine Windows.
 *[AES]: Advanced Encryption Standard : Chiffrement symétrique par blocs de 128 bits, avec des clés de 128, 192 ou 256 bits.
 *[ANSSI]: Agence nationale de la sécurité des systèmes d'information : Autorité française de cybersécurité, qui publie guides, recommandations et alertes.
 *[AIPD]: Analyse d'impact relative à la protection des données : Analyse des risques exigée avant un traitement susceptible d'engendrer un risque élevé.
@@ -22,6 +23,7 @@
 *[DKIM]: DomainKeys Identified Mail : Signature cryptographique des courriels sortants d'un domaine.
 *[DH]: Échange de clés de Diffie-Hellman : Permet à deux interlocuteurs de fabriquer un secret commun sur un canal observable.
 *[ACME]: Environnement automatique de gestion de certificats : Protocole d'obtention et de renouvellement automatiques de certificats (Let's Encrypt).
+*[DNSSEC]: Extensions de sécurité du DNS : Signature des réponses DNS qui garantit leur origine et leur intégrité, sans les chiffrer.
 *[EOL]: Fin de support : Date à partir de laquelle l'éditeur ne publie plus de correctifs.
 *[PBKDF2]: Fonction de dérivation de clé : Calcule une clé de chiffrement à partir d'un mot de passe, de façon lente et salée.
 *[SIEM]: Gestion des informations et des événements de sécurité : Plateforme qui centralise et corrèle les journaux et déclenche des alertes.
@@ -41,22 +43,29 @@
 *[ISO 27001]: Norme de management de la sécurité : Norme d'exigences d'un SMSI ; seule norme de cette famille sur laquelle on peut se faire certifier.
 *[RPO]: Objectif de point de reprise : Durée maximale de données que l'on accepte de perdre.
 *[RTO]: Objectif de temps de reprise : Durée maximale d'interruption que l'on accepte.
+*[OWASP]: Open Web Application Security Project : Communauté qui publie des listes et guides sur la sécurité des applications web.
 *[PCA]: Plan de continuité d'activité : Comment continuer à travailler pendant un incident.
 *[PRA]: Plan de reprise d'activité : Comment redémarrer et restaurer après un incident.
 *[PSSI]: Politique de sécurité du système d'information : Document signé par la direction : ce qu'on protège, selon quels principes, qui en répond.
+*[EAP]: Protocole d'authentification extensible : Cadre qui transporte différentes méthodes de preuve d'identité (mot de passe, certificat).
 *[OCSP]: Protocole d'état des certificats en ligne : Interrogation en ligne de l'état de révocation d'un certificat.
 *[RGPD]: Règlement général sur la protection des données : Règlement européen qui encadre le traitement des données personnelles.
 *[VLAN]: Réseau local virtuel : Découpage logique d'un réseau en segments isolés.
 *[VPN]: Réseau privé virtuel : Tunnel chiffré et authentifié à travers un réseau non sûr.
 *[REX]: Retour d'expérience : Analyse d'un incident pour en tirer des actions d'amélioration.
 *[RSA]: Rivest-Shamir-Adleman : Algorithme asymétrique de chiffrement et de signature.
+*[XSS]: Script intersite : Faille où un script injecté dans une page s'exécute dans le navigateur d'un autre utilisateur.
 *[SSH]: Secure Shell : Protocole d'administration à distance chiffré.
 *[SPF]: Sender Policy Framework : Enregistrement DNS qui déclare les serveurs autorisés à envoyer du courrier pour un domaine.
+*[RADIUS]: Serveur d'authentification RADIUS : Protocole et serveur qui décident de l'accès au réseau et peuvent renvoyer des attributs, comme le VLAN.
 *[WSUS]: Serveur de mises à jour de Windows : Service qui distribue et contrôle les mises à jour dans un domaine.
+*[LAPS]: Solution de mot de passe administrateur local : Outil qui donne à chaque machine un mot de passe administrateur local unique et renouvelé.
+*[GPO]: Stratégie de groupe : Ensemble de réglages appliqués automatiquement aux comptes et machines d'un domaine.
 *[IDS]: Système de détection d'intrusion : Observe le trafic ou une machine et émet des alertes.
 *[SMSI]: Système de management de la sécurité de l'information : Organisation qui gère la sécurité de façon continue : planifier, réaliser, vérifier, agir.
 *[CVSS]: Système de notation des vulnérabilités : Note de gravité d'une vulnérabilité de 0 à 10.
 *[IPS]: Système de prévention d'intrusion : Comme un IDS, mais bloque le trafic suspect.
+*[AXFR]: Transfert de zone : Copie complète d'une zone DNS vers un autre serveur ; à restreindre aux serveurs autorisés.
 *[TLS]: Transport Layer Security : Protocole de sécurisation des échanges, utilisé par HTTPS.
 *[IV]: Vecteur d'initialisation : Valeur non secrète, imprévisible ou unique, qui démarre un chiffrement.
 *[DMZ]: Zone démilitarisée : Zone réseau qui héberge les services exposés à Internet, isolée du réseau interne.

@@ -1,8 +1,5 @@
 # S08 – Sécuriser les services web : reverse proxy, en-têtes et OWASP
 
-> [!WARNING]
-> **Séance à rédiger.** Cette page donne le cadre prévu (objectifs, compétences, contenu). Le cours, le TP et l'aide-mémoire arrivent avec la phase 2.
-
 | Élément | Détail |
 |---|---|
 | **Niveau** | BTS SIO option SISR, 2e année – bloc 3 |
@@ -24,11 +21,25 @@
 3. Situer les familles de failles web les plus fréquentes (liste de l'OWASP) ;
 4. Vérifier la configuration et lire les journaux d'accès.
 
-## Contenu prévu
+## Contenu de la séance
 
-- Cours : reverse proxy, TLS, en-têtes de sécurité, pare-feu applicatif, familles de failles
-- TP : nginx en reverse proxy HTTPS devant une application volontairement simple ; tests avec curl
-- Aide-mémoire : en-têtes et directives utiles
+| Document | Rôle |
+|---|---|
+| [Cours – Sécuriser les services web : reverse proxy, en-têtes et OWASP](01-cours.md) | Cours |
+| [TP – Un reverse proxy durci devant une application](02-tp.md) | TP |
+| [Aide-mémoire – Reverse proxy, en-têtes et OWASP](03-aide-memoire.md) | Aide-mémoire |
+
+## Déroulé conseillé (4 h)
+
+| Durée | Activité | Format |
+|---|---|---|
+| 0 h 00 – 0 h 20 | **Accroche : « Le site est en ligne : qu'est-ce qu'un visiteur malveillant voit dès la première requête ? »** | Oral |
+| 0 h 20 – 1 h 10 | **Cours** | Cours et questions |
+| 1 h 10 – 4 h 00 | **TP**, puis bilan | Binôme puis individuel |
+
+## Retour en entreprise
+
+Si ta situation le permet : **observer** comment ton entreprise traite le sujet de la séance, **documenter** en une demi-page l'écart avec le TP, ou **réaliser** une partie après accord de ton tuteur. Voir [Transfert en entreprise](../../ressources/transfert-entreprise.md).
 
 ## Évaluation
 
@@ -39,7 +50,8 @@
 <summary>Notes pour l'enseignant</summary>
 
 - **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
-- **Programme :** cette séance fait partie d'un programme proposé, à valider avant rédaction.
+- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Liste OWASP et versions des en-têtes à relire à la source. Prolonge S12 de la première année (mini-PKI et HTTPS).
+- Le TP tient sur **une seule** machine (nginx en reverse proxy devant une petite application de test). Voir le corrigé pour ce qui a été vérifié.
 
 </details>

@@ -208,4 +208,34 @@ DATA = [
 ("Zone de confiance", None, "security zone", "Partie du réseau regroupant des machines de même niveau de confiance.", "A2 · S05"),
 ("Suivi de connexion", None, "connection tracking", "Fonction du pare-feu qui retient les connexions en cours pour laisser passer leurs réponses.", "A2 · S05"),
 ("Espace de noms réseau", None, "network namespace", "Fonction de Linux qui isole des interfaces, adresses et règles : une machine réseau simulée dans une autre.", "A2 · S05"),
+# --- S06 Annuaire
+("Annuaire", None, "directory", "Base centrale des comptes, groupes et machines d'une organisation (par exemple Active Directory).", "A2 · S06"),
+("Active Directory", "AD", "", "Annuaire de Microsoft qui gère comptes, groupes, machines et stratégies d'un domaine Windows.", "A2 · S06"),
+("Kerberos", None, "", "Protocole d'authentification par tickets délivrés par un centre de confiance, sans envoyer le mot de passe.", "A2 · S06"),
+("NTLM", None, "", "Ancien protocole d'authentification Windows par défi-réponse, plus fragile que Kerberos.", "A2 · S06"),
+("Stratégie de groupe", "GPO", "group policy object", "Ensemble de réglages appliqués automatiquement aux comptes et machines d'un domaine.", "A2 · S06"),
+("Modèle en niveaux", None, "tier model", "Séparation des comptes d'administration selon ce qu'ils administrent, pour qu'un vol à un niveau n'ouvre pas les autres.", "A2 · S06"),
+("Solution de mot de passe administrateur local", "LAPS", "local administrator password solution", "Outil qui donne à chaque machine un mot de passe administrateur local unique et renouvelé.", "A2 · S06"),
+("Bastion d'administration", None, "jump host", "Machine unique et surveillée par laquelle passent les connexions d'administration.", "A2 · S06"),
+# --- S07 802.1X
+("Contrôle d'accès au port", "802.1X", "port-based access control", "Norme où un équipement doit prouver son identité avant d'obtenir l'accès au réseau.", "A2 · S07"),
+("Serveur d'authentification RADIUS", "RADIUS", "remote authentication dial-in user service", "Protocole et serveur qui décident de l'accès au réseau et peuvent renvoyer des attributs, comme le VLAN.", "A2 · S07"),
+("Protocole d'authentification extensible", "EAP", "extensible authentication protocol", "Cadre qui transporte différentes méthodes de preuve d'identité (mot de passe, certificat).", "A2 · S07"),
+("PEAP", None, "protected EAP", "Méthode EAP où un mot de passe est transporté dans un tunnel TLS ouvert grâce au certificat du serveur.", "A2 · S07"),
+("Demandeur", None, "supplicant", "Équipement ou logiciel qui demande l'accès dans 802.1X.", "A2 · S07"),
+("Authentificateur", None, "authenticator", "Commutateur ou borne Wi-Fi qui relaie la demande vers le serveur RADIUS.", "A2 · S07"),
+# --- S08 Services web
+("Mandataire inverse", None, "reverse proxy", "Serveur placé devant une application, qui reçoit les requêtes à sa place, les filtre et les transmet.", "A2 · S08"),
+("Open Web Application Security Project", "OWASP", "", "Communauté qui publie des listes et guides sur la sécurité des applications web.", "A2 · S08"),
+("Limitation de débit", None, "rate limiting", "Plafond du nombre de requêtes acceptées par client et par durée.", "A2 · S08"),
+("Injection", None, "injection", "Faille où des données saisies sont interprétées comme des commandes (SQL, système).", "A2 · S08"),
+("Script intersite", "XSS", "cross-site scripting", "Faille où un script injecté dans une page s'exécute dans le navigateur d'un autre utilisateur.", "A2 · S08"),
+# --- S09 Messagerie et DNS
+("Transfert de zone", "AXFR", "zone transfer", "Copie complète d'une zone DNS vers un autre serveur ; à restreindre aux serveurs autorisés.", "A2 · S09"),
+("Extensions de sécurité du DNS", "DNSSEC", "DNS security extensions", "Signature des réponses DNS qui garantit leur origine et leur intégrité, sans les chiffrer.", "A2 · S09"),
+("Usurpation d'expéditeur", None, "email spoofing", "Envoi d'un message avec une fausse adresse d'expéditeur.", "A2 · S09"),
+# --- S10 Durcissement
+("Référence de configuration", None, "baseline", "Liste de réglages reconnus servant de point de comparaison pour mesurer la conformité.", "A2 · S10"),
+("Écart accepté", None, "accepted deviation", "Différence avec la référence, décidée et justifiée par écrit, avec un responsable et une date de revue.", "A2 · S10"),
+("Lynis", None, "", "Outil d'audit local de systèmes Linux qui produit avertissements, suggestions et un indice de durcissement.", "A2 · S10"),
 ]
