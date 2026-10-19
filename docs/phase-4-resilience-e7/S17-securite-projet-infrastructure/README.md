@@ -1,8 +1,5 @@
 # S17 – La sécurité dans un projet d'infrastructure
 
-> [!WARNING]
-> **Séance à rédiger.** Cette page donne le cadre prévu (objectifs, compétences, contenu). Le cours, le TP et l'aide-mémoire arrivent avec la phase 4.
-
 | Élément | Détail |
 |---|---|
 | **Niveau** | BTS SIO option SISR, 2e année – bloc 3 |
@@ -24,22 +21,36 @@
 3. Définir des tests de recette de sécurité ;
 4. Rédiger la partie sécurité d'un dossier de projet.
 
-## Contenu prévu
+## Contenu de la séance
 
-- Cours : sécurité dès la conception, exigences, arbitrage, recette
-- TP : sécuriser un projet d'infrastructure fictif de bout en bout
-- Aide-mémoire : exigences types et tests
+| Document | Rôle |
+|---|---|
+| [Cours – La sécurité dans un projet d'infrastructure](01-cours.md) | Cours |
+| [TP – La sécurité du projet « Fromagerie Lemoine en ligne »](02-tp.md) | TP |
+| [Aide-mémoire – Exigences, arbitrage et recette](03-aide-memoire.md) | Aide-mémoire |
+
+## Déroulé conseillé (4 h)
+
+| Durée | Activité | Format |
+|---|---|---|
+| 0 h 00 – 0 h 20 | **Accroche : « Le chef de projet veut ouvrir une boutique en ligne dans six semaines : à quel moment parle-t-on de sécurité ? »** | Oral |
+| 0 h 20 – 1 h 10 | **Cours** | Cours et questions |
+| 1 h 10 – 4 h 00 | **TP**, puis bilan | Selon le TP |
+
+## Retour en entreprise
+
+Si ta situation le permet : **observer** comment ton entreprise traite le sujet de la séance, **documenter** en une demi-page l'écart avec le TP, ou **réaliser** une partie après accord de ton tuteur. Voir [Transfert en entreprise](../../ressources/transfert-entreprise.md).
 
 ## Évaluation
 
-- Compte rendu avec captures d'écran datées, nommé `RENDU-B3A2-S17-NOM.pdf`.
+- Compte rendu nommé `RENDU-B3A2-S17-NOM.pdf`.
 - Bilan de compétences rempli en fin de séance (individuel).
 
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
 - **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
-- **Programme :** cette séance fait partie d'un programme proposé, à valider avant rédaction.
-- Fait le lien avec le cahier des charges vu en S02 du bloc 2 : ne pas refaire le cours, renvoyer vers lui.
+- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
+- Dossier **fictif**, **prix inventés** ; totaux recalculés par programme. **Non vérifié** : l'obligation de réaliser une analyse d'impact (AIPD) pour ce projet, à confirmer. Voir le corrigé.
 
 </details>

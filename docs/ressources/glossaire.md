@@ -28,9 +28,11 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Base légale** |  | *lawful basis* | Fondement juridique d'un traitement : consentement, contrat, obligation légale, intérêts vitaux, mission d'intérêt public, intérêt légitime. | A1 · S07 |
 | **Bastion d'administration** |  | *jump host* | Machine unique et surveillée par laquelle passent les connexions d'administration. | A2 · S06 |
 | **Bien support** |  | *supporting asset* | Ce sur quoi repose une valeur métier : serveur, poste, réseau, logiciel, local, personne. | A2 · S02 |
+| **Bilan d'impact sur l'activité** | BIA | *business impact analysis* | Étude des conséquences de l'arrêt de chaque activité dans le temps, point de départ des objectifs de reprise. | A2 · S16 |
 | **Bit setgid** |  | *setgid* | Sur un dossier Linux, fait hériter les nouveaux fichiers du groupe du dossier. | A1 · S04 |
 | **Bit setuid** |  | *setuid bit* | Droit spécial : le programme s'exécute avec les droits de son propriétaire (souvent root) et non de celui qui le lance. | A2 · S01 |
 | **Bourrage d'identifiants** |  | *credential stuffing* | Réessayer sur un service des identifiants volés sur un autre. | A1 · S03 |
+| **Cahier des charges** |  | *requirements specification* | Document qui décrit les besoins d'un projet, y compris les exigences de sécurité, et sert de base au choix et à la recette. | A2 · S17 |
 | **Centre gouvernemental de veille, d'alerte et de réponse aux attaques** | CERT-FR | *computer emergency response team* | Équipe de l'ANSSI qui publie avis et alertes de sécurité. | A1 · S01 |
 | **Certificat auto-signé** |  | *self-signed certificate* | Certificat signé par sa propre clé : non reconnu par défaut. | A1 · S12 |
 | **Certificat X.509** |  | *X.509 certificate* | Document qui lie une identité à une clé publique, signé par une autorité de certification. | A1 · S11 |
@@ -84,6 +86,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Droit d'accès** |  | *right of access* | Droit d'obtenir une copie des données détenues sur soi. | A1 · S07 |
 | **Durcissement** |  | *hardening* | Réduction de la surface d'attaque d'un système par sa configuration. | A1 · S14 |
 | **Durée de conservation** |  | *retention period* | Durée pendant laquelle des données sont gardées, fixée selon la finalité. | A1 · S08 |
+| **Durée maximale d'interruption admissible** | DMIA | *maximum tolerable downtime* | Durée d'arrêt d'une activité que l'organisation peut tolérer ; limite métier dont découle le RTO. | A2 · S16 |
 | **Écart accepté** |  | *accepted deviation* | Différence avec la référence, décidée et justifiée par écrit, avec un responsable et une date de revue. | A2 · S10 |
 | **Échange de clés de Diffie-Hellman** | DH | *Diffie-Hellman key exchange* | Permet à deux interlocuteurs de fabriquer un secret commun sur un canal observable. | A1 · S11 |
 | **Empreinte** |  | *hash* | Résultat d'un calcul à sens unique sur un contenu : même contenu, même empreinte ; un octet change, tout change. | A1 · S02 |
@@ -162,6 +165,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Pare-feu** |  | *firewall* | Dispositif qui filtre les flux selon des règles. | A1 · S14 |
 | **Pare-feu du noyau Linux** | nftables | *nftables* | Outil de filtrage des paquets intégré à Linux, qui remplace iptables. | A2 · S01 |
 | **PEAP** |  | *protected EAP* | Méthode EAP où un mot de passe est transporté dans un tunnel TLS ouvert grâce au certificat du serveur. | A2 · S07 |
+| **Perte de données maximale admissible** | PDMA | *maximum tolerable data loss* | Quantité de données, exprimée en durée, que l'organisation accepte de perdre ; limite métier dont découle le RPO. | A2 · S16 |
 | **Plan de continuité d'activité** | PCA | *business continuity plan* | Comment continuer à travailler pendant un incident. | A1 · S05 |
 | **Plan de reprise d'activité** | PRA | *disaster recovery plan* | Comment redémarrer et restaurer après un incident. | A1 · S05 |
 | **Politique de sécurité du système d'information** | PSSI | *information security policy* | Document signé par la direction : ce qu'on protège, selon quels principes, qui en répond. | A2 · S03 |
@@ -176,8 +180,10 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Pseudonymisation** |  | *pseudonymisation* | Remplacement de l'identité par un code : la donnée reste personnelle. | A1 · S08 |
 | **Rançongiciel** |  | *ransomware* | Logiciel malveillant qui chiffre les fichiers et réclame une rançon. | A1 · S01 |
 | **Rançongiciel** |  | *ransomware* | Logiciel malveillant qui chiffre les données et exige une rançon. | A1 · S17 |
+| **Recette** |  | *acceptance testing* | Vérification, avec des tests définis à l'avance, que la solution livrée respecte les exigences du cahier des charges. | A2 · S17 |
 | **Référence de configuration** |  | *baseline* | Liste de réglages reconnus servant de point de comparaison pour mesurer la conformité. | A2 · S10 |
 | **Registre des traitements** |  | *record of processing activities* | Document qui recense les traitements de données personnelles (article 30). | A1 · S06 |
+| **Règle 3-2-1** |  | *3-2-1 backup rule* | Trois copies des données, sur deux supports différents, dont une hors site ; renforcée en ajoutant une copie hors ligne ou non modifiable. | A2 · S16 |
 | **Règlement général sur la protection des données** | RGPD | *general data protection regulation (GDPR)* | Règlement européen qui encadre le traitement des données personnelles. | A1 · S06 |
 | **Règles d'engagement** |  | *rules of engagement* | Limites écrites d'une mission d'audit : périmètre, interdits, horaires, contact d'urgence. | A2 · S14 |
 | **Réponse à incident** |  | *incident response* | Démarche pour détecter, contenir, éradiquer, reprendre et tirer les leçons d'un incident. | A2 · S15 |
@@ -186,6 +192,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Réseau privé virtuel** | VPN | *virtual private network* | Tunnel chiffré et authentifié à travers un réseau non sûr. | A1 · S13 |
 | **Responsable de traitement** |  | *data controller* | Organisme qui décide des finalités et des moyens d'un traitement. | A1 · S06 |
 | **Retour d'expérience** | REX | *lessons learned* | Analyse d'un incident pour en tirer des actions d'amélioration. | A1 · S17 |
+| **Réversibilité** |  | *reversibility* | Possibilité de récupérer ses données dans un format exploitable et de changer de prestataire à la fin d'un contrat. | A2 · S17 |
 | **Risque** |  | *risk* | Possibilité qu'une menace exploite une vulnérabilité, mesurée par sa gravité et sa vraisemblance. | A1 · S01 |
 | **Risque résiduel** |  | *residual risk* | Risque qui reste après application des mesures ; la direction l'accepte. | A2 · S02 |
 | **Rivest-Shamir-Adleman** | RSA | *RSA* | Algorithme asymétrique de chiffrement et de signature. | A1 · S11 |
