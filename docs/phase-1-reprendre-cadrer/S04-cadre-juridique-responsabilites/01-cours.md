@@ -74,16 +74,76 @@ Question à se poser dans un dossier : **où sont les serveurs, et qui peut y ac
 
 Une **violation de données** est une atteinte à la **sécurité** qui entraîne, de manière accidentelle ou illicite, la **destruction**, la **perte**, l'**altération**, la **divulgation** ou l'**accès** non autorisé à des données personnelles. Elle recouvre la confidentialité, l'intégrité **et la disponibilité**.
 
-```mermaid
-flowchart TD
-  A[Prise de connaissance de la violation] --> B[Consigner dans le registre des violations]
-  B --> C{Risque pour les droits et libertés des personnes ?}
-  C -->|Improbable| D[Pas de notification à la CNIL]
-  C -->|Oui| E[Notifier la CNIL, au plus tard 72 h après la prise de connaissance]
-  E --> F{Risque élevé ?}
-  F -->|Oui| G[Informer aussi les personnes concernées, dans un langage clair]
-  F -->|Non| H[Conserver la justification]
-```
+<figure class="graphe diagramme">
+<svg viewBox="0.00 0.00 1111.10 638.60" style="max-width:1481px;min-width:900px" role="img" aria-label="Schéma" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="graph" transform="scale(1 1) rotate(0) translate(10.8 627.8)">
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M552.5,-617C552.5,-617 261.5,-617 261.5,-617 255.5,-617 249.5,-611 249.5,-605 249.5,-605 249.5,-592 249.5,-592 249.5,-586 255.5,-580 261.5,-580 261.5,-580 552.5,-580 552.5,-580 558.5,-580 564.5,-586 564.5,-592 564.5,-592 564.5,-605 564.5,-605 564.5,-611 558.5,-617 552.5,-617"/>
+<text text-anchor="start" x="268.5" y="-595" font-family="Helvetica,sans-Serif" font-size="15.00">Prise de connaissance de la violation</text>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M566.5,-521C566.5,-521 247.5,-521 247.5,-521 241.5,-521 235.5,-515 235.5,-509 235.5,-509 235.5,-496 235.5,-496 235.5,-490 241.5,-484 247.5,-484 247.5,-484 566.5,-484 566.5,-484 572.5,-484 578.5,-490 578.5,-496 578.5,-496 578.5,-509 578.5,-509 578.5,-515 572.5,-521 566.5,-521"/>
+<text text-anchor="start" x="254.5" y="-499" font-family="Helvetica,sans-Serif" font-size="15.00">Consigner dans le registre des violations</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M407,-579.82C407,-565.9 407,-546.27 407,-530.41"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="410.15,-530.1 407,-521.1 403.85,-530.1 410.15,-530.1"/>
+</g>
+<g class="node n&#45;diamond">
+<polygon fill="none" stroke="black" stroke-width="1.8" points="407,-425 0,-388 407,-351 814,-388 407,-425"/>
+<text text-anchor="start" x="222.5" y="-384.5" font-family="Helvetica,sans-Serif" font-size="15.00">Risque pour les droits et libertés des personnes ?</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M407,-483.92C407,-470.68 407,-451.89 407,-434.52"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="410.15,-434.06 407,-425.06 403.85,-434.06 410.15,-434.06"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M458.5,-279C458.5,-279 235.5,-279 235.5,-279 229.5,-279 223.5,-273 223.5,-267 223.5,-267 223.5,-254 223.5,-254 223.5,-248 229.5,-242 235.5,-242 235.5,-242 458.5,-242 458.5,-242 464.5,-242 470.5,-248 470.5,-254 470.5,-254 470.5,-267 470.5,-267 470.5,-273 464.5,-279 458.5,-279"/>
+<text text-anchor="start" x="242.5" y="-257" font-family="Helvetica,sans-Serif" font-size="15.00">Pas de notification à la CNIL</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M390.45,-352.37C380.62,-331.83 368.38,-306.22 359.39,-287.42"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="362.12,-285.81 355.39,-279.05 356.43,-288.53 362.12,-285.81"/>
+<text text-anchor="start" x="376" y="-311.6" font-family="Helvetica,sans-Serif" font-size="13.00">Improbable</text>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M1021,-279C1021,-279 523,-279 523,-279 517,-279 511,-273 511,-267 511,-267 511,-254 511,-254 511,-248 517,-242 523,-242 523,-242 1021,-242 1021,-242 1027,-242 1033,-248 1033,-254 1033,-254 1033,-267 1033,-267 1033,-273 1027,-279 1021,-279"/>
+<text text-anchor="start" x="530" y="-257" font-family="Helvetica,sans-Serif" font-size="15.00">Notifier la CNIL, au plus tard 72 h après la prise de connaissance</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M489.82,-358.52C557.58,-335.22 651.79,-302.83 712.33,-282.02"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="713.53,-284.94 721.01,-279.03 711.48,-278.98 713.53,-284.94"/>
+<text text-anchor="start" x="633" y="-311.6" font-family="Helvetica,sans-Serif" font-size="13.00">Oui</text>
+</g>
+<g class="node n&#45;diamond">
+<polygon fill="none" stroke="black" stroke-width="1.8" points="772,-183 625,-146 772,-109 919,-146 772,-183"/>
+<text text-anchor="start" x="717.5" y="-142.5" font-family="Helvetica,sans-Serif" font-size="15.00">Risque élevé ?</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M772,-241.92C772,-228.68 772,-209.89 772,-192.52"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="775.15,-192.06 772,-183.06 768.85,-192.06 775.15,-192.06"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M812.5,-37C812.5,-37 323.5,-37 323.5,-37 317.5,-37 311.5,-31 311.5,-25 311.5,-25 311.5,-12 311.5,-12 311.5,-6 317.5,0 323.5,0 323.5,0 812.5,0 812.5,0 818.5,0 824.5,-6 824.5,-12 824.5,-12 824.5,-25 824.5,-25 824.5,-31 818.5,-37 812.5,-37"/>
+<text text-anchor="start" x="330.5" y="-15" font-family="Helvetica,sans-Serif" font-size="15.00">Informer aussi les personnes concernées, dans un langage clair</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M730.23,-119.3C693.16,-96.5 639.57,-63.53 604.27,-41.81"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="605.91,-39.12 596.59,-37.09 602.61,-44.49 605.91,-39.12"/>
+<text text-anchor="start" x="664" y="-69.6" font-family="Helvetica,sans-Serif" font-size="13.00">Oui</text>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M1077.5,-37C1077.5,-37 876.5,-37 876.5,-37 870.5,-37 864.5,-31 864.5,-25 864.5,-25 864.5,-12 864.5,-12 864.5,-6 870.5,0 876.5,0 876.5,0 1077.5,0 1077.5,0 1083.5,0 1089.5,-6 1089.5,-12 1089.5,-12 1089.5,-25 1089.5,-25 1089.5,-31 1083.5,-37 1077.5,-37"/>
+<text text-anchor="start" x="883.5" y="-15" font-family="Helvetica,sans-Serif" font-size="15.00">Conserver la justification</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M813.98,-119.3C851.22,-96.5 905.08,-63.53 940.55,-41.81"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="942.24,-44.48 948.27,-37.09 938.95,-39.1 942.24,-44.48"/>
+<text text-anchor="start" x="899" y="-69.6" font-family="Helvetica,sans-Serif" font-size="13.00">Non</text>
+</g>
+</g>
+</svg>
+</figure>
 
 Points à retenir :
 

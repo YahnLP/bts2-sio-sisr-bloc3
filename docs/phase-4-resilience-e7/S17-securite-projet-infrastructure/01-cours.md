@@ -29,13 +29,48 @@ Deux principes, issus du RGPD (séance S04) et de la pratique :
 
 Le chemin :
 
-```mermaid
-flowchart LR
-  A[Risques - S02] --> B[Objectifs de sécurité]
-  B --> C[Exigences vérifiables]
-  C --> D[Mesures]
-  D --> E[Tests de recette]
-```
+<figure class="graphe diagramme">
+<svg viewBox="0.00 0.00 219.60 438.60" style="max-width:293px" role="img" aria-label="Schéma" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="graph" transform="scale(1 1) rotate(0) translate(10.8 427.8)">
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M157.5,-417C157.5,-417 40.5,-417 40.5,-417 34.5,-417 28.5,-411 28.5,-405 28.5,-405 28.5,-392 28.5,-392 28.5,-386 34.5,-380 40.5,-380 40.5,-380 157.5,-380 157.5,-380 163.5,-380 169.5,-386 169.5,-392 169.5,-392 169.5,-405 169.5,-405 169.5,-411 163.5,-417 157.5,-417"/>
+<text text-anchor="start" x="47.5" y="-395" font-family="Helvetica,sans-Serif" font-size="15.00">Risques &#45; S02</text>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M183.5,-322C183.5,-322 14.5,-322 14.5,-322 8.5,-322 2.5,-316 2.5,-310 2.5,-310 2.5,-297 2.5,-297 2.5,-291 8.5,-285 14.5,-285 14.5,-285 183.5,-285 183.5,-285 189.5,-285 195.5,-291 195.5,-297 195.5,-297 195.5,-310 195.5,-310 195.5,-316 189.5,-322 183.5,-322"/>
+<text text-anchor="start" x="21.5" y="-300" font-family="Helvetica,sans-Serif" font-size="15.00">Objectifs de sécurité</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M99,-379.57C99,-365.84 99,-346.7 99,-331.18"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="102.15,-331.06 99,-322.06 95.85,-331.06 102.15,-331.06"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M186,-227C186,-227 12,-227 12,-227 6,-227 0,-221 0,-215 0,-215 0,-202 0,-202 0,-196 6,-190 12,-190 12,-190 186,-190 186,-190 192,-190 198,-196 198,-202 198,-202 198,-215 198,-215 198,-221 192,-227 186,-227"/>
+<text text-anchor="start" x="19" y="-205" font-family="Helvetica,sans-Serif" font-size="15.00">Exigences vérifiables</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M99,-284.57C99,-270.84 99,-251.7 99,-236.18"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="102.15,-236.06 99,-227.06 95.85,-236.06 102.15,-236.06"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M137,-132C137,-132 61,-132 61,-132 55,-132 49,-126 49,-120 49,-120 49,-107 49,-107 49,-101 55,-95 61,-95 61,-95 137,-95 137,-95 143,-95 149,-101 149,-107 149,-107 149,-120 149,-120 149,-126 143,-132 137,-132"/>
+<text text-anchor="start" x="68" y="-110" font-family="Helvetica,sans-Serif" font-size="15.00">Mesures</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M99,-189.57C99,-175.84 99,-156.7 99,-141.18"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="102.15,-141.06 99,-132.06 95.85,-141.06 102.15,-141.06"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M165,-37C165,-37 33,-37 33,-37 27,-37 21,-31 21,-25 21,-25 21,-12 21,-12 21,-6 27,0 33,0 33,0 165,0 165,0 171,0 177,-6 177,-12 177,-12 177,-25 177,-25 177,-31 171,-37 165,-37"/>
+<text text-anchor="start" x="40" y="-15" font-family="Helvetica,sans-Serif" font-size="15.00">Tests de recette</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M99,-94.57C99,-80.84 99,-61.7 99,-46.18"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="102.15,-46.06 99,-37.06 95.85,-46.06 102.15,-46.06"/>
+</g>
+</g>
+</svg>
+</figure>
 
 | Étape | Exemple |
 |---|---|

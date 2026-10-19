@@ -13,13 +13,53 @@ La messagerie est la porte d'entrée la plus utilisée par les attaquants (hame�
 
 ## 1. Le chemin d'un message
 
-```mermaid
-flowchart LR
-  A[Poste de l'expéditeur] -->|"SMTP (soumission)"| B[Serveur de messagerie de l'expéditeur]
-  B -->|"1. cherche le serveur du destinataire<br>(enregistrement MX dans le DNS)"| D[(DNS)]
-  B -->|"2. SMTP"| C[Serveur du destinataire]
-  C --> E[Boîte du destinataire]
-```
+<figure class="graphe diagramme">
+<svg viewBox="0.00 0.00 457.10 400.48" style="max-width:609px" role="img" aria-label="Schéma" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="graph" transform="scale(1 1) rotate(0) translate(10.8 389.68)">
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M267.5,-378.88C267.5,-378.88 95.5,-378.88 95.5,-378.88 89.5,-378.88 83.5,-372.88 83.5,-366.88 83.5,-366.88 83.5,-353.88 83.5,-353.88 83.5,-347.88 89.5,-341.88 95.5,-341.88 95.5,-341.88 267.5,-341.88 267.5,-341.88 273.5,-341.88 279.5,-347.88 279.5,-353.88 279.5,-353.88 279.5,-366.88 279.5,-366.88 279.5,-372.88 273.5,-378.88 267.5,-378.88"/>
+<text text-anchor="start" x="102.5" y="-356.88" font-family="Helvetica,sans-Serif" font-size="15.00">Poste de l&#39;expéditeur</text>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M333.5,-269.88C333.5,-269.88 29.5,-269.88 29.5,-269.88 23.5,-269.88 17.5,-263.88 17.5,-257.88 17.5,-257.88 17.5,-244.88 17.5,-244.88 17.5,-238.88 23.5,-232.88 29.5,-232.88 29.5,-232.88 333.5,-232.88 333.5,-232.88 339.5,-232.88 345.5,-238.88 345.5,-244.88 345.5,-244.88 345.5,-257.88 345.5,-257.88 345.5,-263.88 339.5,-269.88 333.5,-269.88"/>
+<text text-anchor="start" x="36.5" y="-247.88" font-family="Helvetica,sans-Serif" font-size="15.00">Serveur de messagerie de l&#39;expéditeur</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M181.5,-341.71C181.5,-324.67 181.5,-298.66 181.5,-279.09"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="184.65,-279.07 181.5,-270.07 178.35,-279.07 184.65,-279.07"/>
+<text text-anchor="start" x="181.5" y="-302.48" font-family="Helvetica,sans-Serif" font-size="13.00">SMTP (soumission)</text>
+</g>
+<g class="node n&#45;cyl">
+<path fill="none" stroke="black" stroke-width="1.8" d="M71,-142.2C71,-144.74 55.09,-146.81 35.5,-146.81 15.91,-146.81 0,-144.74 0,-142.2 0,-142.2 0,-100.68 0,-100.68 0,-98.13 15.91,-96.06 35.5,-96.06 55.09,-96.06 71,-98.13 71,-100.68 71,-100.68 71,-142.2 71,-142.2"/>
+<path fill="none" stroke="black" stroke-width="1.8" d="M71,-142.2C71,-139.65 55.09,-137.59 35.5,-137.59 15.91,-137.59 0,-139.65 0,-142.2"/>
+<text text-anchor="start" x="19" y="-117.94" font-family="Helvetica,sans-Serif" font-size="15.00">DNS</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M66.83,-232.74C52.65,-225.9 39.87,-216.56 30.5,-203.88 20.51,-190.35 20.86,-171.86 24.11,-155.91"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="27.24,-156.36 26.3,-146.88 21.12,-154.88 27.24,-156.36"/>
+<text text-anchor="start" x="30.5" y="-193.47" font-family="Helvetica,sans-Serif" font-size="13.00">1. cherche le serveur du destinataire</text>
+<text text-anchor="start" x="42.5" y="-179.47" font-family="Helvetica,sans-Serif" font-size="13.00">(enregistrement MX dans le DNS)</text>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M423.5,-139.94C423.5,-139.94 231.5,-139.94 231.5,-139.94 225.5,-139.94 219.5,-133.94 219.5,-127.94 219.5,-127.94 219.5,-114.94 219.5,-114.94 219.5,-108.94 225.5,-102.94 231.5,-102.94 231.5,-102.94 423.5,-102.94 423.5,-102.94 429.5,-102.94 435.5,-108.94 435.5,-114.94 435.5,-114.94 435.5,-127.94 435.5,-127.94 435.5,-133.94 429.5,-139.94 423.5,-139.94"/>
+<text text-anchor="start" x="238.5" y="-117.94" font-family="Helvetica,sans-Serif" font-size="15.00">Serveur du destinataire</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M236.81,-232.86C253.2,-225.75 270.28,-216.23 283.5,-203.88 299.7,-188.74 311.21,-166.27 318.39,-148.76"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="321.43,-149.65 321.75,-140.12 315.55,-147.37 321.43,-149.65"/>
+<text text-anchor="start" x="305.5" y="-186.47" font-family="Helvetica,sans-Serif" font-size="13.00">2. SMTP</text>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M413.5,-37C413.5,-37 241.5,-37 241.5,-37 235.5,-37 229.5,-31 229.5,-25 229.5,-25 229.5,-12 229.5,-12 229.5,-6 235.5,0 241.5,0 241.5,0 413.5,0 413.5,0 419.5,0 425.5,-6 425.5,-12 425.5,-12 425.5,-25 425.5,-25 425.5,-31 419.5,-37 413.5,-37"/>
+<text text-anchor="start" x="248.5" y="-15" font-family="Helvetica,sans-Serif" font-size="15.00">Boîte du destinataire</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M327.5,-102.86C327.5,-87.32 327.5,-64.42 327.5,-46.55"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="330.65,-46.22 327.5,-37.22 324.35,-46.22 330.65,-46.22"/>
+</g>
+</g>
+</svg>
+</figure>
 
 | Ports courants | Usage |
 |---|---|

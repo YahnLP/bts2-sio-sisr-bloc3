@@ -18,22 +18,25 @@ La norme **802.1X** contrôle l'accès **par port** ou **par association Wi-Fi**
 | **Authentificateur** | Le **switch** ou la **borne Wi-Fi** | Garde la porte fermée ; relaie la demande |
 | **Serveur d'authentification** | Un serveur **RADIUS** | Décide : accepter ou refuser |
 
-```mermaid
-sequenceDiagram
-  participant D as Demandeur (poste, téléphone)
-  participant A as Authentificateur (borne, switch)
-  participant R as Serveur RADIUS
-  D->>A: Je veux accéder au réseau
-  A->>D: Qui êtes-vous ? (demande d'identité)
-  D->>A: Mon identité
-  A->>R: Access-Request (identité)
-  R-->>A: Access-Challenge (échanges EAP, tunnel chiffré)
-  A-->>D: relaie
-  D->>A: preuve (mot de passe ou certificat)
-  A->>R: Access-Request (preuve)
-  R-->>A: Access-Accept (+ VLAN) ou Access-Reject
-  A-->>D: porte ouverte (dans le bon VLAN) ou fermée
-```
+<figure class="graphe diagramme"><svg viewBox="0 0 1193 606" style="max-width:1193px" role="img" aria-label="Diagramme de séquence" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="s599575" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="seq-head"/></marker></defs>
+<line class="seq-life" x1="199" y1="62" x2="199" y2="600"/>
+<rect class="seq-box" x="66" y="12" width="267" height="40" rx="8"/><text x="199" y="37" text-anchor="middle" class="seq-title">Demandeur (poste, téléphone)</text>
+<line class="seq-life" x1="597" y1="62" x2="597" y2="600"/>
+<rect class="seq-box" x="463" y="12" width="267" height="40" rx="8"/><text x="597" y="37" text-anchor="middle" class="seq-title">Authentificateur (borne, switch)</text>
+<line class="seq-life" x1="994" y1="62" x2="994" y2="600"/>
+<rect class="seq-box" x="861" y="12" width="267" height="40" rx="8"/><text x="994" y="37" text-anchor="middle" class="seq-title">Serveur RADIUS</text>
+<line class="seq-msg" x1="199" y1="96" x2="593" y2="96" marker-end="url(#s599575)"/><text x="398" y="88" text-anchor="middle">Je veux accéder au réseau</text>
+<line class="seq-msg" x1="597" y1="146" x2="203" y2="146" marker-end="url(#s599575)"/><text x="398" y="138" text-anchor="middle">Qui êtes-vous ? (demande d'identité)</text>
+<line class="seq-msg" x1="199" y1="196" x2="593" y2="196" marker-end="url(#s599575)"/><text x="398" y="188" text-anchor="middle">Mon identité</text>
+<line class="seq-msg" x1="597" y1="246" x2="990" y2="246" marker-end="url(#s599575)"/><text x="796" y="238" text-anchor="middle">Access-Request (identité)</text>
+<line class="seq-msg dash" x1="994" y1="296" x2="601" y2="296" marker-end="url(#s599575)"/><text x="796" y="288" text-anchor="middle">Access-Challenge (échanges EAP, tunnel chiffré)</text>
+<line class="seq-msg dash" x1="597" y1="346" x2="203" y2="346" marker-end="url(#s599575)"/><text x="398" y="338" text-anchor="middle">relaie</text>
+<line class="seq-msg" x1="199" y1="396" x2="593" y2="396" marker-end="url(#s599575)"/><text x="398" y="388" text-anchor="middle">preuve (mot de passe ou certificat)</text>
+<line class="seq-msg" x1="597" y1="446" x2="990" y2="446" marker-end="url(#s599575)"/><text x="796" y="438" text-anchor="middle">Access-Request (preuve)</text>
+<line class="seq-msg dash" x1="994" y1="496" x2="601" y2="496" marker-end="url(#s599575)"/><text x="796" y="488" text-anchor="middle">Access-Accept (+ VLAN) ou Access-Reject</text>
+<line class="seq-msg dash" x1="597" y1="546" x2="203" y2="546" marker-end="url(#s599575)"/><text x="398" y="538" text-anchor="middle">porte ouverte (dans le bon VLAN) ou fermée</text>
+</svg></figure>
 
 L'authentificateur **ne connaît pas** les mots de passe : il **fait confiance** au serveur RADIUS. C'est ce qui permet de **centraliser** : une seule base (souvent l'annuaire) pour tous les switchs et toutes les bornes.
 

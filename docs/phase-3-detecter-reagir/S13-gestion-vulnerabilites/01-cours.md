@@ -73,15 +73,60 @@ Des sources aident à savoir **ce qui est exploité** : le **catalogue des vuln�
 
 ## 3. Le cycle de gestion des vulnérabilités
 
-```mermaid
-flowchart LR
-  A[1. Inventorier] --> B[2. Rechercher]
-  B --> C[3. Prioriser]
-  C --> D[4. Corriger ou compenser]
-  D --> E[5. Vérifier par un nouveau scan]
-  E --> F[6. Rendre compte]
-  F --> B
-```
+<figure class="graphe diagramme">
+<svg viewBox="0.00 0.00 342.60 533.60" style="max-width:457px" role="img" aria-label="Schéma" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="graph" transform="scale(1 1) rotate(0) translate(10.8 522.8)">
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M304.5,-512C304.5,-512 188.5,-512 188.5,-512 182.5,-512 176.5,-506 176.5,-500 176.5,-500 176.5,-487 176.5,-487 176.5,-481 182.5,-475 188.5,-475 188.5,-475 304.5,-475 304.5,-475 310.5,-475 316.5,-481 316.5,-487 316.5,-487 316.5,-500 316.5,-500 316.5,-506 310.5,-512 304.5,-512"/>
+<text text-anchor="start" x="195.5" y="-490" font-family="Helvetica,sans-Serif" font-size="15.00">1. Inventorier</text>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M305.5,-417C305.5,-417 187.5,-417 187.5,-417 181.5,-417 175.5,-411 175.5,-405 175.5,-405 175.5,-392 175.5,-392 175.5,-386 181.5,-380 187.5,-380 187.5,-380 305.5,-380 305.5,-380 311.5,-380 317.5,-386 317.5,-392 317.5,-392 317.5,-405 317.5,-405 317.5,-411 311.5,-417 305.5,-417"/>
+<text text-anchor="start" x="194.5" y="-395" font-family="Helvetica,sans-Serif" font-size="15.00">2. Rechercher</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M246.5,-474.57C246.5,-460.84 246.5,-441.7 246.5,-426.18"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="249.65,-426.06 246.5,-417.06 243.35,-426.06 249.65,-426.06"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M234,-322C234,-322 139,-322 139,-322 133,-322 127,-316 127,-310 127,-310 127,-297 127,-297 127,-291 133,-285 139,-285 139,-285 234,-285 234,-285 240,-285 246,-291 246,-297 246,-297 246,-310 246,-310 246,-316 240,-322 234,-322"/>
+<text text-anchor="start" x="146" y="-300" font-family="Helvetica,sans-Serif" font-size="15.00">3. Prioriser</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M234.93,-379.57C225.83,-365.46 213.02,-345.61 202.87,-329.87"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="205.36,-327.92 197.83,-322.06 200.06,-331.33 205.36,-327.92"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M250.5,-227C250.5,-227 46.5,-227 46.5,-227 40.5,-227 34.5,-221 34.5,-215 34.5,-215 34.5,-202 34.5,-202 34.5,-196 40.5,-190 46.5,-190 46.5,-190 250.5,-190 250.5,-190 256.5,-190 262.5,-196 262.5,-202 262.5,-202 262.5,-215 262.5,-215 262.5,-221 256.5,-227 250.5,-227"/>
+<text text-anchor="start" x="53.5" y="-205" font-family="Helvetica,sans-Serif" font-size="15.00">4. Corriger ou compenser</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M179.17,-284.57C173.51,-270.71 165.59,-251.34 159.22,-235.74"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="162,-234.2 155.68,-227.06 156.16,-236.58 162,-234.2"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M261,-132C261,-132 12,-132 12,-132 6,-132 0,-126 0,-120 0,-120 0,-107 0,-107 0,-101 6,-95 12,-95 12,-95 261,-95 261,-95 267,-95 273,-101 273,-107 273,-107 273,-120 273,-120 273,-126 267,-132 261,-132"/>
+<text text-anchor="start" x="19" y="-110" font-family="Helvetica,sans-Serif" font-size="15.00">5. Vérifier par un nouveau scan</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M146.19,-189.57C144.42,-175.84 141.94,-156.7 139.94,-141.18"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="143.04,-140.58 138.77,-132.06 136.79,-141.39 143.04,-140.58"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M309,-37C309,-37 162,-37 162,-37 156,-37 150,-31 150,-25 150,-25 150,-12 150,-12 150,-6 156,0 162,0 162,0 309,0 309,0 315,0 321,-6 321,-12 321,-12 321,-25 321,-25 321,-31 315,-37 309,-37"/>
+<text text-anchor="start" x="169" y="-15" font-family="Helvetica,sans-Serif" font-size="15.00">6. Rendre compte</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M155.59,-94.57C171.03,-80.07 192.91,-59.51 209.87,-43.58"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="212.4,-45.52 216.81,-37.06 208.09,-40.93 212.4,-45.52"/>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M254.09,-37.04C267.65,-51.2 284.93,-72.42 292.5,-95 325.53,-193.56 281.19,-318.19 258.46,-371.45"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="255.46,-370.45 254.75,-379.95 261.23,-372.96 255.46,-370.45"/>
+</g>
+</g>
+</svg>
+</figure>
 
 | Étape | Points clés |
 |---|---|
