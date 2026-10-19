@@ -1,8 +1,5 @@
 # S10 – Durcissement, conformité et gestion des correctifs
 
-> [!WARNING]
-> **Séance à rédiger.** Cette page donne le cadre prévu (objectifs, compétences, contenu). Le cours, le TP et l'aide-mémoire arrivent avec la phase 2.
-
 | Élément | Détail |
 |---|---|
 | **Niveau** | BTS SIO option SISR, 2e année – bloc 3 |
@@ -24,11 +21,25 @@
 3. Décrire un processus de gestion des correctifs (inventaire, test, déploiement, retour arrière) ;
 4. Documenter les écarts acceptés et leur justification.
 
-## Contenu prévu
+## Contenu de la séance
 
-- Cours : durcissement, conformité, gestion des correctifs
-- TP : audit avec Lynis ou OpenSCAP, correction des écarts, nouvelle mesure
-- Aide-mémoire : points de contrôle et commandes
+| Document | Rôle |
+|---|---|
+| [Cours – Durcissement, conformité et gestion des correctifs](01-cours.md) | Cours |
+| [TP – Auditer, corriger, prouver](02-tp.md) | TP |
+| [Aide-mémoire – Durcissement, conformité et correctifs](03-aide-memoire.md) | Aide-mémoire |
+
+## Déroulé conseillé (4 h)
+
+| Durée | Activité | Format |
+|---|---|---|
+| 0 h 00 – 0 h 20 | **Accroche : « Le serveur est installé depuis deux ans : est-il toujours comme on l'a décidé ? »** | Oral |
+| 0 h 20 – 1 h 10 | **Cours** | Cours et questions |
+| 1 h 10 – 4 h 00 | **TP**, puis bilan | Binôme puis individuel |
+
+## Retour en entreprise
+
+Si ta situation le permet : **observer** comment ton entreprise traite le sujet de la séance, **documenter** en une demi-page l'écart avec le TP, ou **réaliser** une partie après accord de ton tuteur. Voir [Transfert en entreprise](../../ressources/transfert-entreprise.md).
 
 ## Évaluation
 
@@ -39,7 +50,8 @@
 <summary>Notes pour l'enseignant</summary>
 
 - **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
-- **Programme :** cette séance fait partie d'un programme proposé, à valider avant rédaction.
+- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Reprend le durcissement vu en S14 de la première année : ici on mesure et on documente, on ne se contente plus d'appliquer. Choix de l'outil d'audit (Lynis ou OpenSCAP) à valider.
+- Choix de l'outil d'audit : **Lynis** (OpenSCAP écarté, plus lourd à mettre en place). À valider. Les chiffres du corrigé sont propres à la machine de l'auteur. Reprend le durcissement vu en S14 de la première année : ici on mesure et on documente.
 
 </details>

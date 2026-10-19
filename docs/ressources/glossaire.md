@@ -10,11 +10,14 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | Terme | Sigle | Anglais | Définition | Vu en |
 |---|---|---|---|---|
 | **Actif** |  | *asset* | Ce qu'il faut protéger : donnée, serveur, application, service. | A1 · S01 |
+| **Active Directory** | AD |  | Annuaire de Microsoft qui gère comptes, groupes, machines et stratégies d'un domaine Windows. | A2 · S06 |
 | **Advanced Encryption Standard** | AES | *advanced encryption standard* | Chiffrement symétrique par blocs de 128 bits, avec des clés de 128, 192 ou 256 bits. | A1 · S10 |
 | **Agence nationale de la sécurité des systèmes d'information** | ANSSI |  | Autorité française de cybersécurité, qui publie guides, recommandations et alertes. | A1 · S01 |
 | **Analyse d'impact relative à la protection des données** | AIPD | *data protection impact assessment (DPIA)* | Analyse des risques exigée avant un traitement susceptible d'engendrer un risque élevé. | A1 · S09 |
+| **Annuaire** |  | *directory* | Base centrale des comptes, groupes et machines d'une organisation (par exemple Active Directory). | A2 · S06 |
 | **Anonymisation** |  | *anonymisation* | Rendre la ré-identification impossible : la donnée n'est plus personnelle. | A1 · S08 |
 | **Audit de vulnérabilités** |  | *vulnerability assessment* | Recherche des failles d'un système, dans un cadre autorisé. | A1 · S16 |
+| **Authentificateur** |  | *authenticator* | Commutateur ou borne Wi-Fi qui relaie la demande vers le serveur RADIUS. | A2 · S07 |
 | **Authentification** |  | *authentication* | Prouver que l'on est bien la personne que l'on prétend être. | A1 · S03 |
 | **Authentification multifacteur** | MFA | *multi-factor authentication* | Authentification qui exige au moins deux facteurs de types différents. | A1 · S03 |
 | **Authentification résistante à l'hameçonnage** | FIDO2 |  | Norme de clés de sécurité et de passkeys qui ne répondent qu'au site réel. | A1 · S03 |
@@ -22,6 +25,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Autorité de certification** | AC | *certificate authority (CA)* | Organisme qui émet et signe des certificats. | A1 · S11 |
 | **Autorité nationale de la sécurité des systèmes d'information** | ANSSI |  | Agence française chargée de la cybersécurité de l'État et des opérateurs. | A1 · S09 |
 | **Base légale** |  | *lawful basis* | Fondement juridique d'un traitement : consentement, contrat, obligation légale, intérêts vitaux, mission d'intérêt public, intérêt légitime. | A1 · S07 |
+| **Bastion d'administration** |  | *jump host* | Machine unique et surveillée par laquelle passent les connexions d'administration. | A2 · S06 |
 | **Bien support** |  | *supporting asset* | Ce sur quoi repose une valeur métier : serveur, poste, réseau, logiciel, local, personne. | A2 · S02 |
 | **Bit setgid** |  | *setgid* | Sur un dossier Linux, fait hériter les nouveaux fichiers du groupe du dossier. | A1 · S04 |
 | **Bit setuid** |  | *setuid bit* | Droit spécial : le programme s'exécute avec les droits de son propriétaire (souvent root) et non de celui qui le lance. | A2 · S01 |
@@ -49,6 +53,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Confidentialité** |  | *confidentiality* | Seules les personnes autorisées peuvent lire l'information. | A1 · S01 |
 | **Confidentialité persistante** |  | *forward secrecy* | Propriété qui protège les sessions passées même si une clé privée est volée plus tard. | A1 · S11 |
 | **Consentement** |  | *consent* | Accord libre, spécifique, éclairé et univoque de la personne. | A1 · S07 |
+| **Contrôle d'accès au port** | 802.1X | *port-based access control* | Norme où un équipement doit prouver son identité avant d'obtenir l'accès au réseau. | A2 · S07 |
 | **Contrôle d'accès discrétionnaire** | DAC | *discretionary access control* | Le propriétaire d'une ressource décide qui y accède. | A1 · S04 |
 | **Contrôle d'accès obligatoire** | MAC | *mandatory access control* | Une politique centrale fixe les accès, que l'utilisateur ne peut pas modifier. | A1 · S04 |
 | **Contrôle d'accès par rôles** | RBAC | *role-based access control* | Les droits sont donnés à des rôles, auxquels on affecte des utilisateurs. | A1 · S04 |
@@ -61,6 +66,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Défense en profondeur** |  | *defense in depth* | Plusieurs couches de protection superposées. | A1 · S14 |
 | **Délégué à la protection des données** | DPO | *data protection officer* | Personne chargée de conseiller et de contrôler la conformité au RGPD. | A1 · S06 |
 | **Demande de signature de certificat** | CSR | *certificate signing request* | Demande envoyée à l'AC : contient le nom et la clé publique du demandeur. | A1 · S12 |
+| **Demandeur** |  | *supplicant* | Équipement ou logiciel qui demande l'accès dans 802.1X. | A2 · S07 |
 | **Démarrage sécurisé** |  | *secure boot* | Chaque élément du démarrage vérifie la signature du suivant avant de lui donner la main. | A1 · S02 |
 | **Détection et réponse sur les terminaux** | EDR | *endpoint detection and response* | Outil qui surveille le comportement des postes et permet de réagir à distance. | A1 · S02 |
 | **Disponibilité** |  | *availability* | Le service et les données sont accessibles quand on en a besoin. | A1 · S01 |
@@ -74,6 +80,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Droit d'accès** |  | *right of access* | Droit d'obtenir une copie des données détenues sur soi. | A1 · S07 |
 | **Durcissement** |  | *hardening* | Réduction de la surface d'attaque d'un système par sa configuration. | A1 · S14 |
 | **Durée de conservation** |  | *retention period* | Durée pendant laquelle des données sont gardées, fixée selon la finalité. | A1 · S08 |
+| **Écart accepté** |  | *accepted deviation* | Différence avec la référence, décidée et justifiée par écrit, avec un responsable et une date de revue. | A2 · S10 |
 | **Échange de clés de Diffie-Hellman** | DH | *Diffie-Hellman key exchange* | Permet à deux interlocuteurs de fabriquer un secret commun sur un canal observable. | A1 · S11 |
 | **Empreinte** |  | *hash* | Résultat d'un calcul à sens unique sur un contenu : même contenu, même empreinte ; un octet change, tout change. | A1 · S02 |
 | **Empreinte** |  | *hash, digest* | Résultat d'une fonction de hachage ; change entièrement si les données changent. | A1 · S10 |
@@ -83,6 +90,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Espace de noms réseau** |  | *network namespace* | Fonction de Linux qui isole des interfaces, adresses et règles : une machine réseau simulée dans une autre. | A2 · S05 |
 | **Étude de cas** |  | *case study* | Épreuve écrite fondée sur un dossier documentaire. | A1 · S18 |
 | **Événement redouté** |  | *feared event* | Ce qui peut arriver à une valeur métier et qu'on veut éviter. | A2 · S02 |
+| **Extensions de sécurité du DNS** | DNSSEC | *DNS security extensions* | Signature des réponses DNS qui garantit leur origine et leur intégrité, sans les chiffrer. | A2 · S09 |
 | **Faux positif** |  | *false positive* | Alerte déclenchée par un comportement légitime. | A1 · S15 |
 | **Fin de support** | EOL | *end of life* | Date à partir de laquelle l'éditeur ne publie plus de correctifs. | A1 · S02 |
 | **Finalité** |  | *purpose* | Objectif précis et légitime pour lequel des données sont collectées. | A1 · S06 |
@@ -105,17 +113,22 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Incident de sécurité** |  | *security incident* | Événement qui compromet ou menace la sécurité d'un système ou de données. | A1 · S17 |
 | **Infrastructure à clés publiques** | PKI | *public key infrastructure* | Ensemble des acteurs et règles qui émettent, distribuent et révoquent les certificats. | A1 · S11 |
 | **Ingénierie sociale** |  | *social engineering* | Techniques qui manipulent la confiance, la peur ou l'urgence d'une personne. | A1 · S01 |
+| **Injection** |  | *injection* | Faille où des données saisies sont interprétées comme des commandes (SQL, système). | A2 · S08 |
 | **Instantané** |  | *snapshot* | État d'un stockage à un instant donné, conservé sur le même stockage : ce n'est pas une sauvegarde. | A1 · S05 |
 | **Instantané de machine virtuelle** |  | *VM snapshot* | Photographie de l'état d'une machine virtuelle, à laquelle on peut revenir en cas d'erreur. | A2 · S01 |
 | **Intégrité** |  | *integrity* | Les données sont exactes et n'ont pas été modifiées à l'insu de leur propriétaire. | A1 · S01 |
 | **Internet Protocol Security** | IPsec | *IPsec* | Suite de protocoles de sécurisation du protocole IP, très utilisée pour les VPN site à site. | A1 · S13 |
 | **Journal d'événements** |  | *log* | Enregistrement horodaté d'événements d'un système. | A1 · S15 |
+| **Kerberos** |  |  | Protocole d'authentification par tickets délivrés par un centre de confiance, sans envoyer le mot de passe. | A2 · S06 |
+| **Limitation de débit** |  | *rate limiting* | Plafond du nombre de requêtes acceptées par client et par durée. | A2 · S08 |
 | **Liste de contrôle d'accès** | ACL | *access control list* | Liste des utilisateurs et groupes autorisés (ou refusés) sur une ressource, avec leurs droits. | A1 · S04 |
 | **Liste de révocation de certificats** | CRL | *certificate revocation list* | Liste signée des certificats révoqués, publiée par l'AC. | A1 · S12 |
 | **Logiciel espion** |  | *spyware* | Logiciel qui collecte discrètement des informations sur l'utilisateur. | A1 · S02 |
 | **Logiciel malveillant** |  | *malware* | Logiciel conçu pour nuire : voler, détruire, espionner, extorquer. | A1 · S02 |
 | **Loi Godfrain** |  | *computer fraud law (France)* | Loi de 1988 sur les atteintes aux systèmes de traitement automatisé de données, reprise dans le Code pénal (articles 323-1 et suivants). | A2 · S04 |
+| **Lynis** |  |  | Outil d'audit local de systèmes Linux qui produit avertissements, suggestions et un indice de durcissement. | A2 · S10 |
 | **Main courante** |  | *incident log* | Journal horodaté de ce qui est constaté et décidé pendant une crise. | A1 · S17 |
+| **Mandataire inverse** |  | *reverse proxy* | Serveur placé devant une application, qui reçoit les requêtes à sa place, les filtre et les transmet. | A2 · S08 |
 | **Matrice de droits** |  | *access matrix* | Tableau croisant groupes et ressources avec le niveau d'accès de chacun. | A1 · S04 |
 | **Matrice de flux** |  | *flow matrix* | Tableau des flux autorisés entre zones, avec les ports ; tout le reste est refusé. | A1 · S14 |
 | **Menace** |  | *threat* | Ce qui peut causer un dommage : attaquant, logiciel malveillant, erreur, sinistre. | A1 · S01 |
@@ -123,6 +136,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Micrologiciel de démarrage moderne** | UEFI | *unified extensible firmware interface* | Remplaçant moderne du BIOS ; permet le démarrage sécurisé. | A1 · S02 |
 | **Minimisation** |  | *data minimisation* | Ne collecter que les données nécessaires à la finalité. | A1 · S06 |
 | **Mode opératoire** |  | *mode of operation* | Manière d'enchaîner les blocs d'un chiffrement par blocs (ECB, CBC, CTR, GCM). | A1 · S10 |
+| **Modèle en niveaux** |  | *tier model* | Séparation des comptes d'administration selon ce qu'ils administrent, pour qu'un vol à un niveau n'ouvre pas les autres. | A2 · S06 |
 | **Module de plateforme sécurisée** | TPM | *trusted platform module* | Puce qui stocke des clés et mesure l'état du démarrage. | A1 · S02 |
 | **Moindre privilège** |  | *least privilege* | Ne donner que les droits strictement nécessaires, pour la durée nécessaire. | A1 · S04 |
 | **Mot de passe à usage unique basé sur l'heure** | TOTP | *time-based one-time password* | Code à 6 chiffres calculé à partir d'un secret partagé et de l'heure, renouvelé toutes les 30 secondes. | A1 · S03 |
@@ -130,11 +144,14 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Non-répudiation** |  | *non-repudiation* | L'auteur d'un acte ne peut pas nier en être l'auteur. | A1 · S11 |
 | **Norme de management de la sécurité** | ISO 27001 | *ISO/IEC 27001* | Norme d'exigences d'un SMSI ; seule norme de cette famille sur laquelle on peut se faire certifier. | A2 · S03 |
 | **Notification à la CNIL** |  | *breach notification* | Déclaration d'une violation à la CNIL, sous 72 heures en cas de risque. | A1 · S08 |
+| **NTLM** |  |  | Ancien protocole d'authentification Windows par défi-réponse, plus fragile que Kerberos. | A2 · S06 |
 | **Objectif de point de reprise** | RPO | *recovery point objective* | Durée maximale de données que l'on accepte de perdre. | A1 · S05 |
 | **Objectif de temps de reprise** | RTO | *recovery time objective* | Durée maximale d'interruption que l'on accepte. | A1 · S05 |
+| **Open Web Application Security Project** | OWASP |  | Communauté qui publie des listes et guides sur la sécurité des applications web. | A2 · S08 |
 | **Ordre de volatilité** |  | *order of volatility* | Ordre de collecte des preuves, du plus éphémère au plus durable. | A1 · S17 |
 | **Pare-feu** |  | *firewall* | Dispositif qui filtre les flux selon des règles. | A1 · S14 |
 | **Pare-feu du noyau Linux** | nftables | *nftables* | Outil de filtrage des paquets intégré à Linux, qui remplace iptables. | A2 · S01 |
+| **PEAP** |  | *protected EAP* | Méthode EAP où un mot de passe est transporté dans un tunnel TLS ouvert grâce au certificat du serveur. | A2 · S07 |
 | **Plan de continuité d'activité** | PCA | *business continuity plan* | Comment continuer à travailler pendant un incident. | A1 · S05 |
 | **Plan de reprise d'activité** | PRA | *disaster recovery plan* | Comment redémarrer et restaurer après un incident. | A1 · S05 |
 | **Politique de sécurité du système d'information** | PSSI | *information security policy* | Document signé par la direction : ce qu'on protège, selon quels principes, qui en répond. | A2 · S03 |
@@ -142,10 +159,12 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Portabilité** |  | *data portability* | Droit de récupérer ses données dans un format structuré et lisible par une machine. | A1 · S07 |
 | **Porte dérobée** |  | *backdoor* | Accès caché laissé par un attaquant pour revenir sur la machine. | A1 · S02 |
 | **Preuve** |  | *non-repudiation* | Capacité de démontrer qui a fait quoi, et quand. | A1 · S01 |
+| **Protocole d'authentification extensible** | EAP | *extensible authentication protocol* | Cadre qui transporte différentes méthodes de preuve d'identité (mot de passe, certificat). | A2 · S07 |
 | **Protocole d'état des certificats en ligne** | OCSP | *online certificate status protocol* | Interrogation en ligne de l'état de révocation d'un certificat. | A1 · S12 |
 | **Pseudonymisation** |  | *pseudonymisation* | Remplacement de l'identité par un code : la donnée reste personnelle. | A1 · S08 |
 | **Rançongiciel** |  | *ransomware* | Logiciel malveillant qui chiffre les fichiers et réclame une rançon. | A1 · S01 |
 | **Rançongiciel** |  | *ransomware* | Logiciel malveillant qui chiffre les données et exige une rançon. | A1 · S17 |
+| **Référence de configuration** |  | *baseline* | Liste de réglages reconnus servant de point de comparaison pour mesurer la conformité. | A2 · S10 |
 | **Registre des traitements** |  | *record of processing activities* | Document qui recense les traitements de données personnelles (article 30). | A1 · S06 |
 | **Règlement général sur la protection des données** | RGPD | *general data protection regulation (GDPR)* | Règlement européen qui encadre le traitement des données personnelles. | A1 · S06 |
 | **Réseau de machines zombies** |  | *botnet* | Ensemble de machines compromises pilotées à distance par un attaquant. | A1 · S02 |
@@ -163,15 +182,19 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Sauvegarde incrémentielle** |  | *incremental backup* | Copie de ce qui a changé depuis la dernière sauvegarde, quelle qu'elle soit. | A1 · S05 |
 | **Scan de ports** |  | *port scan* | Test des ports ouverts d'une machine. | A1 · S16 |
 | **Scénario de risque** |  | *risk scenario* | Enchaînement d'étapes qui mène d'une source de risque à un événement redouté. | A2 · S02 |
+| **Script intersite** | XSS | *cross-site scripting* | Faille où un script injecté dans une page s'exécute dans le navigateur d'un autre utilisateur. | A2 · S08 |
 | **Secure Shell** | SSH | *secure shell* | Protocole d'administration à distance chiffré. | A1 · S14 |
 | **Sel** |  | *salt* | Valeur aléatoire ajoutée à un mot de passe avant hachage, propre à chaque utilisateur. | A1 · S03 |
 | **Sender Policy Framework** | SPF | *sender policy framework* | Enregistrement DNS qui déclare les serveurs autorisés à envoyer du courrier pour un domaine. | A1 · S09 |
 | **Séparation des tâches** |  | *separation of duties* | Une action sensible exige l'intervention de deux personnes. | A1 · S04 |
+| **Serveur d'authentification RADIUS** | RADIUS | *remote authentication dial-in user service* | Protocole et serveur qui décident de l'accès au réseau et peuvent renvoyer des attributs, comme le VLAN. | A2 · S07 |
 | **Serveur de mises à jour de Windows** | WSUS | *windows server update services* | Service qui distribue et contrôle les mises à jour dans un domaine. | A1 · S02 |
 | **Signature électronique** |  | *electronic signature* | Procédé qui identifie un signataire et manifeste son consentement. | A1 · S09 |
 | **Signature numérique** |  | *digital signature* | Empreinte signée avec la clé privée : garantit intégrité, authenticité et non-répudiation. | A1 · S11 |
+| **Solution de mot de passe administrateur local** | LAPS | *local administrator password solution* | Outil qui donne à chaque machine un mot de passe administrateur local unique et renouvelé. | A2 · S06 |
 | **Source de risque** |  | *risk source* | Personne ou entité qui peut provoquer un événement redouté. | A2 · S02 |
 | **Sous-traitant** |  | *data processor* | Organisme qui traite des données pour le compte du responsable, sous contrat. | A1 · S06 |
+| **Stratégie de groupe** | GPO | *group policy object* | Ensemble de réglages appliqués automatiquement aux comptes et machines d'un domaine. | A2 · S06 |
 | **Suivi de connexion** |  | *connection tracking* | Fonction du pare-feu qui retient les connexions en cours pour laisser passer leurs réponses. | A2 · S05 |
 | **Surface d'attaque** |  | *attack surface* | Ensemble des points par lesquels un attaquant peut tenter d'entrer. | A1 · S14 |
 | **Système de détection d'intrusion** | IDS | *intrusion detection system* | Observe le trafic ou une machine et émet des alertes. | A1 · S15 |
@@ -181,10 +204,12 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Tâche planifiée** | cron | *scheduled job* | Mécanisme Unix qui exécute une commande à heure fixe. | A1 · S08 |
 | **Test d'intrusion** |  | *penetration test* | Exploitation contrôlée des failles pour mesurer l'impact réel. | A1 · S16 |
 | **Traceur** |  | *tracker* | Dispositif qui permet de suivre un utilisateur (cookie, pixel, identifiant d'appareil). | A1 · S07 |
+| **Transfert de zone** | AXFR | *zone transfer* | Copie complète d'une zone DNS vers un autre serveur ; à restreindre aux serveurs autorisés. | A2 · S09 |
 | **Transport Layer Security** | TLS | *transport layer security* | Protocole de sécurisation des échanges, utilisé par HTTPS. | A1 · S11 |
 | **Tunnel complet** |  | *full tunnel* | Tout le trafic du client passe par le VPN. | A1 · S13 |
 | **Tunnel partiel** |  | *split tunnel* | Seul le trafic vers le réseau d'entreprise passe par le VPN. | A1 · S13 |
 | **Tunnelisation** |  | *tunneling* | Encapsulation de paquets dans d'autres paquets, après chiffrement. | A1 · S13 |
+| **Usurpation d'expéditeur** |  | *email spoofing* | Envoi d'un message avec une fausse adresse d'expéditeur. | A2 · S09 |
 | **Valeur métier** |  | *business value* | Ce qui compte pour l'organisation : un service, une information, un savoir-faire. | A2 · S02 |
 | **Vecteur d'initialisation** | IV | *initialization vector* | Valeur non secrète, imprévisible ou unique, qui démarre un chiffrement. | A1 · S10 |
 | **Ver** |  | *worm* | Logiciel malveillant autonome qui se propage de machine en machine par le réseau. | A1 · S02 |

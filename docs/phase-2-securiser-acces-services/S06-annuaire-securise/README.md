@@ -1,8 +1,5 @@
 # S06 – Annuaire sécurisé et comptes à privilèges
 
-> [!WARNING]
-> **Séance à rédiger.** Cette page donne le cadre prévu (objectifs, compétences, contenu). Le cours, le TP et l'aide-mémoire arrivent avec la phase 2.
-
 | Élément | Détail |
 |---|---|
 | **Niveau** | BTS SIO option SISR, 2e année – bloc 3 |
@@ -25,11 +22,25 @@
 4. Mettre en place un mot de passe local géré (LAPS) ou une alternative documentée ;
 5. Situer le rôle d'un bastion d'administration.
 
-## Contenu prévu
+## Contenu de la séance
 
-- Cours : Kerberos, NTLM, comptes à privilèges, modèle en niveaux, bastion
-- TP : durcir un domaine de laboratoire (stratégies de sécurité, comptes d'administration distincts, mot de passe local géré)
-- Aide-mémoire : stratégies et commandes utiles
+| Document | Rôle |
+|---|---|
+| [Cours – Annuaire sécurisé et comptes à privilèges](01-cours.md) | Cours |
+| [TP – Durcir un domaine de laboratoire](02-tp.md) | TP |
+| [Aide-mémoire – Annuaire sécurisé](03-aide-memoire.md) | Aide-mémoire |
+
+## Déroulé conseillé (4 h)
+
+| Durée | Activité | Format |
+|---|---|---|
+| 0 h 00 – 0 h 20 | **Accroche : « Un compte d'administrateur de domaine est volé : que perd-on ? »** | Oral |
+| 0 h 20 – 1 h 10 | **Cours** | Cours et questions |
+| 1 h 10 – 4 h 00 | **TP**, puis bilan | Binôme puis individuel |
+
+## Retour en entreprise
+
+Si ta situation le permet : **observer** comment ton entreprise traite le sujet de la séance, **documenter** en une demi-page l'écart avec le TP, ou **réaliser** une partie après accord de ton tuteur. Voir [Transfert en entreprise](../../ressources/transfert-entreprise.md).
 
 ## Évaluation
 
@@ -40,7 +51,8 @@
 <summary>Notes pour l'enseignant</summary>
 
 - **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
-- **Programme :** cette séance fait partie d'un programme proposé, à valider avant rédaction.
+- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Prérequis fort sur Active Directory du bloc 2 : vérifier que les machines Windows du laboratoire sont disponibles. Prolonge S04 de la première année (droits et privilèges).
+- **Non testé :** le TP suppose un domaine Active Directory sous Windows Server, non disponible dans l'environnement de l'auteur. Les commandes sont à essayer avant la séance. Voir le corrigé.
 
 </details>
