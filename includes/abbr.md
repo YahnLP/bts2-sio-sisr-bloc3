@@ -26,11 +26,13 @@
 *[DNSSEC]: Extensions de sécurité du DNS : Signature des réponses DNS qui garantit leur origine et leur intégrité, sans les chiffrer.
 *[EOL]: Fin de support : Date à partir de laquelle l'éditeur ne publie plus de correctifs.
 *[PBKDF2]: Fonction de dérivation de clé : Calcule une clé de chiffrement à partir d'un mot de passe, de façon lente et salée.
+*[SIEM]: Gestion des événements et des informations de sécurité : Outil qui centralise les journaux, les corrèle et déclenche des alertes.
 *[SIEM]: Gestion des informations et des événements de sécurité : Plateforme qui centralise et corrèle les journaux et déclenche des alertes.
 *[RAID]: Grappe de disques : Plusieurs disques utilisés ensemble pour résister à la panne d'un disque. Ce n'est pas une sauvegarde.
 *[ISO 27002]: Guide de mesures de sécurité : Catalogue de bonnes pratiques de sécurité ; non certifiable.
 *[HSTS]: HTTP Strict Transport Security : En-tête qui impose à un navigateur de n'utiliser que HTTPS pour un site.
 *[CVE]: Identifiant de vulnérabilité : Identifiant unique d'une vulnérabilité publique, par exemple CVE-2017-0144.
+*[CVE]: Identifiant de vulnérabilité commune : Identifiant public et unique d'une vulnérabilité (forme CVE-année-numéro).
 *[PKI]: Infrastructure à clés publiques : Ensemble des acteurs et règles qui émettent, distribuent et révoquent les certificats.
 *[IPsec]: Internet Protocol Security : Suite de protocoles de sécurisation du protocole IP, très utilisée pour les VPN site à site.
 *[ACL]: Liste de contrôle d'accès : Liste des utilisateurs et groupes autorisés (ou refusés) sur une ressource, avec leurs droits.
@@ -47,8 +49,10 @@
 *[PCA]: Plan de continuité d'activité : Comment continuer à travailler pendant un incident.
 *[PRA]: Plan de reprise d'activité : Comment redémarrer et restaurer après un incident.
 *[PSSI]: Politique de sécurité du système d'information : Document signé par la direction : ce qu'on protège, selon quels principes, qui en répond.
+*[PASSI]: Prestataire d'audit de la sécurité des systèmes d'information : Prestataire d'audit qualifié par l'ANSSI.
 *[EAP]: Protocole d'authentification extensible : Cadre qui transporte différentes méthodes de preuve d'identité (mot de passe, certificat).
 *[OCSP]: Protocole d'état des certificats en ligne : Interrogation en ligne de l'état de révocation d'un certificat.
+*[NTP]: Protocole de synchronisation du temps : Protocole qui met les horloges des machines à la même heure.
 *[RGPD]: Règlement général sur la protection des données : Règlement européen qui encadre le traitement des données personnelles.
 *[VLAN]: Réseau local virtuel : Découpage logique d'un réseau en segments isolés.
 *[VPN]: Réseau privé virtuel : Tunnel chiffré et authentifié à travers un réseau non sûr.

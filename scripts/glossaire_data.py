@@ -238,4 +238,25 @@ DATA = [
 ("Référence de configuration", None, "baseline", "Liste de réglages reconnus servant de point de comparaison pour mesurer la conformité.", "A2 · S10"),
 ("Écart accepté", None, "accepted deviation", "Différence avec la référence, décidée et justifiée par écrit, avec un responsable et une date de revue.", "A2 · S10"),
 ("Lynis", None, "", "Outil d'audit local de systèmes Linux qui produit avertissements, suggestions et un indice de durcissement.", "A2 · S10"),
+# --- S11 Journaux
+("Journalisation", None, "logging", "Enregistrement horodaté des événements d'un système, pour contrôler, enquêter et prouver.", "A2 · S11"),
+("Collecteur de journaux", None, "log collector", "Serveur central qui reçoit et range les journaux de plusieurs machines.", "A2 · S11"),
+("Corrélation", None, "correlation", "Mise en relation d'événements de sources différentes pour détecter une attaque que chacun pris seul ne révèle pas.", "A2 · S11"),
+("Gestion des événements et des informations de sécurité", "SIEM", "security information and event management", "Outil qui centralise les journaux, les corrèle et déclenche des alertes.", "A2 · S11"),
+("Protocole de synchronisation du temps", "NTP", "network time protocol", "Protocole qui met les horloges des machines à la même heure.", "A2 · S11"),
+# --- S12 Détection
+("Signature", None, "signature", "Motif connu d'attaque, recherché dans le trafic ou les journaux.", "A2 · S12"),
+("Faux négatif", None, "false negative", "Attaque réelle qui n'est pas signalée.", "A2 · S12"),
+# --- S13 Vulnérabilités
+("Vulnérabilité exposée", None, "exposed vulnerability", "Faille qui peut être atteinte par un attaquant (par exemple depuis Internet).", "A2 · S13"),
+("Exploit", None, "exploit", "Méthode ou programme qui tire parti d'une vulnérabilité.", "A2 · S13"),
+("Identifiant de vulnérabilité commune", "CVE", "common vulnerabilities and exposures", "Identifiant public et unique d'une vulnérabilité (forme CVE-année-numéro).", "A2 · S13"),
+("Mesure compensatoire", None, "compensating control", "Mesure qui réduit un risque quand la cause ne peut pas être corrigée.", "A2 · S13"),
+# --- S14 Audit
+("Audit de sécurité", None, "security audit", "Mission encadrée qui évalue la sécurité d'un système par rapport à une référence.", "A2 · S14"),
+("Règles d'engagement", None, "rules of engagement", "Limites écrites d'une mission d'audit : périmètre, interdits, horaires, contact d'urgence.", "A2 · S14"),
+("Prestataire d'audit de la sécurité des systèmes d'information", "PASSI", "", "Prestataire d'audit qualifié par l'ANSSI.", "A2 · S14"),
+# --- S15 Incident
+("Réponse à incident", None, "incident response", "Démarche pour détecter, contenir, éradiquer, reprendre et tirer les leçons d'un incident.", "A2 · S15"),
+("Chaîne de preuve", None, "chain of custody", "Traçabilité qui démontre qu'une preuve n'a pas été modifiée depuis sa collecte.", "A2 · S15"),
 ]

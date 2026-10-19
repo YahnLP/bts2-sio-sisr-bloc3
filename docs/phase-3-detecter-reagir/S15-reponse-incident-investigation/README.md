@@ -1,8 +1,5 @@
 # S15 – Réponse à incident et investigation
 
-> [!WARNING]
-> **Séance à rédiger.** Cette page donne le cadre prévu (objectifs, compétences, contenu). Le cours, le TP et l'aide-mémoire arrivent avec la phase 3.
-
 | Élément | Détail |
 |---|---|
 | **Niveau** | BTS SIO option SISR, 2e année – bloc 3 |
@@ -24,11 +21,25 @@
 3. Reconstituer la chronologie d'une attaque à partir de journaux ;
 4. Rédiger un compte rendu d'incident et une communication à la direction.
 
-## Contenu prévu
+## Contenu de la séance
 
-- Cours : cycle de réponse, preuves, chronologie, communication de crise
-- TP : investigation d'un scénario de rançongiciel à partir d'images et de journaux fournis
-- Aide-mémoire : check-list du premier quart d'heure
+| Document | Rôle |
+|---|---|
+| [Cours – Réponse à incident et investigation](01-cours.md) | Cours |
+| [TP – Un lundi matin : enquêter sur un rançongiciel](02-tp.md) | TP |
+| [Aide-mémoire – Le premier quart d'heure et l'investigation](03-aide-memoire.md) | Aide-mémoire |
+
+## Déroulé conseillé (4 h)
+
+| Durée | Activité | Format |
+|---|---|---|
+| 0 h 00 – 0 h 20 | **Accroche : « Lundi 7 h 45, les fichiers du serveur ne s'ouvrent plus : que fait-on dans le premier quart d'heure ? »** | Oral |
+| 0 h 20 – 1 h 10 | **Cours** | Cours et questions |
+| 1 h 10 – 4 h 00 | **TP**, puis bilan | Binôme puis individuel |
+
+## Retour en entreprise
+
+Si ta situation le permet : **observer** comment ton entreprise traite le sujet de la séance, **documenter** en une demi-page l'écart avec le TP, ou **réaliser** une partie après accord de ton tuteur. Voir [Transfert en entreprise](../../ressources/transfert-entreprise.md).
 
 ## Évaluation
 
@@ -39,7 +50,8 @@
 <summary>Notes pour l'enseignant</summary>
 
 - **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
-- **Programme :** cette séance fait partie d'un programme proposé, à valider avant rédaction.
+- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Les journaux fournis sont fictifs. Prolonge S17 de la première année (incident et preuves) : ici on travaille sur un scénario complet, avec la notification (S04).
+- Les journaux fournis (dossier `journaux-fictifs`) sont **fictifs**, générés par l'auteur ; commandes d'analyse et de hachage vérifiées. Prolonge S17 de la première année. Voir le corrigé.
 
 </details>

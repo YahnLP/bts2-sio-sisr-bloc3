@@ -16,6 +16,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Analyse d'impact relative à la protection des données** | AIPD | *data protection impact assessment (DPIA)* | Analyse des risques exigée avant un traitement susceptible d'engendrer un risque élevé. | A1 · S09 |
 | **Annuaire** |  | *directory* | Base centrale des comptes, groupes et machines d'une organisation (par exemple Active Directory). | A2 · S06 |
 | **Anonymisation** |  | *anonymisation* | Rendre la ré-identification impossible : la donnée n'est plus personnelle. | A1 · S08 |
+| **Audit de sécurité** |  | *security audit* | Mission encadrée qui évalue la sécurité d'un système par rapport à une référence. | A2 · S14 |
 | **Audit de vulnérabilités** |  | *vulnerability assessment* | Recherche des failles d'un système, dans un cadre autorisé. | A1 · S16 |
 | **Authentificateur** |  | *authenticator* | Commutateur ou borne Wi-Fi qui relaie la demande vers le serveur RADIUS. | A2 · S07 |
 | **Authentification** |  | *authentication* | Prouver que l'on est bien la personne que l'on prétend être. | A1 · S03 |
@@ -35,6 +36,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Certificat X.509** |  | *X.509 certificate* | Document qui lie une identité à une clé publique, signé par une autorité de certification. | A1 · S11 |
 | **Chaîne de confiance** |  | *chain of trust* | Suite de certificats qui remonte du serveur à une racine connue du système. | A1 · S11 |
 | **Chaîne de possession** |  | *chain of custody* | Suivi de qui détient et manipule une preuve. | A1 · S17 |
+| **Chaîne de preuve** |  | *chain of custody* | Traçabilité qui démontre qu'une preuve n'a pas été modifiée depuis sa collecte. | A2 · S15 |
 | **Charte informatique** |  | *acceptable use policy* | Document signé par les utilisateurs qui fixe les règles d'usage du système d'information. | A1 · S01 |
 | **Cheval de Troie** |  | *trojan* | Logiciel qui se présente comme utile pour se faire installer par l'utilisateur. | A1 · S02 |
 | **Chiffrement asymétrique** |  | *asymmetric encryption* | Chiffrement à paire de clés : une publique, une privée. | A1 · S11 |
@@ -46,6 +48,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Clé privée** |  | *private key* | Clé secrète de son propriétaire : sert à déchiffrer et à signer. | A1 · S11 |
 | **Clé publique** |  | *public key* | Clé que l'on peut diffuser : sert à chiffrer pour son propriétaire ou à vérifier sa signature. | A1 · S11 |
 | **Code d'authentification de message à clé** | HMAC | *hash-based message authentication code* | Empreinte calculée avec une clé secrète : garantit intégrité et authenticité. | A1 · S10 |
+| **Collecteur de journaux** |  | *log collector* | Serveur central qui reçoit et range les journaux de plusieurs machines. | A2 · S11 |
 | **Commission nationale de l'informatique et des libertés** | CNIL |  | Autorité française de protection des données personnelles. | A1 · S03 |
 | **Commission nationale de l'informatique et des libertés** | CNIL |  | Autorité française de protection des données personnelles. | A1 · S06 |
 | **Common Vulnerabilities and Exposures** | CVE | *CVE* | Identifiant unique d'une vulnérabilité connue (CVE-année-numéro). | A1 · S16 |
@@ -59,6 +62,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Contrôle d'accès par rôles** | RBAC | *role-based access control* | Les droits sont donnés à des rôles, auxquels on affecte des utilisateurs. | A1 · S04 |
 | **Cookie** |  | *cookie* | Petit fichier déposé par un site dans le navigateur. | A1 · S07 |
 | **Correctif** |  | *patch* | Mise à jour qui corrige une faille ou un défaut. | A1 · S02 |
+| **Corrélation** |  | *correlation* | Mise en relation d'événements de sources différentes pour détecter une attaque que chacun pris seul ne révèle pas. | A2 · S11 |
 | **Cryptographie** |  | *cryptography* | Science des secrets et de la preuve : chiffrement, hachage, signature. | A1 · S10 |
 | **Cybersécurité** |  | *cybersecurity* | Ensemble des moyens qui protègent un système d'information et ses données. | A1 · S01 |
 | **Déduplication** |  | *deduplication* | Technique qui ne stocke qu'une fois chaque morceau de données identique. | A1 · S05 |
@@ -90,7 +94,9 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Espace de noms réseau** |  | *network namespace* | Fonction de Linux qui isole des interfaces, adresses et règles : une machine réseau simulée dans une autre. | A2 · S05 |
 | **Étude de cas** |  | *case study* | Épreuve écrite fondée sur un dossier documentaire. | A1 · S18 |
 | **Événement redouté** |  | *feared event* | Ce qui peut arriver à une valeur métier et qu'on veut éviter. | A2 · S02 |
+| **Exploit** |  | *exploit* | Méthode ou programme qui tire parti d'une vulnérabilité. | A2 · S13 |
 | **Extensions de sécurité du DNS** | DNSSEC | *DNS security extensions* | Signature des réponses DNS qui garantit leur origine et leur intégrité, sans les chiffrer. | A2 · S09 |
+| **Faux négatif** |  | *false negative* | Attaque réelle qui n'est pas signalée. | A2 · S12 |
 | **Faux positif** |  | *false positive* | Alerte déclenchée par un comportement légitime. | A1 · S15 |
 | **Fin de support** | EOL | *end of life* | Date à partir de laquelle l'éditeur ne publie plus de correctifs. | A1 · S02 |
 | **Finalité** |  | *purpose* | Objectif précis et légitime pour lequel des données sont collectées. | A1 · S06 |
@@ -99,6 +105,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Force brute** |  | *brute force* | Essayer toutes les combinaisons possibles. | A1 · S03 |
 | **Force brute** |  | *brute force* | Attaque qui essaie de nombreux mots de passe ou identifiants. | A1 · S15 |
 | **Fraude au président** |  | *CEO fraud* | Faux ordre de virement attribué à un dirigeant, urgent et confidentiel. | A1 · S01 |
+| **Gestion des événements et des informations de sécurité** | SIEM | *security information and event management* | Outil qui centralise les journaux, les corrèle et déclenche des alertes. | A2 · S11 |
 | **Gestion des informations et des événements de sécurité** | SIEM | *security information and event management* | Plateforme qui centralise et corrèle les journaux et déclenche des alertes. | A1 · S15 |
 | **Gestionnaire de mots de passe** |  | *password manager* | Application qui génère, stocke et remplit des mots de passe dans une base chiffrée. | A1 · S03 |
 | **Grappe de disques** | RAID | *redundant array of independent disks* | Plusieurs disques utilisés ensemble pour résister à la panne d'un disque. Ce n'est pas une sauvegarde. | A1 · S05 |
@@ -109,6 +116,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **HTTP Strict Transport Security** | HSTS | *HTTP strict transport security* | En-tête qui impose à un navigateur de n'utiliser que HTTPS pour un site. | A1 · S12 |
 | **Hygiène numérique** |  | *cyber hygiene* | Gestes simples et réguliers qui préviennent la plupart des incidents. | A1 · S01 |
 | **Identifiant de vulnérabilité** | CVE | *common vulnerabilities and exposures* | Identifiant unique d'une vulnérabilité publique, par exemple CVE-2017-0144. | A1 · S02 |
+| **Identifiant de vulnérabilité commune** | CVE | *common vulnerabilities and exposures* | Identifiant public et unique d'une vulnérabilité (forme CVE-année-numéro). | A2 · S13 |
 | **Identité numérique** |  | *digital identity* | Ensemble de ce qui représente une personne ou une organisation en ligne. | A1 · S09 |
 | **Incident de sécurité** |  | *security incident* | Événement qui compromet ou menace la sécurité d'un système ou de données. | A1 · S17 |
 | **Infrastructure à clés publiques** | PKI | *public key infrastructure* | Ensemble des acteurs et règles qui émettent, distribuent et révoquent les certificats. | A1 · S11 |
@@ -119,6 +127,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Intégrité** |  | *integrity* | Les données sont exactes et n'ont pas été modifiées à l'insu de leur propriétaire. | A1 · S01 |
 | **Internet Protocol Security** | IPsec | *IPsec* | Suite de protocoles de sécurisation du protocole IP, très utilisée pour les VPN site à site. | A1 · S13 |
 | **Journal d'événements** |  | *log* | Enregistrement horodaté d'événements d'un système. | A1 · S15 |
+| **Journalisation** |  | *logging* | Enregistrement horodaté des événements d'un système, pour contrôler, enquêter et prouver. | A2 · S11 |
 | **Kerberos** |  |  | Protocole d'authentification par tickets délivrés par un centre de confiance, sans envoyer le mot de passe. | A2 · S06 |
 | **Limitation de débit** |  | *rate limiting* | Plafond du nombre de requêtes acceptées par client et par durée. | A2 · S08 |
 | **Liste de contrôle d'accès** | ACL | *access control list* | Liste des utilisateurs et groupes autorisés (ou refusés) sur une ressource, avec leurs droits. | A1 · S04 |
@@ -132,6 +141,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Matrice de droits** |  | *access matrix* | Tableau croisant groupes et ressources avec le niveau d'accès de chacun. | A1 · S04 |
 | **Matrice de flux** |  | *flow matrix* | Tableau des flux autorisés entre zones, avec les ports ; tout le reste est refusé. | A1 · S14 |
 | **Menace** |  | *threat* | Ce qui peut causer un dommage : attaquant, logiciel malveillant, erreur, sinistre. | A1 · S01 |
+| **Mesure compensatoire** |  | *compensating control* | Mesure qui réduit un risque quand la cause ne peut pas être corrigée. | A2 · S13 |
 | **Méthode d'analyse de risques de l'ANSSI** | EBIOS RM | *EBIOS risk manager* | Méthode française d'analyse de risques en cinq ateliers. | A2 · S02 |
 | **Micrologiciel de démarrage moderne** | UEFI | *unified extensible firmware interface* | Remplaçant moderne du BIOS ; permet le démarrage sécurisé. | A1 · S02 |
 | **Minimisation** |  | *data minimisation* | Ne collecter que les données nécessaires à la finalité. | A1 · S06 |
@@ -158,15 +168,19 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Politique par défaut** |  | *default policy* | Décision appliquée à tout paquet qui ne correspond à aucune règle du pare-feu ; elle doit être restrictive. | A2 · S01 |
 | **Portabilité** |  | *data portability* | Droit de récupérer ses données dans un format structuré et lisible par une machine. | A1 · S07 |
 | **Porte dérobée** |  | *backdoor* | Accès caché laissé par un attaquant pour revenir sur la machine. | A1 · S02 |
+| **Prestataire d'audit de la sécurité des systèmes d'information** | PASSI |  | Prestataire d'audit qualifié par l'ANSSI. | A2 · S14 |
 | **Preuve** |  | *non-repudiation* | Capacité de démontrer qui a fait quoi, et quand. | A1 · S01 |
 | **Protocole d'authentification extensible** | EAP | *extensible authentication protocol* | Cadre qui transporte différentes méthodes de preuve d'identité (mot de passe, certificat). | A2 · S07 |
 | **Protocole d'état des certificats en ligne** | OCSP | *online certificate status protocol* | Interrogation en ligne de l'état de révocation d'un certificat. | A1 · S12 |
+| **Protocole de synchronisation du temps** | NTP | *network time protocol* | Protocole qui met les horloges des machines à la même heure. | A2 · S11 |
 | **Pseudonymisation** |  | *pseudonymisation* | Remplacement de l'identité par un code : la donnée reste personnelle. | A1 · S08 |
 | **Rançongiciel** |  | *ransomware* | Logiciel malveillant qui chiffre les fichiers et réclame une rançon. | A1 · S01 |
 | **Rançongiciel** |  | *ransomware* | Logiciel malveillant qui chiffre les données et exige une rançon. | A1 · S17 |
 | **Référence de configuration** |  | *baseline* | Liste de réglages reconnus servant de point de comparaison pour mesurer la conformité. | A2 · S10 |
 | **Registre des traitements** |  | *record of processing activities* | Document qui recense les traitements de données personnelles (article 30). | A1 · S06 |
 | **Règlement général sur la protection des données** | RGPD | *general data protection regulation (GDPR)* | Règlement européen qui encadre le traitement des données personnelles. | A1 · S06 |
+| **Règles d'engagement** |  | *rules of engagement* | Limites écrites d'une mission d'audit : périmètre, interdits, horaires, contact d'urgence. | A2 · S14 |
+| **Réponse à incident** |  | *incident response* | Démarche pour détecter, contenir, éradiquer, reprendre et tirer les leçons d'un incident. | A2 · S15 |
 | **Réseau de machines zombies** |  | *botnet* | Ensemble de machines compromises pilotées à distance par un attaquant. | A1 · S02 |
 | **Réseau local virtuel** | VLAN | *virtual LAN* | Découpage logique d'un réseau en segments isolés. | A1 · S14 |
 | **Réseau privé virtuel** | VPN | *virtual private network* | Tunnel chiffré et authentifié à travers un réseau non sûr. | A1 · S13 |
@@ -189,6 +203,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Séparation des tâches** |  | *separation of duties* | Une action sensible exige l'intervention de deux personnes. | A1 · S04 |
 | **Serveur d'authentification RADIUS** | RADIUS | *remote authentication dial-in user service* | Protocole et serveur qui décident de l'accès au réseau et peuvent renvoyer des attributs, comme le VLAN. | A2 · S07 |
 | **Serveur de mises à jour de Windows** | WSUS | *windows server update services* | Service qui distribue et contrôle les mises à jour dans un domaine. | A1 · S02 |
+| **Signature** |  | *signature* | Motif connu d'attaque, recherché dans le trafic ou les journaux. | A2 · S12 |
 | **Signature électronique** |  | *electronic signature* | Procédé qui identifie un signataire et manifeste son consentement. | A1 · S09 |
 | **Signature numérique** |  | *digital signature* | Empreinte signée avec la clé privée : garantit intégrité, authenticité et non-répudiation. | A1 · S11 |
 | **Solution de mot de passe administrateur local** | LAPS | *local administrator password solution* | Outil qui donne à chaque machine un mot de passe administrateur local unique et renouvelé. | A2 · S06 |
@@ -218,6 +233,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **VPN site à site** |  | *site-to-site VPN* | Deux réseaux sont reliés en permanence par un tunnel. | A1 · S13 |
 | **Vulnérabilité** |  | *vulnerability* | Faiblesse qu'une menace peut exploiter. | A1 · S01 |
 | **Vulnérabilité** |  | *vulnerability* | Faiblesse d'un système qui peut être exploitée. | A1 · S16 |
+| **Vulnérabilité exposée** |  | *exposed vulnerability* | Faille qui peut être atteinte par un attaquant (par exemple depuis Internet). | A2 · S13 |
 | **WireGuard** |  | *WireGuard* | Protocole de VPN moderne, simple, fondé sur une paire de clés par machine. | A1 · S13 |
 | **Zone de confiance** |  | *security zone* | Partie du réseau regroupant des machines de même niveau de confiance. | A2 · S05 |
 | **Zone démilitarisée** | DMZ | *demilitarized zone* | Zone réseau qui héberge les services exposés à Internet, isolée du réseau interne. | A1 · S14 |

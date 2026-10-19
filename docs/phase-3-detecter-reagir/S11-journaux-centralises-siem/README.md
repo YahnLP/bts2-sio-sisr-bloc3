@@ -1,8 +1,5 @@
 # S11 – Journaux centralisés et supervision de sécurité
 
-> [!WARNING]
-> **Séance à rédiger.** Cette page donne le cadre prévu (objectifs, compétences, contenu). Le cours, le TP et l'aide-mémoire arrivent avec la phase 3.
-
 | Élément | Détail |
 |---|---|
 | **Niveau** | BTS SIO option SISR, 2e année – bloc 3 |
@@ -24,11 +21,25 @@
 3. Écrire des règles de corrélation simples et lire des alertes ;
 4. Décider d'une durée de conservation en lien avec le cadre juridique.
 
-## Contenu prévu
+## Contenu de la séance
 
-- Cours : journalisation, centralisation, corrélation, conservation
-- TP : collecteur central, deux sources, alertes sur des tentatives de connexion échouées
-- Aide-mémoire : fichiers de journaux, filtres
+| Document | Rôle |
+|---|---|
+| [Cours – Journaux centralisés et supervision de sécurité](01-cours.md) | Cours |
+| [TP – Un collecteur de journaux et une alerte multi-machines](02-tp.md) | TP |
+| [Aide-mémoire – Journaux centralisés](03-aide-memoire.md) | Aide-mémoire |
+
+## Déroulé conseillé (4 h)
+
+| Durée | Activité | Format |
+|---|---|---|
+| 0 h 00 – 0 h 20 | **Accroche : « Une attaque touche trois serveurs à la fois : comment la voit-on ? »** | Oral |
+| 0 h 20 – 1 h 10 | **Cours** | Cours et questions |
+| 1 h 10 – 4 h 00 | **TP**, puis bilan | Binôme puis individuel |
+
+## Retour en entreprise
+
+Si ta situation le permet : **observer** comment ton entreprise traite le sujet de la séance, **documenter** en une demi-page l'écart avec le TP, ou **réaliser** une partie après accord de ton tuteur. Voir [Transfert en entreprise](../../ressources/transfert-entreprise.md).
 
 ## Évaluation
 
@@ -39,7 +50,8 @@
 <summary>Notes pour l'enseignant</summary>
 
 - **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
-- **Programme :** cette séance fait partie d'un programme proposé, à valider avant rédaction.
+- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - L'outil central (Wazuh, ou rsyslog avec un tableau de bord léger) est à choisir selon les machines de la salle. Prolonge S15 de la première année. Étapes basées sur journald non testées dans le laboratoire de l'auteur : à tester avant la séance.
+- Labo testé sous Ubuntu 24.04 avec `logger` pour simuler les événements ; les vraies connexions SSH échouées, Debian 12 et Wazuh ne sont **pas** testés. Voir le corrigé.
 
 </details>

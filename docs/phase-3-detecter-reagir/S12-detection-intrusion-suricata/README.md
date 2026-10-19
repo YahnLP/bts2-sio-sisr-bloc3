@@ -1,8 +1,5 @@
 # S12 – Détection d'intrusion : règles, réglage et faux positifs
 
-> [!WARNING]
-> **Séance à rédiger.** Cette page donne le cadre prévu (objectifs, compétences, contenu). Le cours, le TP et l'aide-mémoire arrivent avec la phase 3.
-
 | Élément | Détail |
 |---|---|
 | **Niveau** | BTS SIO option SISR, 2e année – bloc 3 |
@@ -24,11 +21,25 @@
 3. Distinguer vrai positif, faux positif et attaque manquée, et ajuster ;
 4. Relier les alertes de la sonde aux journaux de la séance précédente.
 
-## Contenu prévu
+## Contenu de la séance
 
-- Cours : détection par signature et par comportement, emplacement des sondes, réglage
-- TP : scénario d'attaque de laboratoire, règles, réduction des faux positifs
-- Aide-mémoire : syntaxe d'une règle, fichiers de configuration
+| Document | Rôle |
+|---|---|
+| [Cours – Détection d'intrusion : règles, réglage et faux positifs](01-cours.md) | Cours |
+| [TP – Une sonde Suricata : écrire, tester, régler](02-tp.md) | TP |
+| [Aide-mémoire – Détection d'intrusion avec Suricata](03-aide-memoire.md) | Aide-mémoire |
+
+## Déroulé conseillé (4 h)
+
+| Durée | Activité | Format |
+|---|---|---|
+| 0 h 00 – 0 h 20 | **Accroche : « La sonde a émis 400 alertes cette nuit : qu'en fait-on ? »** | Oral |
+| 0 h 20 – 1 h 10 | **Cours** | Cours et questions |
+| 1 h 10 – 4 h 00 | **TP**, puis bilan | Binôme puis individuel |
+
+## Retour en entreprise
+
+Si ta situation le permet : **observer** comment ton entreprise traite le sujet de la séance, **documenter** en une demi-page l'écart avec le TP, ou **réaliser** une partie après accord de ton tuteur. Voir [Transfert en entreprise](../../ressources/transfert-entreprise.md).
 
 ## Évaluation
 
@@ -39,7 +50,8 @@
 <summary>Notes pour l'enseignant</summary>
 
 - **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
-- **Programme :** cette séance fait partie d'un programme proposé, à valider avant rédaction.
+- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Attaque uniquement dans le laboratoire isolé. Recouvre en partie S15 de la première année (IDS) : l'accent est mis sur le réglage et la corrélation.
+- Labo testé avec Suricata 7.0.3 (Debian 12 fournit la série 6.0 : syntaxe des tampons à vérifier). Attaques uniquement dans le laboratoire isolé. Voir le corrigé.
 
 </details>
