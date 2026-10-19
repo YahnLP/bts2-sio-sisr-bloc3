@@ -6,6 +6,7 @@
 *[FIDO2]: Authentification résistante à l'hameçonnage : Norme de clés de sécurité et de passkeys qui ne répondent qu'au site réel.
 *[AC]: Autorité de certification : Organisme qui émet et signe des certificats.
 *[ANSSI]: Autorité nationale de la sécurité des systèmes d'information : Agence française chargée de la cybersécurité de l'État et des opérateurs.
+*[BIA]: Bilan d'impact sur l'activité : Étude des conséquences de l'arrêt de chaque activité dans le temps, point de départ des objectifs de reprise.
 *[BitLocker]: Chiffrement de disque de Windows : Fonction de Windows qui chiffre un disque entier.
 *[LUKS]: Chiffrement de volume de Linux : Standard de chiffrement de disques et de volumes sous Linux.
 *[HMAC]: Code d'authentification de message à clé : Empreinte calculée avec une clé secrète : garantit intégrité et authenticité.
@@ -21,6 +22,7 @@
 *[EDR]: Détection et réponse sur les terminaux : Outil qui surveille le comportement des postes et permet de réagir à distance.
 *[DMARC]: Domain-based Message Authentication, Reporting and Conformance : Politique qui dit quoi faire des messages qui échouent à SPF ou DKIM.
 *[DKIM]: DomainKeys Identified Mail : Signature cryptographique des courriels sortants d'un domaine.
+*[DMIA]: Durée maximale d'interruption admissible : Durée d'arrêt d'une activité que l'organisation peut tolérer ; limite métier dont découle le RTO.
 *[DH]: Échange de clés de Diffie-Hellman : Permet à deux interlocuteurs de fabriquer un secret commun sur un canal observable.
 *[ACME]: Environnement automatique de gestion de certificats : Protocole d'obtention et de renouvellement automatiques de certificats (Let's Encrypt).
 *[DNSSEC]: Extensions de sécurité du DNS : Signature des réponses DNS qui garantit leur origine et leur intégrité, sans les chiffrer.
@@ -46,6 +48,7 @@
 *[RPO]: Objectif de point de reprise : Durée maximale de données que l'on accepte de perdre.
 *[RTO]: Objectif de temps de reprise : Durée maximale d'interruption que l'on accepte.
 *[OWASP]: Open Web Application Security Project : Communauté qui publie des listes et guides sur la sécurité des applications web.
+*[PDMA]: Perte de données maximale admissible : Quantité de données, exprimée en durée, que l'organisation accepte de perdre ; limite métier dont découle le RPO.
 *[PCA]: Plan de continuité d'activité : Comment continuer à travailler pendant un incident.
 *[PRA]: Plan de reprise d'activité : Comment redémarrer et restaurer après un incident.
 *[PSSI]: Politique de sécurité du système d'information : Document signé par la direction : ce qu'on protège, selon quels principes, qui en répond.

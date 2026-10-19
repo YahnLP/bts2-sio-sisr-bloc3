@@ -1,8 +1,5 @@
 # S18 – Méthode de l'étude de cas pour l'épreuve E7
 
-> [!WARNING]
-> **Séance à rédiger.** Cette page donne le cadre prévu (objectifs, compétences, contenu). Le cours, le TP et l'aide-mémoire arrivent avec la phase 4.
-
 | Élément | Détail |
 |---|---|
 | **Niveau** | BTS SIO option SISR, 2e année – bloc 3 |
@@ -24,22 +21,36 @@
 3. Argumenter : risque, mesure, justification, limite ;
 4. Gérer son temps sur 4 heures.
 
-## Contenu prévu
+## Contenu de la séance
 
-- Cours : méthode, erreurs fréquentes
-- TP : étude de cas guidée, corrigée en séance
-- Aide-mémoire : plan de réponse
+| Document | Rôle |
+|---|---|
+| [Cours – La méthode de l'étude de cas pour l'épreuve E7](01-cours.md) | Cours |
+| [TP – Étude de cas guidée : le cabinet Marchand & Associés](02-tp.md) | TP |
+| [Aide-mémoire – Réussir une étude de cas E7](03-aide-memoire.md) | Aide-mémoire |
+
+## Déroulé conseillé (4 h)
+
+| Durée | Activité | Format |
+|---|---|---|
+| 0 h 00 – 0 h 20 | **Accroche : « Voici une copie qui a tout juste mais ne cite rien du dossier : quelle note, et pourquoi ? »** | Oral |
+| 0 h 20 – 1 h 10 | **Cours** | Cours et questions |
+| 1 h 10 – 4 h 00 | **TP**, puis bilan | Selon le TP |
+
+## Retour en entreprise
+
+Si ta situation le permet : **observer** comment ton entreprise traite le sujet de la séance, **documenter** en une demi-page l'écart avec le TP, ou **réaliser** une partie après accord de ton tuteur. Voir [Transfert en entreprise](../../ressources/transfert-entreprise.md).
 
 ## Évaluation
 
-- Compte rendu avec captures d'écran datées, nommé `RENDU-B3A2-S18-NOM.pdf`.
+- Compte rendu nommé `RENDU-B3A2-S18-NOM.pdf`.
 - Bilan de compétences rempli en fin de séance (individuel).
 
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
 - **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
-- **Programme :** cette séance fait partie d'un programme proposé, à valider avant rédaction.
-- Le format officiel est décrit dans la page « L'épreuve E7 » du site. Sujets d'entraînement à construire à partir de situations réelles, anonymisées.
+- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
+- Dossier **fictif**, prix inventés ; totaux recalculés. Le piège du sujet est le **temps** (14 jours demandés pour 10), pas le budget. Les points juridiques sont à valider. Voir le corrigé.
 
 </details>

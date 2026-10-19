@@ -259,4 +259,13 @@ DATA = [
 # --- S15 Incident
 ("Réponse à incident", None, "incident response", "Démarche pour détecter, contenir, éradiquer, reprendre et tirer les leçons d'un incident.", "A2 · S15"),
 ("Chaîne de preuve", None, "chain of custody", "Traçabilité qui démontre qu'une preuve n'a pas été modifiée depuis sa collecte.", "A2 · S15"),
+# --- S16 Continuité
+("Bilan d'impact sur l'activité", "BIA", "business impact analysis", "Étude des conséquences de l'arrêt de chaque activité dans le temps, point de départ des objectifs de reprise.", "A2 · S16"),
+("Durée maximale d'interruption admissible", "DMIA", "maximum tolerable downtime", "Durée d'arrêt d'une activité que l'organisation peut tolérer ; limite métier dont découle le RTO.", "A2 · S16"),
+("Perte de données maximale admissible", "PDMA", "maximum tolerable data loss", "Quantité de données, exprimée en durée, que l'organisation accepte de perdre ; limite métier dont découle le RPO.", "A2 · S16"),
+("Règle 3-2-1", None, "3-2-1 backup rule", "Trois copies des données, sur deux supports différents, dont une hors site ; renforcée en ajoutant une copie hors ligne ou non modifiable.", "A2 · S16"),
+# --- S17 Projet
+("Cahier des charges", None, "requirements specification", "Document qui décrit les besoins d'un projet, y compris les exigences de sécurité, et sert de base au choix et à la recette.", "A2 · S17"),
+("Recette", None, "acceptance testing", "Vérification, avec des tests définis à l'avance, que la solution livrée respecte les exigences du cahier des charges.", "A2 · S17"),
+("Réversibilité", None, "reversibility", "Possibilité de récupérer ses données dans un format exploitable et de changer de prestataire à la fin d'un contrat.", "A2 · S17"),
 ]

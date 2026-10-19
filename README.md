@@ -25,7 +25,7 @@ Ce dépôt fait suite à [`bts1-sio-sisr-bloc3`](https://github.com/YahnLP/bts1-
 | S01 à S05 (phase 1) | Rédigées (fiche, cours, TP, aide-mémoire, corrigé) |
 | S06 à S10 (phase 2) | Rédigées (fiche, cours, TP, aide-mémoire, corrigé) |
 | S11 à S15 (phase 3) | Rédigées (fiche, cours, TP, aide-mémoire, corrigé) |
-| S16 à S19 | Fiche de séance (objectifs, compétences, contenu prévu) ; cours, TP et aide-mémoire à rédiger phase par phase |
+| S16 à S19 (phase 4) | Rédigées (fiche, cours, TP, aide-mémoire, corrigé) |
 
 ## Cadre d'examen
 
