@@ -98,14 +98,56 @@ Après traitement, il reste un **risque résiduel** : on le réévalue avec les 
 
 Un scénario opérationnel se lit comme une histoire :
 
-```mermaid
-flowchart LR
-  A[Source : cybercriminel] --> B[Message piégé reçu par un salarié]
-  B --> C[Poste infecté]
-  C --> D[Déplacement vers le serveur de fichiers]
-  D --> E[Données chiffrées]
-  E --> F[Événement redouté : production arrêtée]
-```
+<figure class="graphe diagramme">
+<svg viewBox="0.00 0.00 363.60 533.60" style="max-width:485px" role="img" aria-label="Schéma" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="graph" transform="scale(1 1) rotate(0) translate(10.8 522.8)">
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M262.5,-512C262.5,-512 79.5,-512 79.5,-512 73.5,-512 67.5,-506 67.5,-500 67.5,-500 67.5,-487 67.5,-487 67.5,-481 73.5,-475 79.5,-475 79.5,-475 262.5,-475 262.5,-475 268.5,-475 274.5,-481 274.5,-487 274.5,-487 274.5,-500 274.5,-500 274.5,-506 268.5,-512 262.5,-512"/>
+<text text-anchor="start" x="86.5" y="-490" font-family="Helvetica,sans-Serif" font-size="15.00">Source : cybercriminel</text>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M306,-417C306,-417 36,-417 36,-417 30,-417 24,-411 24,-405 24,-405 24,-392 24,-392 24,-386 30,-380 36,-380 36,-380 306,-380 306,-380 312,-380 318,-386 318,-392 318,-392 318,-405 318,-405 318,-411 312,-417 306,-417"/>
+<text text-anchor="start" x="43" y="-395" font-family="Helvetica,sans-Serif" font-size="15.00">Message piégé reçu par un salarié</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M171,-474.57C171,-460.84 171,-441.7 171,-426.18"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="174.15,-426.06 171,-417.06 167.85,-426.06 174.15,-426.06"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M226.5,-322C226.5,-322 115.5,-322 115.5,-322 109.5,-322 103.5,-316 103.5,-310 103.5,-310 103.5,-297 103.5,-297 103.5,-291 109.5,-285 115.5,-285 115.5,-285 226.5,-285 226.5,-285 232.5,-285 238.5,-291 238.5,-297 238.5,-297 238.5,-310 238.5,-310 238.5,-316 232.5,-322 226.5,-322"/>
+<text text-anchor="start" x="122.5" y="-300" font-family="Helvetica,sans-Serif" font-size="15.00">Poste infecté</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M171,-379.57C171,-365.84 171,-346.7 171,-331.18"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="174.15,-331.06 171,-322.06 167.85,-331.06 174.15,-331.06"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M327,-227C327,-227 15,-227 15,-227 9,-227 3,-221 3,-215 3,-215 3,-202 3,-202 3,-196 9,-190 15,-190 15,-190 327,-190 327,-190 333,-190 339,-196 339,-202 339,-202 339,-215 339,-215 339,-221 333,-227 327,-227"/>
+<text text-anchor="start" x="22" y="-205" font-family="Helvetica,sans-Serif" font-size="15.00">Déplacement vers le serveur de fichiers</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M171,-284.57C171,-270.84 171,-251.7 171,-236.18"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="174.15,-236.06 171,-227.06 167.85,-236.06 174.15,-236.06"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M245.5,-132C245.5,-132 96.5,-132 96.5,-132 90.5,-132 84.5,-126 84.5,-120 84.5,-120 84.5,-107 84.5,-107 84.5,-101 90.5,-95 96.5,-95 96.5,-95 245.5,-95 245.5,-95 251.5,-95 257.5,-101 257.5,-107 257.5,-107 257.5,-120 257.5,-120 257.5,-126 251.5,-132 245.5,-132"/>
+<text text-anchor="start" x="103.5" y="-110" font-family="Helvetica,sans-Serif" font-size="15.00">Données chiffrées</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M171,-189.57C171,-175.84 171,-156.7 171,-141.18"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="174.15,-141.06 171,-132.06 167.85,-141.06 174.15,-141.06"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M330,-37C330,-37 12,-37 12,-37 6,-37 0,-31 0,-25 0,-25 0,-12 0,-12 0,-6 6,0 12,0 12,0 330,0 330,0 336,0 342,-6 342,-12 342,-12 342,-25 342,-25 342,-31 336,-37 330,-37"/>
+<text text-anchor="start" x="19" y="-15" font-family="Helvetica,sans-Serif" font-size="15.00">Événement redouté : production arrêtée</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M171,-94.57C171,-80.84 171,-61.7 171,-46.18"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="174.15,-46.06 171,-37.06 167.85,-46.06 174.15,-46.06"/>
+</g>
+</g>
+</svg>
+</figure>
 
 Chaque flèche est une **occasion de couper la chaîne** : filtrer le message, limiter les droits du poste, cloisonner le réseau, sauvegarder hors ligne. On choisit les mesures **là où elles coupent plusieurs scénarios à la fois**.
 

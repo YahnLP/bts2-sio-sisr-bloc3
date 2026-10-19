@@ -51,15 +51,64 @@ Sans autorisation, un accès ou une tentative d'accès à un système est **pén
 
 ## 3. La démarche
 
-```mermaid
-flowchart LR
-  A[1. Cadrer] --> B[2. Collecter]
-  B --> C[3. Analyser]
-  C --> D[4. Qualifier les constats]
-  D --> E[5. Rédiger]
-  E --> F[6. Restituer]
-  F --> G[7. Suivre les corrections]
-```
+<figure class="graphe diagramme">
+<svg viewBox="0.00 0.00 240.60 628.60" style="max-width:321px" role="img" aria-label="Schéma" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="graph" transform="scale(1 1) rotate(0) translate(10.8 617.8)">
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M151.5,-607C151.5,-607 67.5,-607 67.5,-607 61.5,-607 55.5,-601 55.5,-595 55.5,-595 55.5,-582 55.5,-582 55.5,-576 61.5,-570 67.5,-570 67.5,-570 151.5,-570 151.5,-570 157.5,-570 163.5,-576 163.5,-582 163.5,-582 163.5,-595 163.5,-595 163.5,-601 157.5,-607 151.5,-607"/>
+<text text-anchor="start" x="74.5" y="-585" font-family="Helvetica,sans-Serif" font-size="15.00">1. Cadrer</text>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M159.5,-512C159.5,-512 59.5,-512 59.5,-512 53.5,-512 47.5,-506 47.5,-500 47.5,-500 47.5,-487 47.5,-487 47.5,-481 53.5,-475 59.5,-475 59.5,-475 159.5,-475 159.5,-475 165.5,-475 171.5,-481 171.5,-487 171.5,-487 171.5,-500 171.5,-500 171.5,-506 165.5,-512 159.5,-512"/>
+<text text-anchor="start" x="66.5" y="-490" font-family="Helvetica,sans-Serif" font-size="15.00">2. Collecter</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M109.5,-569.57C109.5,-555.84 109.5,-536.7 109.5,-521.18"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="112.65,-521.06 109.5,-512.06 106.35,-521.06 112.65,-521.06"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M159,-417C159,-417 60,-417 60,-417 54,-417 48,-411 48,-405 48,-405 48,-392 48,-392 48,-386 54,-380 60,-380 60,-380 159,-380 159,-380 165,-380 171,-386 171,-392 171,-392 171,-405 171,-405 171,-411 165,-417 159,-417"/>
+<text text-anchor="start" x="67" y="-395" font-family="Helvetica,sans-Serif" font-size="15.00">3. Analyser</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M109.5,-474.57C109.5,-460.84 109.5,-441.7 109.5,-426.18"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="112.65,-426.06 109.5,-417.06 106.35,-426.06 112.65,-426.06"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M205,-322C205,-322 14,-322 14,-322 8,-322 2,-316 2,-310 2,-310 2,-297 2,-297 2,-291 8,-285 14,-285 14,-285 205,-285 205,-285 211,-285 217,-291 217,-297 217,-297 217,-310 217,-310 217,-316 211,-322 205,-322"/>
+<text text-anchor="start" x="21" y="-300" font-family="Helvetica,sans-Serif" font-size="15.00">4. Qualifier les constats</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M109.5,-379.57C109.5,-365.84 109.5,-346.7 109.5,-331.18"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="112.65,-331.06 109.5,-322.06 106.35,-331.06 112.65,-331.06"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M155,-227C155,-227 64,-227 64,-227 58,-227 52,-221 52,-215 52,-215 52,-202 52,-202 52,-196 58,-190 64,-190 64,-190 155,-190 155,-190 161,-190 167,-196 167,-202 167,-202 167,-215 167,-215 167,-221 161,-227 155,-227"/>
+<text text-anchor="start" x="71" y="-205" font-family="Helvetica,sans-Serif" font-size="15.00">5. Rédiger</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M109.5,-284.57C109.5,-270.84 109.5,-251.7 109.5,-236.18"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="112.65,-236.06 109.5,-227.06 106.35,-236.06 112.65,-236.06"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M160,-132C160,-132 59,-132 59,-132 53,-132 47,-126 47,-120 47,-120 47,-107 47,-107 47,-101 53,-95 59,-95 59,-95 160,-95 160,-95 166,-95 172,-101 172,-107 172,-107 172,-120 172,-120 172,-126 166,-132 160,-132"/>
+<text text-anchor="start" x="66" y="-110" font-family="Helvetica,sans-Serif" font-size="15.00">6. Restituer</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M109.5,-189.57C109.5,-175.84 109.5,-156.7 109.5,-141.18"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="112.65,-141.06 109.5,-132.06 106.35,-141.06 112.65,-141.06"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M207,-37C207,-37 12,-37 12,-37 6,-37 0,-31 0,-25 0,-25 0,-12 0,-12 0,-6 6,0 12,0 12,0 207,0 207,0 213,0 219,-6 219,-12 219,-12 219,-25 219,-25 219,-31 213,-37 207,-37"/>
+<text text-anchor="start" x="19" y="-15" font-family="Helvetica,sans-Serif" font-size="15.00">7. Suivre les corrections</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M109.5,-94.57C109.5,-80.84 109.5,-61.7 109.5,-46.18"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="112.65,-46.06 109.5,-37.06 106.35,-46.06 112.65,-46.06"/>
+</g>
+</g>
+</svg>
+</figure>
 
 | Étape | Contenu |
 |---|---|

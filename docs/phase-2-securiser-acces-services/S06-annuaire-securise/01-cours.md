@@ -14,18 +14,21 @@ L'annuaire (Active Directory) sait **qui est qui** et **qui peut quoi** dans tou
 
 Un utilisateur prouve son identité **une fois** ; ensuite, des **tickets** l'authentifient auprès des services, sans renvoyer son mot de passe.
 
-```mermaid
-sequenceDiagram
-  participant U as Utilisateur (poste)
-  participant K as Contrôleur de domaine (KDC)
-  participant S as Serveur de fichiers
-  U->>K: 1. Je suis alice (preuve dérivée du mot de passe)
-  K-->>U: 2. Ticket d'authentification (TGT)
-  U->>K: 3. Je veux accéder au serveur de fichiers (avec mon TGT)
-  K-->>U: 4. Ticket de service
-  U->>S: 5. Voici mon ticket de service
-  S-->>U: 6. Accès accordé
-```
+<figure class="graphe diagramme"><svg viewBox="0 0 1393 406" style="max-width:1393px" role="img" aria-label="Diagramme de séquence" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="s62e2e5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="seq-head"/></marker></defs>
+<line class="seq-life" x1="232" y1="62" x2="232" y2="400"/>
+<rect class="seq-box" x="117" y="12" width="230" height="40" rx="8"/><text x="232" y="37" text-anchor="middle" class="seq-title">Utilisateur (poste)</text>
+<line class="seq-life" x1="697" y1="62" x2="697" y2="400"/>
+<rect class="seq-box" x="582" y="12" width="230" height="40" rx="8"/><text x="697" y="37" text-anchor="middle" class="seq-title">Contrôleur de domaine (KDC)</text>
+<line class="seq-life" x1="1161" y1="62" x2="1161" y2="400"/>
+<rect class="seq-box" x="1046" y="12" width="230" height="40" rx="8"/><text x="1161" y="37" text-anchor="middle" class="seq-title">Serveur de fichiers</text>
+<line class="seq-msg" x1="232" y1="96" x2="693" y2="96" marker-end="url(#s62e2e5)"/><text x="464" y="88" text-anchor="middle">1. Je suis alice (preuve dérivée du mot de passe)</text>
+<line class="seq-msg dash" x1="697" y1="146" x2="236" y2="146" marker-end="url(#s62e2e5)"/><text x="464" y="138" text-anchor="middle">2. Ticket d'authentification (TGT)</text>
+<line class="seq-msg" x1="232" y1="196" x2="693" y2="196" marker-end="url(#s62e2e5)"/><text x="464" y="188" text-anchor="middle">3. Je veux accéder au serveur de fichiers (avec mon TGT)</text>
+<line class="seq-msg dash" x1="697" y1="246" x2="236" y2="246" marker-end="url(#s62e2e5)"/><text x="464" y="238" text-anchor="middle">4. Ticket de service</text>
+<line class="seq-msg" x1="232" y1="296" x2="1157" y2="296" marker-end="url(#s62e2e5)"/><text x="697" y="288" text-anchor="middle">5. Voici mon ticket de service</text>
+<line class="seq-msg dash" x1="1161" y1="346" x2="236" y2="346" marker-end="url(#s62e2e5)"/><text x="697" y="338" text-anchor="middle">6. Accès accordé</text>
+</svg></figure>
 
 Points à retenir :
 

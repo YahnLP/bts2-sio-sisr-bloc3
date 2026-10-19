@@ -12,11 +12,35 @@ Le serveur web est le service **le plus exposé** d'une organisation : c'est cel
 
 Un **reverse proxy** est un serveur placé **devant** une ou plusieurs applications. Les visiteurs ne parlent **qu'à lui** ; c'est lui qui relaie les requêtes vers l'application, qui reste **cachée** derrière.
 
-```mermaid
-flowchart LR
-  V[Visiteur sur Internet] -->|HTTPS| P[Reverse proxy<br>dans la DMZ]
-  P -->|HTTP, réseau interne| A[Application web]
-```
+<figure class="graphe diagramme">
+<svg viewBox="0.00 0.00 254.60 293.60" style="max-width:340px" role="img" aria-label="Schéma" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="graph" transform="scale(1 1) rotate(0) translate(10.8 282.8)">
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M176,-272C176,-272 12,-272 12,-272 6,-272 0,-266 0,-260 0,-260 0,-247 0,-247 0,-241 6,-235 12,-235 12,-235 176,-235 176,-235 182,-235 188,-241 188,-247 188,-247 188,-260 188,-260 188,-266 182,-272 176,-272"/>
+<text text-anchor="start" x="19" y="-250" font-family="Helvetica,sans-Serif" font-size="15.00">Visiteur sur Internet</text>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M154.5,-163C154.5,-163 33.5,-163 33.5,-163 27.5,-163 21.5,-157 21.5,-151 21.5,-151 21.5,-121 21.5,-121 21.5,-115 27.5,-109 33.5,-109 33.5,-109 154.5,-109 154.5,-109 160.5,-109 166.5,-115 166.5,-121 166.5,-121 166.5,-151 166.5,-151 166.5,-157 160.5,-163 154.5,-163"/>
+<text text-anchor="start" x="40.5" y="-141" font-family="Helvetica,sans-Serif" font-size="15.00">Reverse proxy</text>
+<text text-anchor="start" x="47" y="-124" font-family="Helvetica,sans-Serif" font-size="15.00">dans la DMZ</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M94,-234.96C94,-218.43 94,-193.18 94,-172.46"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="97.15,-172.3 94,-163.3 90.85,-172.3 97.15,-172.3"/>
+<text text-anchor="start" x="94" y="-195.6" font-family="Helvetica,sans-Serif" font-size="13.00">HTTPS</text>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M161.5,-37C161.5,-37 26.5,-37 26.5,-37 20.5,-37 14.5,-31 14.5,-25 14.5,-25 14.5,-12 14.5,-12 14.5,-6 20.5,0 26.5,0 26.5,0 161.5,0 161.5,0 167.5,0 173.5,-6 173.5,-12 173.5,-12 173.5,-25 173.5,-25 173.5,-31 167.5,-37 161.5,-37"/>
+<text text-anchor="start" x="33.5" y="-15" font-family="Helvetica,sans-Serif" font-size="15.00">Application web</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M94,-108.79C94,-90.09 94,-65.02 94,-46.2"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="97.15,-46 94,-37 90.85,-46 97.15,-46"/>
+<text text-anchor="start" x="94" y="-69.6" font-family="Helvetica,sans-Serif" font-size="13.00">HTTP, réseau interne</text>
+</g>
+</g>
+</svg>
+</figure>
 
 | Ce qu'il apporte | Comment |
 |---|---|

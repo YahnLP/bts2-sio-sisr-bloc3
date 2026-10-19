@@ -42,15 +42,65 @@ Pour chaque événement, on veut répondre à **qui, quoi, quand, d'où** (et le
 
 ## 3. Le trajet d'un événement
 
-```mermaid
-flowchart LR
-  A[Source : service ou système] --> B[Journal local]
-  B --> C[Agent d'envoi]
-  C -->|réseau, si possible chiffré| D[Collecteur central]
-  D --> E[Stockage par machine]
-  D --> F[Règles : filtrage et corrélation]
-  F --> G[Alerte vers un humain]
-```
+<figure class="graphe diagramme">
+<svg viewBox="0.00 0.00 529.10 551.60" style="max-width:705px" role="img" aria-label="Schéma" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="graph" transform="scale(1 1) rotate(0) translate(10.8 540.8)">
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M238,-530C238,-530 14,-530 14,-530 8,-530 2,-524 2,-518 2,-518 2,-505 2,-505 2,-499 8,-493 14,-493 14,-493 238,-493 238,-493 244,-493 250,-499 250,-505 250,-505 250,-518 250,-518 250,-524 244,-530 238,-530"/>
+<text text-anchor="start" x="21" y="-508" font-family="Helvetica,sans-Serif" font-size="15.00">Source : service ou système</text>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M179.5,-434C179.5,-434 72.5,-434 72.5,-434 66.5,-434 60.5,-428 60.5,-422 60.5,-422 60.5,-409 60.5,-409 60.5,-403 66.5,-397 72.5,-397 72.5,-397 179.5,-397 179.5,-397 185.5,-397 191.5,-403 191.5,-409 191.5,-409 191.5,-422 191.5,-422 191.5,-428 185.5,-434 179.5,-434"/>
+<text text-anchor="start" x="79.5" y="-412" font-family="Helvetica,sans-Serif" font-size="15.00">Journal local</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M126,-492.82C126,-478.9 126,-459.27 126,-443.41"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="129.15,-443.1 126,-434.1 122.85,-443.1 129.15,-443.1"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M185.5,-338C185.5,-338 66.5,-338 66.5,-338 60.5,-338 54.5,-332 54.5,-326 54.5,-326 54.5,-313 54.5,-313 54.5,-307 60.5,-301 66.5,-301 66.5,-301 185.5,-301 185.5,-301 191.5,-301 197.5,-307 197.5,-313 197.5,-313 197.5,-326 197.5,-326 197.5,-332 191.5,-338 185.5,-338"/>
+<text text-anchor="start" x="73.5" y="-316" font-family="Helvetica,sans-Serif" font-size="15.00">Agent d&#39;envoi</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M126,-396.82C126,-382.9 126,-363.27 126,-347.41"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="129.15,-347.1 126,-338.1 122.85,-347.1 129.15,-347.1"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M200,-229C200,-229 52,-229 52,-229 46,-229 40,-223 40,-217 40,-217 40,-204 40,-204 40,-198 46,-192 52,-192 52,-192 200,-192 200,-192 206,-192 212,-198 212,-204 212,-204 212,-217 212,-217 212,-223 206,-229 200,-229"/>
+<text text-anchor="start" x="59" y="-207" font-family="Helvetica,sans-Serif" font-size="15.00">Collecteur central</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M126,-300.83C126,-283.79 126,-257.78 126,-238.22"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="129.15,-238.2 126,-229.2 122.85,-238.2 129.15,-238.2"/>
+<text text-anchor="start" x="126" y="-261.6" font-family="Helvetica,sans-Serif" font-size="13.00">réseau, si possible chiffré</text>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M194,-133C194,-133 12,-133 12,-133 6,-133 0,-127 0,-121 0,-121 0,-108 0,-108 0,-102 6,-96 12,-96 12,-96 194,-96 194,-96 200,-96 206,-102 206,-108 206,-108 206,-121 206,-121 206,-127 200,-133 194,-133"/>
+<text text-anchor="start" x="19" y="-111" font-family="Helvetica,sans-Serif" font-size="15.00">Stockage par machine</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M121.67,-191.82C118.24,-177.77 113.38,-157.9 109.47,-141.96"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="112.51,-141.09 107.31,-133.1 106.39,-142.59 112.51,-141.09"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M495.5,-133C495.5,-133 258.5,-133 258.5,-133 252.5,-133 246.5,-127 246.5,-121 246.5,-121 246.5,-108 246.5,-108 246.5,-102 252.5,-96 258.5,-96 258.5,-96 495.5,-96 495.5,-96 501.5,-96 507.5,-102 507.5,-108 507.5,-108 507.5,-121 507.5,-121 507.5,-127 501.5,-133 495.5,-133"/>
+<text text-anchor="start" x="265.5" y="-111" font-family="Helvetica,sans-Serif" font-size="15.00">Règles : filtrage et corrélation</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M172.92,-191.93C214.95,-176.19 276.67,-153.07 321.22,-136.39"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="322.56,-139.25 329.89,-133.14 320.35,-133.35 322.56,-139.25"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M467.5,-37C467.5,-37 286.5,-37 286.5,-37 280.5,-37 274.5,-31 274.5,-25 274.5,-25 274.5,-12 274.5,-12 274.5,-6 280.5,0 286.5,0 286.5,0 467.5,0 467.5,0 473.5,0 479.5,-6 479.5,-12 479.5,-12 479.5,-25 479.5,-25 479.5,-31 473.5,-37 467.5,-37"/>
+<text text-anchor="start" x="293.5" y="-15" font-family="Helvetica,sans-Serif" font-size="15.00">Alerte vers un humain</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M377,-95.82C377,-81.9 377,-62.27 377,-46.41"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="380.15,-46.1 377,-37.1 373.85,-46.1 380.15,-46.1"/>
+</g>
+</g>
+</svg>
+</figure>
 
 | Choix | À savoir |
 |---|---|

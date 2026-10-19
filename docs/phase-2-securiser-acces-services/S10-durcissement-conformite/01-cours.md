@@ -58,14 +58,52 @@ Comparer à la main des centaines de réglages est impossible : des **outils d'a
 
 ### La boucle de conformité
 
-```mermaid
-flowchart LR
-  A[Référence retenue] --> B[Audit : mesurer l'écart]
-  B --> C[Trier et planifier]
-  C --> D[Corriger ou accepter l'écart par écrit]
-  D --> E[Nouvel audit : prouver]
-  E --> B
-```
+<figure class="graphe diagramme">
+<svg viewBox="0.00 0.00 389.10 438.60" style="max-width:519px" role="img" aria-label="Schéma" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="graph" transform="scale(1 1) rotate(0) translate(10.8 427.8)">
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M341,-417C341,-417 188,-417 188,-417 182,-417 176,-411 176,-405 176,-405 176,-392 176,-392 176,-386 182,-380 188,-380 188,-380 341,-380 341,-380 347,-380 353,-386 353,-392 353,-392 353,-405 353,-405 353,-411 347,-417 341,-417"/>
+<text text-anchor="start" x="195" y="-395" font-family="Helvetica,sans-Serif" font-size="15.00">Référence retenue</text>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M355.5,-322C355.5,-322 173.5,-322 173.5,-322 167.5,-322 161.5,-316 161.5,-310 161.5,-310 161.5,-297 161.5,-297 161.5,-291 167.5,-285 173.5,-285 173.5,-285 355.5,-285 355.5,-285 361.5,-285 367.5,-291 367.5,-297 367.5,-297 367.5,-310 367.5,-310 367.5,-316 361.5,-322 355.5,-322"/>
+<text text-anchor="start" x="180.5" y="-300" font-family="Helvetica,sans-Serif" font-size="15.00">Audit : mesurer l&#39;écart</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M264.5,-379.57C264.5,-365.84 264.5,-346.7 264.5,-331.18"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="267.65,-331.06 264.5,-322.06 261.35,-331.06 267.65,-331.06"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M261,-227C261,-227 128,-227 128,-227 122,-227 116,-221 116,-215 116,-215 116,-202 116,-202 116,-196 122,-190 128,-190 128,-190 261,-190 261,-190 267,-190 273,-196 273,-202 273,-202 273,-215 273,-215 273,-221 267,-227 261,-227"/>
+<text text-anchor="start" x="135" y="-205" font-family="Helvetica,sans-Serif" font-size="15.00">Trier et planifier</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M251,-284.57C240.28,-270.33 225.17,-250.24 213.27,-234.43"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="215.65,-232.36 207.72,-227.06 210.61,-236.15 215.65,-232.36"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M299,-132C299,-132 12,-132 12,-132 6,-132 0,-126 0,-120 0,-120 0,-107 0,-107 0,-101 6,-95 12,-95 12,-95 299,-95 299,-95 305,-95 311,-101 311,-107 311,-107 311,-120 311,-120 311,-126 305,-132 299,-132"/>
+<text text-anchor="start" x="19" y="-110" font-family="Helvetica,sans-Serif" font-size="15.00">Corriger ou accepter l&#39;écart par écrit</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M186.98,-189.57C181.17,-175.71 173.04,-156.34 166.5,-140.74"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="169.25,-139.14 162.86,-132.06 163.44,-141.58 169.25,-139.14"/>
+</g>
+<g class="node n&#45;rect">
+<path fill="none" stroke="black" stroke-width="1.8" d="M355,-37C355,-37 172,-37 172,-37 166,-37 160,-31 160,-25 160,-25 160,-12 160,-12 160,-6 166,0 172,0 172,0 355,0 355,0 361,0 367,-6 367,-12 367,-12 367,-25 367,-25 367,-31 361,-37 355,-37"/>
+<text text-anchor="start" x="179" y="-15" font-family="Helvetica,sans-Serif" font-size="15.00">Nouvel audit : prouver</text>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M176.07,-94.79C193.03,-80.18 217.26,-59.32 235.91,-43.26"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="238.24,-45.41 243.01,-37.15 234.13,-40.63 238.24,-45.41"/>
+</g>
+<g class="edge">
+<path fill="none" stroke="black" stroke-width="1.8" d="M286.6,-37.17C302.58,-50.94 322.52,-71.62 331.5,-95 356.37,-159.77 311.29,-238.16 283.67,-277.46"/>
+<polygon fill="black" stroke="black" stroke-width="1.8" points="281.1,-275.64 278.4,-284.79 286.21,-279.32 281.1,-275.64"/>
+</g>
+</g>
+</svg>
+</figure>
 
 À l'échelle de dizaines de machines, on **n'applique pas à la main** : on décrit la configuration cible dans un outil d'automatisation (par exemple **Ansible**, vu au bloc 2), qui **applique** et **remet en conformité**. Le rapport d'audit devient un **contrôle régulier**.
 
