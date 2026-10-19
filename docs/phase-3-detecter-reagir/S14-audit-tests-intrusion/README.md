@@ -1,8 +1,5 @@
 # S14 – Audit et tests d'intrusion en laboratoire
 
-> [!WARNING]
-> **Séance à rédiger.** Cette page donne le cadre prévu (objectifs, compétences, contenu). Le cours, le TP et l'aide-mémoire arrivent avec la phase 3.
-
 | Élément | Détail |
 |---|---|
 | **Niveau** | BTS SIO option SISR, 2e année – bloc 3 |
@@ -24,11 +21,25 @@
 3. Rédiger un rapport d'audit avec preuves, gravité et recommandations ;
 4. Présenter les résultats à un responsable non technique.
 
-## Contenu prévu
+## Contenu de la séance
 
-- Cours : types d'audits, démarche, cadre légal, rapport
-- TP : audit d'un laboratoire isolé et rapport
-- Aide-mémoire : plan de rapport, règles d'engagement
+| Document | Rôle |
+|---|---|
+| [Cours – Audit de sécurité : cadre, démarche et rapport](01-cours.md) | Cours |
+| [TP – Cadrer un audit et rédiger le rapport (Atelier Verdier)](02-tp.md) | TP |
+| [Aide-mémoire – Audit : cadre et rapport](03-aide-memoire.md) | Aide-mémoire |
+
+## Déroulé conseillé (4 h)
+
+| Durée | Activité | Format |
+|---|---|---|
+| 0 h 00 – 0 h 20 | **Accroche : « On vous demande de tester la sécurité de l'entreprise : que faites-vous avant la première commande ? »** | Oral |
+| 0 h 20 – 1 h 10 | **Cours** | Cours et questions |
+| 1 h 10 – 4 h 00 | **TP**, puis bilan | Binôme puis individuel |
+
+## Retour en entreprise
+
+Si ta situation le permet : **observer** comment ton entreprise traite le sujet de la séance, **documenter** en une demi-page l'écart avec le TP, ou **réaliser** une partie après accord de ton tuteur. Voir [Transfert en entreprise](../../ressources/transfert-entreprise.md).
 
 ## Évaluation
 
@@ -39,7 +50,8 @@
 <summary>Notes pour l'enseignant</summary>
 
 - **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
-- **Programme :** cette séance fait partie d'un programme proposé, à valider avant rédaction.
+- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Aucun test hors du laboratoire isolé : rappeler la règle pénale (S04). Choix du laboratoire cible (machines volontairement vulnérables) à valider.
+- **Séance sans manipulation technique** : cadrage, méthode, rapport, restitution, sur dossier fictif. Pas de TP d'exploitation (choix à valider). Aucun test hors du laboratoire isolé : rappeler la règle pénale (S04).
 
 </details>

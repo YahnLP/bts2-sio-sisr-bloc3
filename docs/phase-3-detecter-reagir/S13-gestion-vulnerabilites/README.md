@@ -1,8 +1,5 @@
 # S13 – Gestion des vulnérabilités : de la découverte à la correction
 
-> [!WARNING]
-> **Séance à rédiger.** Cette page donne le cadre prévu (objectifs, compétences, contenu). Le cours, le TP et l'aide-mémoire arrivent avec la phase 3.
-
 | Élément | Détail |
 |---|---|
 | **Niveau** | BTS SIO option SISR, 2e année – bloc 3 |
@@ -24,11 +21,25 @@
 3. Réaliser un scan de vulnérabilités sur le laboratoire et trier les résultats ;
 4. Prioriser et planifier les corrections, suivre leur application.
 
-## Contenu prévu
+## Contenu de la séance
 
-- Cours : cycle de gestion des vulnérabilités, CVE, CVSS, exposition, priorisation
-- TP : scan, tri, plan de correction, nouveau scan
-- Aide-mémoire : lecture d'un rapport
+| Document | Rôle |
+|---|---|
+| [Cours – Gestion des vulnérabilités : de la découverte à la correction](01-cours.md) | Cours |
+| [TP – Scanner, noter, prioriser, corriger, prouver](02-tp.md) | TP |
+| [Aide-mémoire – Lire un rapport de vulnérabilités](03-aide-memoire.md) | Aide-mémoire |
+
+## Déroulé conseillé (4 h)
+
+| Durée | Activité | Format |
+|---|---|---|
+| 0 h 00 – 0 h 20 | **Accroche : « Le scanneur a trouvé 240 failles : par laquelle commence-t-on ? »** | Oral |
+| 0 h 20 – 1 h 10 | **Cours** | Cours et questions |
+| 1 h 10 – 4 h 00 | **TP**, puis bilan | Binôme puis individuel |
+
+## Retour en entreprise
+
+Si ta situation le permet : **observer** comment ton entreprise traite le sujet de la séance, **documenter** en une demi-page l'écart avec le TP, ou **réaliser** une partie après accord de ton tuteur. Voir [Transfert en entreprise](../../ressources/transfert-entreprise.md).
 
 ## Évaluation
 
@@ -39,7 +50,8 @@
 <summary>Notes pour l'enseignant</summary>
 
 - **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
-- **Programme :** cette séance fait partie d'un programme proposé, à valider avant rédaction.
+- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Scan autorisé uniquement sur le laboratoire. Prolonge S16 de la première année (audit de vulnérabilités). Version et licence de l'outil de scan à vérifier.
+- Labo testé avec nmap et Nikto 2.1.5 (la sortie de Nikto change selon la version). Aucun scanneur complet (OpenVAS, Nessus) n'a été testé. Scan autorisé uniquement sur le laboratoire. Voir le corrigé.
 
 </details>

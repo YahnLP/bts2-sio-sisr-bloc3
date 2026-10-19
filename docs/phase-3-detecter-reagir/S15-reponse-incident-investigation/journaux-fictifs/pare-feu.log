@@ -1,0 +1,10 @@
+2026-03-05 09:10:00 box accepte src=192.168.1.21 dst=198.51.100.10 port=443 proto=TCP note=navigation
+2026-03-06 09:11:00 box accepte src=192.168.1.21 dst=198.51.100.10 port=443 proto=TCP note=navigation
+2026-03-07 03:12:03 box accepte src=203.0.113.77 dst=192.168.1.20 port=3389 proto=TCP note=redirection-RDP
+2026-03-07 03:41:21 box accepte src=203.0.113.77 dst=192.168.1.20 port=3389 proto=TCP note=redirection-RDP
+2026-03-07 04:45:12 box accepte src=192.168.1.20 dst=198.51.100.200 port=443 proto=TCP note=sortant-inhabituel
+2026-03-07 04:45:13 box accepte src=192.168.1.20 dst=198.51.100.200 port=443 proto=TCP volume_envoye=2,1 Go note=sortant-inhabituel
+2026-03-07 09:12:00 box accepte src=192.168.1.21 dst=198.51.100.10 port=443 proto=TCP note=navigation
+2026-03-08 02:00:00 box accepte src=192.168.1.20 dst=192.168.1.10 port=445 proto=TCP note=interne
+2026-03-08 09:13:00 box accepte src=192.168.1.21 dst=198.51.100.10 port=443 proto=TCP note=navigation
+2026-03-09 09:14:00 box accepte src=192.168.1.21 dst=198.51.100.10 port=443 proto=TCP note=navigation
