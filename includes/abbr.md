@@ -26,20 +26,24 @@
 *[PBKDF2]: Fonction de dérivation de clé : Calcule une clé de chiffrement à partir d'un mot de passe, de façon lente et salée.
 *[SIEM]: Gestion des informations et des événements de sécurité : Plateforme qui centralise et corrèle les journaux et déclenche des alertes.
 *[RAID]: Grappe de disques : Plusieurs disques utilisés ensemble pour résister à la panne d'un disque. Ce n'est pas une sauvegarde.
+*[ISO 27002]: Guide de mesures de sécurité : Catalogue de bonnes pratiques de sécurité ; non certifiable.
 *[HSTS]: HTTP Strict Transport Security : En-tête qui impose à un navigateur de n'utiliser que HTTPS pour un site.
 *[CVE]: Identifiant de vulnérabilité : Identifiant unique d'une vulnérabilité publique, par exemple CVE-2017-0144.
 *[PKI]: Infrastructure à clés publiques : Ensemble des acteurs et règles qui émettent, distribuent et révoquent les certificats.
 *[IPsec]: Internet Protocol Security : Suite de protocoles de sécurisation du protocole IP, très utilisée pour les VPN site à site.
 *[ACL]: Liste de contrôle d'accès : Liste des utilisateurs et groupes autorisés (ou refusés) sur une ressource, avec leurs droits.
 *[CRL]: Liste de révocation de certificats : Liste signée des certificats révoqués, publiée par l'AC.
+*[EBIOS RM]: Méthode d'analyse de risques de l'ANSSI : Méthode française d'analyse de risques en cinq ateliers.
 *[UEFI]: Micrologiciel de démarrage moderne : Remplaçant moderne du BIOS ; permet le démarrage sécurisé.
 *[TPM]: Module de plateforme sécurisée : Puce qui stocke des clés et mesure l'état du démarrage.
 *[TOTP]: Mot de passe à usage unique basé sur l'heure : Code à 6 chiffres calculé à partir d'un secret partagé et de l'heure, renouvelé toutes les 30 secondes.
 *[SAN]: Noms alternatifs du sujet : Champ du certificat qui liste les noms de domaine valables.
+*[ISO 27001]: Norme de management de la sécurité : Norme d'exigences d'un SMSI ; seule norme de cette famille sur laquelle on peut se faire certifier.
 *[RPO]: Objectif de point de reprise : Durée maximale de données que l'on accepte de perdre.
 *[RTO]: Objectif de temps de reprise : Durée maximale d'interruption que l'on accepte.
 *[PCA]: Plan de continuité d'activité : Comment continuer à travailler pendant un incident.
 *[PRA]: Plan de reprise d'activité : Comment redémarrer et restaurer après un incident.
+*[PSSI]: Politique de sécurité du système d'information : Document signé par la direction : ce qu'on protège, selon quels principes, qui en répond.
 *[OCSP]: Protocole d'état des certificats en ligne : Interrogation en ligne de l'état de révocation d'un certificat.
 *[RGPD]: Règlement général sur la protection des données : Règlement européen qui encadre le traitement des données personnelles.
 *[VLAN]: Réseau local virtuel : Découpage logique d'un réseau en segments isolés.
@@ -50,6 +54,7 @@
 *[SPF]: Sender Policy Framework : Enregistrement DNS qui déclare les serveurs autorisés à envoyer du courrier pour un domaine.
 *[WSUS]: Serveur de mises à jour de Windows : Service qui distribue et contrôle les mises à jour dans un domaine.
 *[IDS]: Système de détection d'intrusion : Observe le trafic ou une machine et émet des alertes.
+*[SMSI]: Système de management de la sécurité de l'information : Organisation qui gère la sécurité de façon continue : planifier, réaliser, vérifier, agir.
 *[CVSS]: Système de notation des vulnérabilités : Note de gravité d'une vulnérabilité de 0 à 10.
 *[IPS]: Système de prévention d'intrusion : Comme un IDS, mais bloque le trafic suspect.
 *[TLS]: Transport Layer Security : Protocole de sécurisation des échanges, utilisé par HTTPS.

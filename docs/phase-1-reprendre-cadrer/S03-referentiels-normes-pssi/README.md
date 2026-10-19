@@ -1,8 +1,5 @@
 # S03 – Référentiels, normes et politique de sécurité
 
-> [!WARNING]
-> **Séance à rédiger.** Cette page donne le cadre prévu (objectifs, compétences, contenu). Le cours, le TP et l'aide-mémoire arrivent avec la phase 1.
-
 | Élément | Détail |
 |---|---|
 | **Niveau** | BTS SIO option SISR, 2e année – bloc 3 |
@@ -24,11 +21,26 @@
 3. Rédiger les grandes lignes d'une politique de sécurité (PSSI) et une charte d'usage ;
 4. Distinguer politique, procédure et mode opératoire.
 
-## Contenu prévu
+## Contenu de la séance
 
-- Cours : démarche de management de la sécurité, familles de mesures, rôle d'une PSSI
-- TP : relier les mesures d'un référentiel aux risques de la S02, puis rédiger une PSSI d'une page et une charte
-- Aide-mémoire : référentiels et usage de chacun
+| Document | Rôle |
+|---|---|
+| [Cours – Référentiels, normes et politique de sécurité](01-cours.md) | Cours |
+| [TP – De l'analyse de risques à la politique de sécurité](02-tp.md) | TP |
+| [Aide-mémoire – Référentiels, normes et politique de sécurité](03-aide-memoire.md) | Aide-mémoire |
+
+## Déroulé conseillé (4 h)
+
+| Durée | Activité | Format |
+|---|---|---|
+| 0 h 00 – 0 h 20 | **Accroche : « un client demande si l'entreprise est conforme à une norme : que réponds-tu ? »** | Oral |
+| 0 h 20 – 1 h 10 | **Cours** | Cours et questions |
+| 1 h 10 – 4 h 00 | **TP**, puis bilan | Binôme puis individuel |
+
+## Retour en entreprise
+
+Si ta situation le permet : **observer** comment ton entreprise traite le sujet de la séance, **documenter** en une demi-page l'écart avec le TP, ou **réaliser** une partie après accord de ton tuteur. Voir [Transfert en entreprise](../../ressources/transfert-entreprise.md).
+
 
 ## Évaluation
 
@@ -39,7 +51,7 @@
 <summary>Notes pour l'enseignant</summary>
 
 - **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
-- **Programme :** cette séance fait partie d'un programme proposé, à valider avant rédaction.
+- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Numéros de mesures, versions des normes et intitulés exacts : à relire sur les documents officiels avant usage noté ; ne rien reprendre de mémoire.
 
 </details>

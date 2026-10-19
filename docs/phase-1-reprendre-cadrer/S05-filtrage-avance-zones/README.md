@@ -1,8 +1,5 @@
 # S05 – Filtrage avancé et zones réseau
 
-> [!WARNING]
-> **Séance à rédiger.** Cette page donne le cadre prévu (objectifs, compétences, contenu). Le cours, le TP et l'aide-mémoire arrivent avec la phase 1.
-
 | Élément | Détail |
 |---|---|
 | **Niveau** | BTS SIO option SISR, 2e année – bloc 3 |
@@ -24,11 +21,26 @@
 3. Journaliser le trafic refusé ;
 4. Vérifier le filtrage depuis une autre machine (nmap, curl) et interpréter les résultats.
 
-## Contenu prévu
+## Contenu de la séance
 
-- Cours : filtrage sans état et avec suivi de connexion, zones, DMZ, bonnes pratiques de règles
-- TP : trois machines (client, pare-feu, serveur) ; règles nftables, journalisation, tests
-- Aide-mémoire : syntaxe nftables, matrice de flux
+| Document | Rôle |
+|---|---|
+| [Cours – Filtrage avancé et zones réseau](01-cours.md) | Cours |
+| [TP – Un pare-feu à trois zones](02-tp.md) | TP |
+| [Aide-mémoire – nftables et matrice de flux](03-aide-memoire.md) | Aide-mémoire |
+
+## Déroulé conseillé (4 h)
+
+| Durée | Activité | Format |
+|---|---|---|
+| 0 h 00 – 0 h 20 | **Accroche : « le serveur web est piraté : jusqu'où l'attaquant peut-il aller ? »** | Oral |
+| 0 h 20 – 1 h 10 | **Cours** | Cours et questions |
+| 1 h 10 – 4 h 00 | **TP**, puis bilan | Binôme puis individuel |
+
+## Retour en entreprise
+
+Si ta situation le permet : **observer** comment ton entreprise traite le sujet de la séance, **documenter** en une demi-page l'écart avec le TP, ou **réaliser** une partie après accord de ton tuteur. Voir [Transfert en entreprise](../../ressources/transfert-entreprise.md).
+
 
 ## Évaluation
 
@@ -39,7 +51,7 @@
 <summary>Notes pour l'enseignant</summary>
 
 - **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
-- **Programme :** cette séance fait partie d'un programme proposé, à valider avant rédaction.
+- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Les règles de la séance S01 (politique par défaut `drop`, suivi de connexion, SSH limité à un réseau) ont été vérifiées dans le laboratoire de l'auteur. Reprend S14 de la première année et la partie pare-feu du bloc 2.
 
 </details>

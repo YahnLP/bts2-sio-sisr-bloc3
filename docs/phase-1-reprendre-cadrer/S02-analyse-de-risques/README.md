@@ -1,8 +1,5 @@
 # S02 – Analyse de risques : une méthode simplifiée inspirée d'EBIOS RM
 
-> [!WARNING]
-> **Séance à rédiger.** Cette page donne le cadre prévu (objectifs, compétences, contenu). Le cours, le TP et l'aide-mémoire arrivent avec la phase 1.
-
 | Élément | Détail |
 |---|---|
 | **Niveau** | BTS SIO option SISR, 2e année – bloc 3 |
@@ -25,11 +22,26 @@
 4. Choisir des mesures, justifier leur priorité et décrire le risque résiduel ;
 5. Rédiger une note de synthèse pour un dirigeant.
 
-## Contenu prévu
+## Contenu de la séance
 
-- Cours : vocabulaire du risque, démarche en ateliers (cadrage, sources de risque, scénarios stratégiques, scénarios opérationnels, traitement), matrice gravité × vraisemblance
-- TP : analyse de risques d'une PME fictive à partir d'un dossier documentaire (même forme que l'étude de cas de l'épreuve E7)
-- Aide-mémoire : étapes, échelles, modèle de tableau
+| Document | Rôle |
+|---|---|
+| [Cours – Analyser les risques](01-cours.md) | Cours |
+| [TP – Atelier Verdier : analyser les risques d'une PME](02-tp.md) | TP |
+| [Aide-mémoire – Analyse de risques](03-aide-memoire.md) | Aide-mémoire |
+
+## Déroulé conseillé (4 h)
+
+| Durée | Activité | Format |
+|---|---|---|
+| 0 h 00 – 0 h 20 | **Accroche : « on te donne 8 000 € : que protèges-tu en premier, et pourquoi ? »** | Oral |
+| 0 h 20 – 1 h 10 | **Cours** | Cours et questions |
+| 1 h 10 – 4 h 00 | **TP**, puis bilan | Binôme puis individuel |
+
+## Retour en entreprise
+
+Si ta situation le permet : **observer** comment ton entreprise traite le sujet de la séance, **documenter** en une demi-page l'écart avec le TP, ou **réaliser** une partie après accord de ton tuteur. Voir [Transfert en entreprise](../../ressources/transfert-entreprise.md).
+
 
 ## Évaluation
 
@@ -40,7 +52,7 @@
 <summary>Notes pour l'enseignant</summary>
 
 - **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
-- **Programme :** cette séance fait partie d'un programme proposé, à valider avant rédaction.
+- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Démarche à relire sur le guide officiel de l'ANSSI (EBIOS Risk Manager) avant la rédaction : la séance en propose une version simplifiée, qui n'en reprend pas tout le formalisme. Chevauche la notion de risque vue en S01 de la première année : on passe ici de la définition à la méthode.
 
 </details>
