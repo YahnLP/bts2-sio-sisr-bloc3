@@ -1,0 +1,8 @@
+title: "Phase 3 – Détecter et réagir"
+nav:
+  - README.md
+  - S11-journaux-centralises-siem
+  - S12-detection-intrusion-suricata
+  - S13-gestion-vulnerabilites
+  - S14-audit-tests-intrusion
+  - S15-reponse-incident-investigation
