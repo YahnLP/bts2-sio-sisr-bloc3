@@ -153,7 +153,15 @@ Chaque flèche est une **occasion de couper la chaîne** : filtrer le message, l
 
 ---
 
-## 6. Ce que l'épreuve E7 attend
+## 6. S'appuyer sur une norme ou un guide
+
+Une analyse de risques dit **quoi protéger en priorité**. Pour choisir les **mesures**, on ne part pas d'une page blanche : on puise dans un catalogue reconnu (guide d'hygiène de l'ANSSI, ISO 27002, CIS Controls). Chaque mesure retenue se **justifie** par un risque identifié et se **rattache** à un référentiel : « risque R3 (rançongiciel) → mesure : sauvegarde déconnectée → recommandation du guide d'hygiène ».
+
+La page [Normes et référentiels de sécurité](../../ressources/normes-securite.md) donne le panorama (loi, norme, guide, méthode) et un exercice de classement. L'exercice se fait en 15 minutes en fin de séance si le temps le permet.
+
+---
+
+## 7. Ce que l'épreuve E7 attend
 
 Dans l'étude de cas, on demande rarement « l'analyse EBIOS complète ». On demande de **repérer les risques dans le dossier documentaire**, de les **classer**, de **proposer des mesures** et de les **justifier**. La structure **risque → mesure → justification → limite** de la page [L'épreuve E7](../../ressources/epreuve-e7.md) est exactement le fruit de cette séance.
 
