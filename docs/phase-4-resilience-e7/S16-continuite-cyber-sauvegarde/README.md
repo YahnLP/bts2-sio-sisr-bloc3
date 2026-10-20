@@ -12,6 +12,9 @@
 > [!NOTE]
 > **Question qui guide la séance :** *« Si tout est chiffré ou détruit, en combien de temps et avec quoi redémarre-t-on ? »*
 
+> [!NOTE]
+> **Recoupement avec d'autres séances.** La sauvegarde et les objectifs de reprise sont déjà vus en [bloc 3 (1re année), S05 – Sauvegarde, supports amovibles et restauration](https://yahnlp.github.io/bts1-sio-sisr-bloc3/phase-1-menaces-postes-acces/S05-sauvegarde-restauration/) et [bloc 2 (2e année), S05 – Continuité et reprise d'activité](https://yahnlp.github.io/bts2-sio-sisr-bloc2/phase-1-reprendre-concevoir/S05-continuite-reprise-activite/). Ici, partir de ces notions pour la reprise après cyberattaque.
+
 ## Objectifs
 
 À la fin de la séance, l'étudiant est capable de :

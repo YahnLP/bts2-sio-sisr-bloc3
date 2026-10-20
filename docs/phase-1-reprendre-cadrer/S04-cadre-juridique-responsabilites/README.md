@@ -12,6 +12,9 @@
 > [!NOTE]
 > **Question qui guide la séance :** *« Quand un incident touche des données personnelles, qui doit faire quoi, et dans quel délai ? »*
 
+> [!NOTE]
+> **Recoupement avec d'autres séances.** Le RGPD est déjà vu en 1re année en [bloc 3 (1re année), S06 – RGPD : notions, acteurs, principes et registre des traitements](https://yahnlp.github.io/bts1-sio-sisr-bloc3/phase-2-donnees-personnelles/S06-rgpd-fondamentaux-registre/), [bloc 3 (1re année), S07 – Collecte, consentement et droits des personnes](https://yahnlp.github.io/bts1-sio-sisr-bloc3/phase-2-donnees-personnelles/S07-collecte-consentement-droits/) et [bloc 3 (1re année), S08 – Conservation, sécurité, sous-traitance et violations de données](https://yahnlp.github.io/bts1-sio-sisr-bloc3/phase-2-donnees-personnelles/S08-conservation-securite-violations/), et en [CEJM 1re année, S13 – RGPD : principes, acteurs et bases légales](https://yahnlp.github.io/bts1-sio-sisr-cejma/phase-3-numerique-et-droit/S13-rgpd-fondamentaux/) à [CEJM 1re année, S15 – RGPD : sécurité, violations de données et CNIL](https://yahnlp.github.io/bts1-sio-sisr-cejma/phase-3-numerique-et-droit/S15-rgpd-securite-cnil/). Ici, partir de ces notions : qualification, sous-traitants, transferts, violations, responsabilité de l'administrateur.
+
 ## Objectifs
 
 À la fin de la séance, l'étudiant est capable de :
