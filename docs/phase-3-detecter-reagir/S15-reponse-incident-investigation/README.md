@@ -7,7 +7,7 @@
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Réponse à incident : prérequis de S16. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Prérequis** | S04 · S11 |
-| **Matériel** | VirtualBox : un jeu de machines et de journaux fournis, simulant une compromission |
+| **Matériel** | VirtualBox : un jeu de machines et de journaux fournis, simulant une compromission ; simulateur InfraLab (navigateur, facultatif) |
 | **Compétences travaillées** | B3.4 · B3.5A · B3.1 (voir [le référentiel](../../ressources/referentiel.md)) |
 
 > [!NOTE]
