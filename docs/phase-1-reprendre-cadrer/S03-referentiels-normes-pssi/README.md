@@ -19,7 +19,8 @@
 1. Situer les normes ISO/IEC 27001 et 27002, le guide d'hygiène de l'ANSSI et les mesures du CIS ;
 2. Lire une mesure d'un référentiel et la relier à un risque ;
 3. Rédiger les grandes lignes d'une politique de sécurité (PSSI) et une charte d'usage ;
-4. Distinguer politique, procédure et mode opératoire.
+4. Distinguer politique, procédure et mode opératoire ;
+5. Distinguer sûreté et sécurité et intégrer des mesures de sûreté à la politique.
 
 ## Contenu de la séance
 

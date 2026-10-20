@@ -203,6 +203,7 @@ DATA = [
 ("Norme de management de la sécurité", "ISO 27001", "ISO/IEC 27001", "Norme d'exigences d'un SMSI ; seule norme de cette famille sur laquelle on peut se faire certifier.", "A2 · S03"),
 ("Guide de mesures de sécurité", "ISO 27002", "ISO/IEC 27002", "Catalogue de bonnes pratiques de sécurité ; non certifiable.", "A2 · S03"),
 ("Politique de sécurité du système d'information", "PSSI", "information security policy", "Document signé par la direction : ce qu'on protège, selon quels principes, qui en répond.", "A2 · S03"),
+("Sûreté", None, "safety", "Protection contre les événements non intentionnels (panne, incendie, eau, coupure électrique), par opposition à la sécurité, qui vise les actes malveillants.", "A2 · S03"),
 ("Clauses contractuelles types", None, "standard contractual clauses", "Clauses modèles qui encadrent un transfert de données personnelles hors de l'Union européenne.", "A2 · S04"),
 ("Loi Godfrain", None, "computer fraud law (France)", "Loi de 1988 sur les atteintes aux systèmes de traitement automatisé de données, reprise dans le Code pénal (articles 323-1 et suivants).", "A2 · S04"),
 ("Zone de confiance", None, "security zone", "Partie du réseau regroupant des machines de même niveau de confiance.", "A2 · S05"),
