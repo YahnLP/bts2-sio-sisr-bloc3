@@ -6,6 +6,7 @@
 | [Parcours cœur et complément](parcours-coeur-complement.md) | Quelles séances garder en priorité quand le temps manque |
 | [L'épreuve E7 et la préparation](epreuve-e7.md) | Format officiel de l'épreuve écrite, méthode, séances qui la préparent |
 | [Transfert en entreprise](transfert-entreprise.md) | Observer, documenter, réaliser : comment relier un TP à ton entreprise |
+| [Normes et référentiels de sécurité](normes-securite.md) | ISO 27001/27002, ANSSI, NIST, CIS : panorama et exercice de classement |
 | [Outils et laboratoires](outils.md) | Machines virtuelles, outils de sécurité, règles de laboratoire |
 | [Glossaire](glossaire.md) | Mots techniques expliqués simplement, repris de la première année |
 | [Licences et crédits](licences.md) | Licence des documents et des outils cités |

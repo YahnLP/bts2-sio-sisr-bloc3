@@ -165,6 +165,28 @@ Cinq minutes pour un dirigeant : **ce qui va bien** (commencer par là, c'est vr
 
 ---
 
+### Auditer par rapport à un référentiel
+
+Un audit de conformité compare l'existant à un référentiel (guide d'hygiène de l'ANSSI, CIS Benchmark, politique de sécurité interne). Pour chaque mesure du référentiel, on relève une **preuve** (capture, extrait de configuration, entretien) et on classe :
+
+| Verdict | Sens |
+|---|---|
+| **Conforme** | La mesure est en place, la preuve existe |
+| **Partiellement conforme** | Elle est en place sur une partie du périmètre |
+| **Non conforme** | Elle est absente ou inefficace |
+| **Non applicable** | Elle ne concerne pas le périmètre (à justifier) |
+
+Un **écart assumé** est un écart non corrigé par choix, avec une justification et un responsable. Un verdict sans preuve n'est pas un résultat d'audit. Panorama des référentiels : [Normes et référentiels de sécurité](../../ressources/normes-securite.md).
+
+**Test flash.** Le référentiel demande une authentification multifacteur sur tous les accès d'administration. Tu constates qu'elle est active sur le VPN mais pas sur l'interface du pare-feu. Quel verdict ? Que notes-tu comme preuve ?
+
+<details markdown="1">
+<summary>Voir la réponse</summary>
+
+**Partiellement conforme** : la mesure existe sur une partie du périmètre. Preuves : la capture du réglage MFA du VPN et la capture de la page de connexion du pare-feu sans second facteur. Le constat précise le périmètre non couvert.
+
+</details>
+
 ## 5. Ce qu'on fait des découvertes imprévues
 
 | Situation | Réflexe |
