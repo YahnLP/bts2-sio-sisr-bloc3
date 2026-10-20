@@ -50,7 +50,7 @@ Si ta situation le permet : **observer** comment ton entreprise traite le sujet 
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
+- **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)).
 - Aucun test hors du laboratoire isolé : rappeler la règle pénale (S04). Choix du laboratoire cible (machines volontairement vulnérables) à valider.
 - **Séance sans manipulation technique** : cadrage, méthode, rapport, restitution, sur dossier fictif. Pas de TP d'exploitation (choix à valider). Aucun test hors du laboratoire isolé : rappeler la règle pénale (S04).
 

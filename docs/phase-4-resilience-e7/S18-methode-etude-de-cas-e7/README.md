@@ -50,7 +50,7 @@ Si ta situation le permet : **observer** comment ton entreprise traite le sujet 
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
+- **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)).
 - Dossier **fictif**, prix inventés ; totaux recalculés. Le piège du sujet est le **temps** (14 jours demandés pour 10), pas le budget. Les points juridiques sont à valider. Voir le corrigé.
 
 </details>
