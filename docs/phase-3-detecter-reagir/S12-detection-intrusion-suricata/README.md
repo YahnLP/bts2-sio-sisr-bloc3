@@ -50,7 +50,6 @@ Si ta situation le permet : **observer** comment ton entreprise traite le sujet 
 <summary>Notes pour l'enseignant</summary>
 
 - **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Attaque uniquement dans le laboratoire isolé. Recouvre en partie S15 de la première année (IDS) : l'accent est mis sur le réglage et la corrélation.
 - Labo testé avec Suricata 7.0.3 (Debian 12 fournit la série 6.0 : syntaxe des tampons à vérifier). Attaques uniquement dans le laboratoire isolé. Voir le corrigé.
 

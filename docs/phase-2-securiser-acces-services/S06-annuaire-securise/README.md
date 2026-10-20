@@ -51,7 +51,6 @@ Si ta situation le permet : **observer** comment ton entreprise traite le sujet 
 <summary>Notes pour l'enseignant</summary>
 
 - **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Prérequis fort sur Active Directory du bloc 2 : vérifier que les machines Windows du laboratoire sont disponibles. Prolonge S04 de la première année (droits et privilèges).
 - **Non testé :** le TP suppose un domaine Active Directory sous Windows Server, non disponible dans l'environnement de l'auteur. Les commandes sont à essayer avant la séance. Voir le corrigé.
 

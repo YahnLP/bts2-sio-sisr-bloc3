@@ -52,7 +52,6 @@ Si ta situation le permet : **observer** comment ton entreprise traite le sujet 
 <summary>Notes pour l'enseignant</summary>
 
 - **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Textes à vérifier sur Légifrance et sur le site de la CNIL avant usage noté (RGPD art. 28 et 33 ; Code pénal art. 323-1 et suivants). Le cadre européen sur la sécurité des réseaux et des systèmes d'information (NIS 2) évolue : vérifier l'état de sa transposition en France avant d'en parler. Prolonge les séances S06 à S09 de la première année.
 
 </details>

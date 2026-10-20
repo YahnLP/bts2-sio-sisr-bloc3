@@ -52,7 +52,6 @@ Si ta situation le permet : **observer** comment ton entreprise traite le sujet 
 <summary>Notes pour l'enseignant</summary>
 
 - **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Démarche à relire sur le guide officiel de l'ANSSI (EBIOS Risk Manager) avant la rédaction : la séance en propose une version simplifiée, qui n'en reprend pas tout le formalisme. Chevauche la notion de risque vue en S01 de la première année : on passe ici de la définition à la méthode.
 
 </details>

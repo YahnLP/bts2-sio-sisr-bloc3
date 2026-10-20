@@ -15,7 +15,6 @@ Ce dépôt fait suite à [`bts1-sio-sisr-bloc3`](https://github.com/YahnLP/bts1-
 | [`docs/phase-3-detecter-reagir`](docs/phase-3-detecter-reagir/README.md) | S11 à S15 : journaux et SIEM, détection d'intrusion, vulnérabilités, audit, réponse à incident |
 | [`docs/phase-4-resilience-e7`](docs/phase-4-resilience-e7/README.md) | S16 à S19 : continuité face à une cyberattaque, sécurité de projet, méthode E7, épreuve blanche |
 | [`docs/ressources`](docs/ressources/README.md) | Référentiel, épreuve E7, outils, glossaire, licences |
-| [`corriges`](corriges/) | Corrigés **réservés à l'enseignant** (non publiés sur le site, mais visibles dans ce dépôt) |
 | [`tools`](tools/CONVENTIONS.md) | Conventions de rédaction du site |
 
 ## Avancement

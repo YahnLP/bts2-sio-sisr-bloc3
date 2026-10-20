@@ -50,7 +50,6 @@ Si ta situation le permet : **observer** comment ton entreprise traite le sujet 
 <summary>Notes pour l'enseignant</summary>
 
 - **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Le TP a été **rejoué par l'auteur sur Ubuntu 24.04** avec restic 0.16.4, sur **une seule machine virtuelle** (deux comptes). **Non vérifié** : Debian 12 (restic plus ancien), une vraie machine de sauvegarde distincte, un serveur en mode ajout seul et le verrouillage d'objets. Les durées mesurées ne se généralisent pas. Voir le corrigé.
 
 </details>
