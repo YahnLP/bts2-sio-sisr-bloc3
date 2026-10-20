@@ -50,7 +50,7 @@ Si ta situation le permet : **observer** comment ton entreprise traite le sujet 
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
+- **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)).
 - Scan autorisé uniquement sur le laboratoire. Prolonge S16 de la première année (audit de vulnérabilités). Version et licence de l'outil de scan à vérifier.
 - Labo testé avec nmap et Nikto 2.1.5 (la sortie de Nikto change selon la version). Aucun scanneur complet (OpenVAS, Nessus) n'a été testé. Scan autorisé uniquement sur le laboratoire. Voir le corrigé.
 

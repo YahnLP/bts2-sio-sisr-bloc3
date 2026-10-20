@@ -51,7 +51,7 @@ Si ta situation le permet : **observer** comment ton entreprise traite le sujet 
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
+- **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)).
 - Les règles de la séance S01 (politique par défaut `drop`, suivi de connexion, SSH limité à un réseau) ont été vérifiées dans le laboratoire de l'auteur. Reprend S14 de la première année et la partie pare-feu du bloc 2.
 
 </details>

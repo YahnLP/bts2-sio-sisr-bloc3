@@ -53,7 +53,7 @@ Si ta situation le permet : **observer** comment ton entreprise traite le sujet 
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
+- **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)).
 - L'auto-diagnostic n'est pas noté : il sert à orienter le plan de révision de chacun.
 - Les commandes des parties B et C ont été vérifiées dans un laboratoire Debian/Ubuntu de l'auteur, sauf celles qui lisent le journal du système (`journalctl`), non testées : voir le corrigé.
 - Le TP modifie la configuration SSH et le pare-feu d'une machine virtuelle de laboratoire : prévoir un instantané (snapshot) VirtualBox avant la partie C.

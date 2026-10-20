@@ -50,7 +50,7 @@ Si ta situation le permet : **observer** comment ton entreprise traite le sujet 
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
+- **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)).
 - Les journaux fournis sont fictifs. Prolonge S17 de la première année (incident et preuves) : ici on travaille sur un scénario complet, avec la notification (S04).
 - Les journaux fournis (dossier `journaux-fictifs`) sont **fictifs**, générés par l'auteur ; commandes d'analyse et de hachage vérifiées. Prolonge S17 de la première année. Voir le corrigé.
 
