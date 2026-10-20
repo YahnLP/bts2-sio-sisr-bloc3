@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 2e année – bloc 3 |
 | **Séance** | S07 (séance 7 sur 19) – Phase 2 |
 | **Durée** | 4 heures |
+| **Parcours** | **Complément** – 802.1X, RADIUS et Wi-Fi : approfondissement thématique ; les compétences B3.3 et B3.5A restent portées par d'autres séances, et S17 ne le cite qu'en exemple. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Prérequis** | S05 |
 | **Matériel** | VirtualBox : un serveur RADIUS, un client, éventuellement un point d'accès ou un simulateur |
 | **Compétences travaillées** | B3.3 · B3.5A (voir [le référentiel](../../ressources/referentiel.md)) |

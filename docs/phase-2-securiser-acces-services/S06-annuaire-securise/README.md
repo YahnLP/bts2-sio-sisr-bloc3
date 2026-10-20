@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 2e année – bloc 3 |
 | **Séance** | S06 (séance 6 sur 19) – Phase 2 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Annuaire et comptes à privilèges : seule séance sur ce point ; repris en S16 (administration séparée) et S17 (revue des comptes). Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Prérequis** | S01 ; bloc 2 : Active Directory |
 | **Matériel** | VirtualBox : Windows Server (contrôleur de domaine) et un poste Windows |
 | **Compétences travaillées** | B3.3 · B3.5A (voir [le référentiel](../../ressources/referentiel.md)) |

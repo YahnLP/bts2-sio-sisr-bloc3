@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 2e année – bloc 3 |
 | **Séance** | S09 (séance 9 sur 19) – Phase 2 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Messagerie et DNS (usurpation) : avec S04, seule séance sur l'identité numérique de l'organisation (B3.2). Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Prérequis** | S05 |
 | **Matériel** | VirtualBox : un serveur DNS de laboratoire, un poste |
 | **Compétences travaillées** | B3.2 · B3.4 (voir [le référentiel](../../ressources/referentiel.md)) |

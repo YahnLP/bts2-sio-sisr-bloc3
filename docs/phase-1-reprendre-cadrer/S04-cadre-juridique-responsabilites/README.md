@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 2e année – bloc 3 |
 | **Séance** | S04 (séance 4 sur 19) – Phase 1 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Cadre juridique : prérequis de S14 et S15 ; avec S09, seule séance sur l'identité numérique et le droit (B3.1, B3.2). Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Prérequis** | S01 |
 | **Matériel** | Un poste, éditeur de texte |
 | **Compétences travaillées** | B3.1 · B3.2 (voir [le référentiel](../../ressources/referentiel.md)) |

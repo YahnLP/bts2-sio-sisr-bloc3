@@ -3,6 +3,7 @@
 | Ressource | Description |
 |---|---|
 | [Référentiel du BTS SIO SISR](referentiel.md) | Les blocs et les compétences utilisés dans les bilans de séance |
+| [Parcours cœur et complément](parcours-coeur-complement.md) | Quelles séances garder en priorité quand le temps manque |
 | [L'épreuve E7 et la préparation](epreuve-e7.md) | Format officiel de l'épreuve écrite, méthode, séances qui la préparent |
 | [Transfert en entreprise](transfert-entreprise.md) | Observer, documenter, réaliser : comment relier un TP à ton entreprise |
 | [Outils et laboratoires](outils.md) | Machines virtuelles, outils de sécurité, règles de laboratoire |

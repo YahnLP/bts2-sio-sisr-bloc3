@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 2e année – bloc 3 |
 | **Séance** | S10 (séance 10 sur 19) – Phase 2 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Durcissement et conformité : prérequis de S11 et S13. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Prérequis** | S03 · S05 |
 | **Matériel** | VirtualBox : un serveur Debian |
 | **Compétences travaillées** | B3.3 · B3.4 · B3.5A (voir [le référentiel](../../ressources/referentiel.md)) |

@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 2e année – bloc 3 |
 | **Séance** | S15 (séance 15 sur 19) – Phase 3 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Réponse à incident : prérequis de S16. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Prérequis** | S04 · S11 |
 | **Matériel** | VirtualBox : un jeu de machines et de journaux fournis, simulant une compromission |
 | **Compétences travaillées** | B3.4 · B3.5A · B3.1 (voir [le référentiel](../../ressources/referentiel.md)) |
