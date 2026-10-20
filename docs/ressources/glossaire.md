@@ -94,6 +94,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Enregistreur de frappe** |  | *keylogger* | Logiciel espion qui enregistre ce que l'on tape au clavier. | A1 · S02 |
 | **Entropie** |  | *entropy* | Mesure en bits de la difficulté de deviner un secret : chaque bit double le nombre d'essais. | A1 · S03 |
 | **Environnement automatique de gestion de certificats** | ACME | *automatic certificate management environment* | Protocole d'obtention et de renouvellement automatiques de certificats (Let's Encrypt). | A1 · S12 |
+| **Équipement personnel utilisé au travail** | BYOD | *bring your own device* | Pratique où l'agent utilise son propre téléphone ou ordinateur pour son travail ; elle demande une charte et un profil professionnel séparé. | S07 |
 | **Espace de noms réseau** |  | *network namespace* | Fonction de Linux qui isole des interfaces, adresses et règles : une machine réseau simulée dans une autre. | A2 · S05 |
 | **Étude de cas** |  | *case study* | Épreuve écrite fondée sur un dossier documentaire. | A1 · S18 |
 | **Événement redouté** |  | *feared event* | Ce qui peut arriver à une valeur métier et qu'on veut éviter. | A2 · S02 |
@@ -108,6 +109,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Force brute** |  | *brute force* | Essayer toutes les combinaisons possibles. | A1 · S03 |
 | **Force brute** |  | *brute force* | Attaque qui essaie de nombreux mots de passe ou identifiants. | A1 · S15 |
 | **Fraude au président** |  | *CEO fraud* | Faux ordre de virement attribué à un dirigeant, urgent et confidentiel. | A1 · S01 |
+| **Gestion de terminaux mobiles** | MDM | *mobile device management* | Outil qui applique à distance des règles aux téléphones et tablettes : chiffrement, verrouillage, effacement de la partie professionnelle. | S07 |
 | **Gestion des événements et des informations de sécurité** | SIEM | *security information and event management* | Outil qui centralise les journaux, les corrèle et déclenche des alertes. | A2 · S11 |
 | **Gestion des informations et des événements de sécurité** | SIEM | *security information and event management* | Plateforme qui centralise et corrèle les journaux et déclenche des alertes. | A1 · S15 |
 | **Gestionnaire de mots de passe** |  | *password manager* | Application qui génère, stocke et remplit des mots de passe dans une base chiffrée. | A1 · S03 |

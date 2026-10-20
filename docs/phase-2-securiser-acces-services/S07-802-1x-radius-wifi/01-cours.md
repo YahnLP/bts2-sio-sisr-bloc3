@@ -91,6 +91,21 @@ Dans le dossier de l'Atelier Verdier (S02), un **Wi-Fi unique** partagé depuis 
 
 Un réseau **invité** est **séparé** : un VLAN et une zone dédiés, accès à Internet seulement, **aucun accès au réseau interne** (matrice de flux, S05), éventuellement authentifié par un portail et **limité dans le temps**.
 
+### Appareils personnels et terminaux mobiles (BYOD)
+
+Un salarié veut connecter son téléphone personnel. Trois réponses possibles :
+
+| Option | Accès | Contrôle |
+|---|---|---|
+| **Invité** | Internet seulement (VLAN invités) | Aucun sur l'appareil |
+| **BYOD encadré** | Services ciblés, via un **certificat propre à l'appareil** (EAP-TLS) ou un compte personnel | **Profil professionnel** géré à distance |
+| **Terminal fourni** | Réseau du personnel (802.1X) | Gestion complète par l'entreprise |
+
+Un outil de **gestion de terminaux mobiles** (MDM) applique au profil professionnel : **chiffrement**, code de verrouillage, mises à jour, liste d'applications autorisées, **effacement sélectif** de la partie professionnelle (perte, départ). Il fournit aussi l'état de **conformité** : un appareil non conforme est placé en quarantaine (VLAN restreint) ou refusé.
+
+> [!NOTE]
+> Sur un appareil personnel, l'entreprise ne contrôle et n'efface **que la partie professionnelle**. Les règles sont écrites dans la charte d'usage (S03) et acceptées par l'agent. Choix de l'outil et conditions juridiques précises : **à valider** avec l'enseignant.
+
 ---
 
 ## 5. Au-delà du Wi-Fi : la prise réseau
