@@ -48,7 +48,6 @@ Si ta situation le permet : **observer** comment ton entreprise traite le sujet 
 <summary>Notes pour l'enseignant</summary>
 
 - **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Le **sujet et le barème sont une production de l'auteur**, pas un sujet officiel. Totaux et délais recalculés par programme ; **règles juridiques à valider** ; le corrigé ne donne aucune durée de conservation propre aux financements de formation (non vérifiée). Voir le corrigé.
 
 </details>

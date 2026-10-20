@@ -50,7 +50,6 @@ Si ta situation le permet : **observer** comment ton entreprise traite le sujet 
 <summary>Notes pour l'enseignant</summary>
 
 - **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Reprend le durcissement vu en S14 de la première année : ici on mesure et on documente, on ne se contente plus d'appliquer. Choix de l'outil d'audit (Lynis ou OpenSCAP) à valider.
 - Choix de l'outil d'audit : **Lynis** (OpenSCAP écarté, plus lourd à mettre en place). À valider. Les chiffres du corrigé sont propres à la machine de l'auteur. Reprend le durcissement vu en S14 de la première année : ici on mesure et on documente.
 

@@ -50,7 +50,6 @@ Si ta situation le permet : **observer** comment ton entreprise traite le sujet 
 <summary>Notes pour l'enseignant</summary>
 
 - **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Dossier **fictif**, **prix inventés** ; totaux recalculés par programme. **Non vérifié** : l'obligation de réaliser une analyse d'impact (AIPD) pour ce projet, à confirmer. Voir le corrigé.
 
 </details>

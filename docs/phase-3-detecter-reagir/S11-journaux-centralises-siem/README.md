@@ -50,7 +50,6 @@ Si ta situation le permet : **observer** comment ton entreprise traite le sujet 
 <summary>Notes pour l'enseignant</summary>
 
 - **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - L'outil central (Wazuh, ou rsyslog avec un tableau de bord léger) est à choisir selon les machines de la salle. Prolonge S15 de la première année. Étapes basées sur journald non testées dans le laboratoire de l'auteur : à tester avant la séance.
 - Labo testé sous Ubuntu 24.04 avec `logger` pour simuler les événements ; les vraies connexions SSH échouées, Debian 12 et Wazuh ne sont **pas** testés. Voir le corrigé.
 

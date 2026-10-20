@@ -50,7 +50,6 @@ Si ta situation le permet : **observer** comment ton entreprise traite le sujet 
 <summary>Notes pour l'enseignant</summary>
 
 - **Compétences :** codes relus sur le référentiel (page [Référentiel](../../ressources/referentiel.md)) ; le choix des compétences pour cette séance est une proposition à valider.
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Prévoir la solution de repli si aucun point d'accès n'est disponible : test avec un client RADIUS en ligne de commande. À tester avant la séance.
 - Le TP tient sur **une seule** machine Debian (serveur RADIUS et client de test). Le paquet fournissant `eapol_test` sous Debian est à vérifier avant la séance. Voir le corrigé.
 
