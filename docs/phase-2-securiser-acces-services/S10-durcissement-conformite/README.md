@@ -7,7 +7,7 @@
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Durcissement et conformité : prérequis de S11 et S13. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Prérequis** | S03 · S05 |
-| **Matériel** | VirtualBox : un serveur Debian |
+| **Matériel** | VirtualBox : un serveur Debian ; simulateur InfraLab (navigateur, facultatif) |
 | **Compétences travaillées** | B3.3 · B3.4 · B3.5A (voir [le référentiel](../../ressources/referentiel.md)) |
 
 > [!NOTE]
