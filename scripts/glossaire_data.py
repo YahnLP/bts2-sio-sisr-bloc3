@@ -221,6 +221,8 @@ DATA = [
 # --- S07 802.1X
 ("Contrôle d'accès au port", "802.1X", "port-based access control", "Norme où un équipement doit prouver son identité avant d'obtenir l'accès au réseau.", "A2 · S07"),
 ("Serveur d'authentification RADIUS", "RADIUS", "remote authentication dial-in user service", "Protocole et serveur qui décident de l'accès au réseau et peuvent renvoyer des attributs, comme le VLAN.", "A2 · S07"),
+("Équipement personnel utilisé au travail", "BYOD", "bring your own device", "Pratique où l'agent utilise son propre téléphone ou ordinateur pour son travail ; elle demande une charte et un profil professionnel séparé.", "S07"),
+("Gestion de terminaux mobiles", "MDM", "mobile device management", "Outil qui applique à distance des règles aux téléphones et tablettes : chiffrement, verrouillage, effacement de la partie professionnelle.", "S07"),
 ("Protocole d'authentification extensible", "EAP", "extensible authentication protocol", "Cadre qui transporte différentes méthodes de preuve d'identité (mot de passe, certificat).", "A2 · S07"),
 ("PEAP", None, "protected EAP", "Méthode EAP où un mot de passe est transporté dans un tunnel TLS ouvert grâce au certificat du serveur.", "A2 · S07"),
 ("Demandeur", None, "supplicant", "Équipement ou logiciel qui demande l'accès dans 802.1X.", "A2 · S07"),

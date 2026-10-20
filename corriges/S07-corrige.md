@@ -48,6 +48,7 @@ D1 `SUCCESS` ; D2 `FAILURE` ; D3 `SUCCESS` avec le certificat du serveur, **`FAI
 | Question | Proposition |
 |---|---|
 | Réseaux | **Personnel** (802.1X), **atelier** si besoin (802.1X ou prise filaire), **invités** (séparé) |
+| Téléphone personnel | BYOD encadré : certificat par appareil ou compte personnel, VLAN restreint aux services publiés, profil professionnel (chiffrement, verrouillage, ​effacement sélectif), charte signée ; à défaut, Wi-Fi invités |
 | Méthode EAP | PEAP si pas de PKI et peu de moyens (avec vérification du serveur imposée) ; EAP-TLS si une autorité de certification interne existe (plus sûr, pas de mot de passe à voler) |
 | VLAN et zones | ​Personnel : VLAN utilisateurs (zone LAN) ; atelier : VLAN machines, zone séparée (S05) ; invités : VLAN invités, Internet seulement |
 | Profil des postes | Stratégie de groupe qui pousse le profil avec l'autorité de ​confiance et le **nom du serveur** |

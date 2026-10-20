@@ -25,9 +25,11 @@
 *[DMIA]: Durée maximale d'interruption admissible : Durée d'arrêt d'une activité que l'organisation peut tolérer ; limite métier dont découle le RTO.
 *[DH]: Échange de clés de Diffie-Hellman : Permet à deux interlocuteurs de fabriquer un secret commun sur un canal observable.
 *[ACME]: Environnement automatique de gestion de certificats : Protocole d'obtention et de renouvellement automatiques de certificats (Let's Encrypt).
+*[BYOD]: Équipement personnel utilisé au travail : Pratique où l'agent utilise son propre téléphone ou ordinateur pour son travail ; elle demande une charte et un profil professionnel séparé.
 *[DNSSEC]: Extensions de sécurité du DNS : Signature des réponses DNS qui garantit leur origine et leur intégrité, sans les chiffrer.
 *[EOL]: Fin de support : Date à partir de laquelle l'éditeur ne publie plus de correctifs.
 *[PBKDF2]: Fonction de dérivation de clé : Calcule une clé de chiffrement à partir d'un mot de passe, de façon lente et salée.
+*[MDM]: Gestion de terminaux mobiles : Outil qui applique à distance des règles aux téléphones et tablettes : chiffrement, verrouillage, effacement de la partie professionnelle.
 *[SIEM]: Gestion des événements et des informations de sécurité : Outil qui centralise les journaux, les corrèle et déclenche des alertes.
 *[SIEM]: Gestion des informations et des événements de sécurité : Plateforme qui centralise et corrèle les journaux et déclenche des alertes.
 *[RAID]: Grappe de disques : Plusieurs disques utilisés ensemble pour résister à la panne d'un disque. Ce n'est pas une sauvegarde.
