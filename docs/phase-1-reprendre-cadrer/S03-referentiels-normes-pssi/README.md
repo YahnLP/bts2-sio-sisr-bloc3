@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 2e année – bloc 3 |
 | **Séance** | S03 (séance 3 sur 19) – Phase 1 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Référentiels et politique de sécurité : prérequis de S10 et S17. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Prérequis** | S02 |
 | **Matériel** | Un poste, éditeur de texte |
 | **Compétences travaillées** | B3.3 · B3.4 (voir [le référentiel](../../ressources/referentiel.md)) |

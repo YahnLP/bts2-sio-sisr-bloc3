@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 2e année – bloc 3 |
 | **Séance** | S16 (séance 16 sur 19) – Phase 4 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Continuité face à une cyberattaque : seule séance sur ce point. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Prérequis** | S02 · S15 ; bloc 2 S05 |
 | **Matériel** | Une machine virtuelle Debian (ou Ubuntu) avec le paquet restic |
 | **Compétences travaillées** | B3.4 · B3.5A (voir [le référentiel](../../ressources/referentiel.md)) |

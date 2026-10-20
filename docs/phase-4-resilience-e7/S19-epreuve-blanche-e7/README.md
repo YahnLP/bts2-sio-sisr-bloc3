@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 2e année – bloc 3 |
 | **Séance** | S19 (séance 19 sur 19) – Phase 4 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Épreuve blanche E7. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Prérequis** | S18 |
 | **Matériel** | Sujet imprimé et salle d'examen |
 | **Compétences travaillées** | B3.1 · B3.2 · B3.3 · B3.4 · B3.5A (voir [le référentiel](../../ressources/referentiel.md)) |

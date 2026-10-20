@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 2e année – bloc 3 |
 | **Séance** | S11 (séance 11 sur 19) – Phase 3 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Journaux centralisés : prérequis de S12 et S15. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Prérequis** | S05 · S10 |
 | **Matériel** | VirtualBox : un collecteur (par exemple Wazuh ou rsyslog) et deux machines |
 | **Compétences travaillées** | B3.4 · B3.5A (voir [le référentiel](../../ressources/referentiel.md)) |

@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 2e année – bloc 3 |
 | **Séance** | S01 (séance 1 sur 19) – Phase 1 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Remise à niveau et diagnostic ; prérequis de S02, S04, S05 et S06. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Prérequis** | Séances du bloc 3 de la première année |
 | **Matériel** | VirtualBox, une machine virtuelle Debian (celle de l'an dernier ou une nouvelle) |
 | **Compétences travaillées** | B3.1 · B3.2 · B3.3 · B3.4 (révision) (voir [le référentiel](../../ressources/referentiel.md)) |

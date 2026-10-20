@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 2e année – bloc 3 |
 | **Séance** | S08 (séance 8 sur 19) – Phase 2 |
 | **Durée** | 4 heures |
+| **Parcours** | **Complément** – Reverse proxy, TLS et OWASP : approfondissement thématique ; les compétences B3.4 et B3.5A restent portées par d'autres séances, et S11 et S12 ne le citent qu'en exemple. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Prérequis** | S05 |
 | **Matériel** | VirtualBox : un reverse proxy et une application web de laboratoire |
 | **Compétences travaillées** | B3.4 · B3.5A (voir [le référentiel](../../ressources/referentiel.md)) |
