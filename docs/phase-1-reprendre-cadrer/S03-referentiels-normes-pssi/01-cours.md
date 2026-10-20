@@ -92,10 +92,14 @@ Les guides se ressemblent. Les mesures se rangent en grandes familles, à conna�
 | **Sécuriser les postes** | Mises à jour, chiffrement du disque, antivirus ou EDR, pas de droits d'administrateur |
 | **Sécuriser le réseau** | Segmentation, filtrage, Wi-Fi sécurisé, accès distant protégé |
 | **Sécuriser l'administration** | Comptes d'administration distincts, accès d'administration limités |
+| **Assurer la sûreté** | Onduleur et parafoudre, détection et extinction d'incendie, protection contre l'eau, climat du local, accès physique contrôlé, redondance des alimentations et des disques |
 | **Gérer le nomadisme** | Postes portables chiffrés, connexion distante par VPN |
 | **Maintenir à jour** | Correctifs, matériel et logiciels encore supportés |
 | **Superviser, auditer, réagir** | Journaux, alertes, audit, plan de réponse à incident |
 | **Sauvegarder et reprendre** | Sauvegarde isolée testée, plan de reprise |
+
+> [!NOTE]
+> **Sûreté et sécurité.** La sûreté protège des événements **non intentionnels** (panne, incendie, eau, coupure électrique), la sécurité des actes **malveillants**. Une analyse de risques (S02) qui ne contient que des scénarios d'attaque oublie la moitié des sinistres réels ; la politique doit nommer les deux.
 
 ---
 

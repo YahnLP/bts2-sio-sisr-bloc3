@@ -218,6 +218,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Sous-traitant** |  | *data processor* | Organisme qui traite des données pour le compte du responsable, sous contrat. | A1 · S06 |
 | **Stratégie de groupe** | GPO | *group policy object* | Ensemble de réglages appliqués automatiquement aux comptes et machines d'un domaine. | A2 · S06 |
 | **Suivi de connexion** |  | *connection tracking* | Fonction du pare-feu qui retient les connexions en cours pour laisser passer leurs réponses. | A2 · S05 |
+| **Sûreté** |  | *safety* | Protection contre les événements non intentionnels (panne, incendie, eau, coupure électrique), par opposition à la sécurité, qui vise les actes malveillants. | A2 · S03 |
 | **Surface d'attaque** |  | *attack surface* | Ensemble des points par lesquels un attaquant peut tenter d'entrer. | A1 · S14 |
 | **Système de détection d'intrusion** | IDS | *intrusion detection system* | Observe le trafic ou une machine et émet des alertes. | A1 · S15 |
 | **Système de management de la sécurité de l'information** | SMSI | *ISMS* | Organisation qui gère la sécurité de façon continue : planifier, réaliser, vérifier, agir. | A2 · S03 |

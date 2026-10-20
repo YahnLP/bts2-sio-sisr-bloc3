@@ -26,6 +26,8 @@
 
 **Exemple d'exigence vérifiable** : « L'administrateur teste le premier lundi de chaque trimestre la restauration d'un dossier du serveur depuis le NAS et envoie le résultat à la direction. »
 
+Sûreté (B2) : accepter par exemple incendie (poussière de bois, local technique proche de l'atelier : détection, extinction adaptée, copie de sauvegarde hors du bâtiment) et coupure ou surtension électrique sur les machines et le serveur (onduleur, ​parafoudre). Les événements doivent être ​plausibles pour une menuiserie.
+
 **B2** : risque sur mesure = le **tiers** (prestataire de l'ERP) ; les référentiels généraux traitent peu le ​contrat avec un fournisseur précis : exiger des garanties écrites.
 
 ## Partie C – Critères d'une bonne PSSI d'une page
