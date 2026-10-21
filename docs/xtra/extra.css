@@ -302,3 +302,14 @@ html.projection .side-toggle { display: none; }
 .md-typeset figure.diagramme svg { margin: 0 auto; display: block; }
 [data-md-color-scheme="slate"] .diagramme .n-circle > text { fill: #12122a; }
 .md-typeset figure.diagramme { overflow-x: auto; }
+
+/* Bouton « Accueil » de la barre du haut (retour au portail) */
+.md-header__button.home-general {
+  display: inline-flex; align-items: center; gap: .35rem;
+  width: auto; padding: .2rem .55rem; margin: 0 .2rem;
+  border-radius: .3rem; color: inherit; font-size: .72rem; font-weight: 600; line-height: 1;
+}
+.md-header__button.home-general:hover { background: rgba(255, 255, 255, .15); opacity: 1; }
+.md-header__button.home-general svg { flex: none; }
+@media screen and (max-width: 59.9375em) { .home-general__txt { display: none; } .md-header__button.home-general { padding: .2rem; } }
+@media print { .md-header__button.home-general { display: none; } }
