@@ -24,30 +24,6 @@ Les bilans de séance renvoient aux compétences du référentiel du BTS Service
 | B2.2 | Installer, tester et déployer une solution d'infrastructure réseau |
 | B2.3 | Exploiter, dépanner et superviser une solution d'infrastructure réseau |
 
-### Le détail du bloc 2 : les 17 compétences de la grille d'évaluation de l'épreuve E6
-
-La grille d'aide à l'évaluation de l'épreuve E6 (circulaire 2026, annexe VII-5-A) détaille les trois compétences du bloc 2 en **17 compétences**. Ce sont elles que la commission regarde, et elles que la **matrice de couverture** de S17 recense. Les codes `B2.x.y` sont des **étiquettes de ce site** (le texte officiel ne les numérote pas).
-
-| Code | Compétence (intitulé de la grille) |
-|---|---|
-| B2.1.1 | Analyser un besoin exprimé et son contexte juridique |
-| B2.1.2 | Étudier l'impact d'une évolution d'un élément d'infrastructure sur le système informatique |
-| B2.1.3 | Élaborer un dossier de choix d'une solution d'infrastructure et rédiger les spécifications techniques |
-| B2.1.4 | Choisir les éléments nécessaires pour assurer la qualité et la disponibilité d'un service |
-| B2.1.5 | Maquetter et prototyper une solution d'infrastructure permettant d'atteindre la qualité de service attendue |
-| B2.1.6 | Déterminer et préparer les tests nécessaires à la validation de la solution d'infrastructure retenue |
-| B2.2.1 | Installer et configurer des éléments d'infrastructure |
-| B2.2.2 | Installer et configurer des éléments nécessaires pour assurer la continuité des services |
-| B2.2.3 | Installer et configurer des éléments nécessaires pour assurer la qualité de service |
-| B2.2.4 | Rédiger ou mettre à jour la documentation technique et utilisateur d'une solution d'infrastructure |
-| B2.2.5 | Tester l'intégration et l'acceptation d'une solution d'infrastructure |
-| B2.2.6 | Déployer une solution d'infrastructure |
-| B2.3.1 | Administrer sur site et à distance des éléments d'une infrastructure |
-| B2.3.2 | Automatiser des tâches d'administration |
-| B2.3.3 | Gérer des indicateurs et des fichiers d'activité des éléments d'une infrastructure |
-| B2.3.4 | Identifier, qualifier, évaluer et réagir face à un incident ou à un problème |
-| B2.3.5 | Évaluer, maintenir et améliorer la qualité d'un service |
-
 ## Bloc 3 – Cybersécurité des services informatiques
 
 | Code | Compétence |
@@ -57,6 +33,37 @@ La grille d'aide à l'évaluation de l'épreuve E6 (circulaire 2026, annexe VII-
 | B3.3 | Sécuriser les équipements et les usages des utilisateurs |
 | B3.4 | Garantir la disponibilité, l'intégrité et la confidentialité des services informatiques et des données de l'organisation face à des cyberattaques |
 | B3.5A | Assurer la cybersécurité d'une infrastructure réseau, d'un système, d'un service |
+
+### Le détail du bloc 3 : les compétences du référentiel
+
+Le référentiel (annexe I.B) détaille chaque compétence du bloc 3. C'est sur ces capacités que porte l'épreuve écrite **E7**.
+
+| Code | Compétence détaillée |
+|---|---|
+| B3.1.1 | Recenser les traitements sur les données à caractère personnel au sein de l'organisation |
+| B3.1.2 | Identifier les risques liés à la collecte, au traitement, au stockage et à la diffusion des données à caractère personnel |
+| B3.1.3 | Appliquer la réglementation en matière de collecte, de traitement et de conservation des données à caractère personnel |
+| B3.1.4 | Sensibiliser les utilisateurs à la protection des données à caractère personnel |
+| B3.2.1 | Protéger l'identité numérique d'une organisation |
+| B3.2.2 | Déployer les moyens appropriés de preuve électronique |
+| B3.3.1 | Informer les utilisateurs sur les risques associés à l'utilisation d'une ressource numérique et promouvoir les bons usages à adopter |
+| B3.3.2 | Identifier les menaces et mettre en œuvre les défenses appropriées |
+| B3.3.3 | Gérer les accès et les privilèges appropriés |
+| B3.3.4 | Vérifier l'efficacité de la protection |
+| B3.4.1 | Caractériser les risques liés à l'utilisation malveillante d'un service informatique |
+| B3.4.2 | Recenser les conséquences d'une perte de disponibilité, d'intégrité ou de confidentialité |
+| B3.4.3 | Identifier les obligations légales qui s'imposent en matière d'archivage et de protection des données de l'organisation |
+| B3.4.4 | Organiser la collecte et la conservation des preuves numériques |
+| B3.4.5 | Appliquer les procédures garantissant le respect des obligations légales |
+| B3.5A.1 | Participer à la vérification des éléments contribuant à la sûreté d'une infrastructure informatique |
+| B3.5A.2 | Prendre en compte la sécurité dans un projet de mise en œuvre d'une solution d'infrastructure |
+| B3.5A.3 | Mettre en œuvre et vérifier la conformité d'une infrastructure à un référentiel, une norme ou un standard de sécurité |
+| B3.5A.4 | Prévenir les attaques |
+| B3.5A.5 | Détecter les actions malveillantes |
+| B3.5A.6 | Analyser les incidents de sécurité, proposer et mettre en œuvre des contre-mesures |
+
+> [!NOTE]
+> Les codes à trois niveaux (B3.1.1…) suivent l'ordre du référentiel ; ce sont, comme les codes B3.1…, un **usage courant**, pas une numérotation officielle.
 
 ## Niveaux utilisés dans les bilans
 
